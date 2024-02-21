@@ -22,7 +22,7 @@ The current recomended fonts for sitelen pona are:
   
   This is an alternative font, actively being developed by jan Itan (@ etbcor). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
 
-- [sitelen seli kiwen juniko (mono)](http://devurandom.xyz/tokipona/supalape.html)
+- [sitelen seli kiwen juniko (mono)](https://www.kreativekorp.com/software/fonts/sitelenselikiwen)
     
   ![an image preview of sitelen seli kiwen](sitelenselikiwen.png)
     
