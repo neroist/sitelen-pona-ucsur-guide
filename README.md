@@ -1,7 +1,9 @@
 # sitelen pona UCSUR guide!!!
+
 o sitelen e sitelen pona lon ilo mute a!
 
 ## Render sitelen pona on most desktop applications!
+
 Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
 
 # Fonts
@@ -12,14 +14,13 @@ The current recomended fonts for sitelen pona are:
   
       ![an image preview of fairfax hd](fairfaxhd.png)
       
-	This font supports the 2022-05-20 version of UCSUR. It looks a bit nasa, however it is mostly readable.
+	    
+      This font supports the 2022-05-20 version of UCSUR. It looks a bit nasa, however it is mostly readable.
+
   - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
   
       ![an image preview of nasin nanpa](nasinnanpa.png)
       
-      This is an alternative font, actively being developed by jan Itan (@etbcor#6146). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 
-      2022-05-20 version of UCSUR.
-  - [insa pi supa lape](http://devurandom.xyz/tokipona/supalape.html)
       
       This is an alternative font, actively being developed by jan Itan (@ etbcor). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
   
