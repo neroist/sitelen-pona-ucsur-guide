@@ -10,26 +10,23 @@ Due to the standardization of codepoints in the UCSUR, you can now render sitele
 
 The current recomended fonts for sitelen pona are:
 
-  - [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
-  
-      ![an image preview of fairfax hd](fairfaxhd.png)
-      
-	    
-      This font supports the 2022-05-20 version of UCSUR. It looks a bit nasa, however it is mostly readable.
+- [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
 
-  - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
+  ![an image preview of fairfax hd](fairfaxhd.png)
   
-      ![an image preview of nasin nanpa](nasinnanpa.png)
-      
-      
-      This is an alternative font, actively being developed by jan Itan (@ etbcor). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+  This font supports the 2022-05-20 version of UCSUR. It looks a bit nasa, however it is mostly readable.
+
+- [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
+
+  ![an image preview of nasin nanpa](nasinnanpa.png)
   
-  - [sitelen seli kiwen juniko (mono)](http://devurandom.xyz/tokipona/supalape.html)
-      
-      ![an image preview of sitelen seli kiwen](sitelenselikiwen.png)
-      
-      
-      This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommened for sitelen pona (both of the above fonts are monospaced). `sitelen seli kiwen juniko mono`, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
+  This is an alternative font, actively being developed by jan Itan (@ etbcor). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+
+- [sitelen seli kiwen juniko (mono)](http://devurandom.xyz/tokipona/supalape.html)
+    
+  ![an image preview of sitelen seli kiwen](sitelenselikiwen.png)
+    
+  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommened for sitelen pona (both of the above fonts are monospaced). `sitelen seli kiwen juniko mono`, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
 If you are unsure of which font to pick, I would recomend nasin nanpa or sitelen seli kiwen.
 
