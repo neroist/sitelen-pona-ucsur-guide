@@ -21,11 +21,16 @@ The current recomended fonts for sitelen pona are:
       2022-05-20 version of UCSUR.
   - [insa pi supa lape](http://devurandom.xyz/tokipona/supalape.html)
       
-      ![an image preview of insa pi supa lape](insapisupalape.png)
+      This is an alternative font, actively being developed by jan Itan (@ etbcor). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+  
+  - [sitelen seli kiwen juniko (mono)](http://devurandom.xyz/tokipona/supalape.html)
       
-      This font by /dev/urandom/ supports an outdated version of UCSUR (2022-01-31).
+      ![an image preview of sitelen seli kiwen](sitelenselikiwen.png)
+      
+      
+      This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommened for sitelen pona (both of the above fonts are monospaced). `sitelen seli kiwen juniko mono`, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
-If you are unsure of which font to pick, I would recomend nasin nanpa.
+If you are unsure of which font to pick, I would recomend nasin nanpa or sitelen seli kiwen.
 
 Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord. 
 
@@ -40,12 +45,13 @@ To patch your Discord to correctly render sitelen pona on desktop, we will use t
 First go to "User Settings" in Discord, then scroll down to "Themes" and click the "Quick CSS" tab.
 
 Paste this snippet of code into the text box. (No need to worry about security! CSS can only change visual aspects of Discord, not steal your login token or act on your behalf)
+
 ```CSS
 :root {
-    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, "nasin-nanpa", "Fairfax HD", "insa pi supa lape";
-    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, "nasin-nanpa", "Fairfax HD", "insa pi supa lape";
-    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace, "nasin-nanpa", "Fairfax HD", "insa pi supa lape";
-    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, "nasin-nanpa", "Fairfax HD", "insa pi supa lape";
+    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen juniko mono';
+    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen juniko mono';
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen juniko mono';
+    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen juniko mono';
 }
 ```
 
