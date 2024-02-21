@@ -42,7 +42,7 @@ To patch your Discord to correctly render sitelen pona on desktop, we will use t
 
 First go to "User Settings" in Discord, then scroll down to "Themes" and click the "Quick CSS" tab.
 
-Paste this snippet of code into the text box. (No need to worry about security! CSS can only change visual aspects of Discord, not steal your login token or act on your behalf)
+Paste this snippet of code into the text box. (No need to worry about security! CSS can only change visual aspects of Discord, and cannot steal your login token or act on your behalf)
 
 ```CSS
 :root {
