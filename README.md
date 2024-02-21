@@ -15,7 +15,7 @@ The current recomended fonts for sitelen pona are:
 	This font supports the 2022-05-20 version of UCSUR. It looks a bit nasa, however it is mostly readable.
   - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
   
-      ![an image preview of nasin nanpa](linjananpa.png)
+      ![an image preview of nasin nanpa](nasinnanpa.png)
       
       This is an alternative font, actively being developed by jan Itan (@etbcor#6146). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 
       2022-05-20 version of UCSUR.
