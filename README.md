@@ -61,7 +61,7 @@ I do not own an Android phone, so I cannot give an accurate guide on this sectio
 
 ### Browser
 
-If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "write a style for:" menu. Be sure to no accidentally write it for "this url", as that will make it not work outside of the channel you were looking at.
+If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com" (or "discord.com/channels", I suppose), as choosing a different URL will make it not work outside of the channel you were looking at.
 
 ## Input
 
