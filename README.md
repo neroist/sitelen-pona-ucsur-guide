@@ -61,7 +61,7 @@ Once you have pasted this code into the QuickCSS box, you can now exit settings,
 
 > I do not own an Android phone, so I cannot give an accurate guide on this section (maybe somebody fill this in with a pull request), however kulupu Mimuki (`@.mouseless`) has put together an [excellent video guide](https://cdn.discordapp.com/attachments/882652782509846548/943688987070062612/YouCut_20220217_121644150.mp4) for achieving this with [Aliucord](https://github.com/Aliucord/Aliucord).
 
-*~ the previous text here, tan jan Lili*
+*\~ the previous text here, tan jan Lili*
 
 There used to be a video guide for viewing sitelen pona in [Aliucord](https://github.com/Aliucord/Aliucord) by kulupu Mimuki. However, the video link is now dead, nor have I been able to get sitelen pona working in Aliucord. But [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) is a wonderful guide on how to get UCSUR sitelen pona on Android. Regarding viewing sitelen pona, here are the listed steps:
 
