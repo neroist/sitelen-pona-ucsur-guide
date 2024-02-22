@@ -20,7 +20,7 @@ The current recomended fonts for sitelen pona are:
 
   ![an image preview of nasin nanpa](nasinnanpa.png)
   
-  This is an alternative font, actively being developed by jan Itan (@ etbcor). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+  This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
 
 - [sitelen seli kiwen juniko (mono)](https://www.kreativekorp.com/software/fonts/sitelenselikiwen)
     
@@ -57,7 +57,7 @@ Once you have pasted this code into the Quick CSS box, you can now exit settings
 
 ### Android
 
-I do not own an Android phone, so I cannot give an accurate guide on this section (maybe somebody fill this in with a pull request), however kulupu Mimuki (@ .mouseless) has put together an [excellent video guide](https://cdn.discordapp.com/attachments/882652782509846548/943688987070062612/YouCut_20220217_121644150.mp4) for achieving this with [Aliucord](https://github.com/Aliucord/Aliucord).
+I do not own an Android phone, so I cannot give an accurate guide on this section (maybe somebody fill this in with a pull request), however kulupu Mimuki (`@.mouseless`) has put together an [excellent video guide](https://cdn.discordapp.com/attachments/882652782509846548/943688987070062612/YouCut_20220217_121644150.mp4) for achieving this with [Aliucord](https://github.com/Aliucord/Aliucord).
 
 ### Browser
 
@@ -69,19 +69,19 @@ Now that sitelen pona is rendering properly, we need to be able to type it!
 
 ### Windows
 
-If you use windows, there is an [Auto Hotkey Script](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/sitelen-pona-3.0.ahk) (download with ctrl+s) by jan Itan (@ etbcor) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write '\[\`' and '\]\`' for cartouches, as well as '\(\`' and '\)\`' for long glyphs. There is also a ["small" version of the script](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/stl-pon-3.0.ahk) that uses 3 letter codes for each word instead of typing the whole word. For any of this to work, you need to have [Auto Hotkey](https://www.autohotkey.com/) installed.
+If you use windows, there is an [Auto Hotkey Script](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/sitelen-pona-3.0.ahk) (download with ctrl+s) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write '\[\`' and '\]\`' for cartouches, as well as '\(\`' and '\)\`' for long glyphs. There is also a ["small" version of the script](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/stl-pon-3.0.ahk) that uses 3 letter codes for each word instead of typing the whole word. For any of this to work, you need to have [Auto Hotkey](https://www.autohotkey.com/) installed.
 
 Other features of the script are explained near the bottom of [nasin-nanpa's releases page](https://github.com/ETBCOR/nasin-nanpa/releases/tag/n2.5.1).
 
 ### macOS
 
-jan Tepo (@ tbodt) has made an [input plugin for macOS](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (rhythm heaven monkey#9052) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
+jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
 
 ### Linux
 
 The only current supported input engine for Linux is ibus, for this to work, you need both ibus, and ibus-tables installed.
 
-jan Komi (@ cominixo) has created an [ibus input table](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
+jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
 
 ![an image of the ibus input engine in action](ibus.png)
 
@@ -95,13 +95,13 @@ Once you have done this, open the ibus preferences, go to Input Method, click AD
 ### Android
 
 Two input engines for android exist:
-  - [jan Komi's (@ cominixo)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp)
-  - and [kulupu Mimuki's (@ .mouseless)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
+  - [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp)
+  - and [kulupu Mimuki's (`@.mouseless`)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
 
 ### Web
 
-If you are on a device which cannot use these input methods for any reason, [jan Tala (@at#0754)](https://github.com/DataKinds) has created a [web based converter](https://ilo-pi-sitelen-pona.glitch.me/) from sitelen Lasina to sitelen pona.
+If you are on a device which cannot use these input methods for any reason, [jan Tala (`@at`)](https://github.com/DataKinds) has created a [web based converter](https://ilo-pi-sitelen-pona.glitch.me/) from sitelen Lasina to sitelen pona.
 
 # End
 
-This is a really huge step for toki pona, and I am extremely happy to see this happen. If you have created a font, input method, or any other resource that you want added, please create a pull request, issue, or just ping me on discord @8o7wer#4073 (jan Lili lon ma pona pi toki pona) and we can talk!
+This is a really huge step for toki pona, and I am extremely happy to see this happen. If you have created a font, input method, or any other resource that you want added, please create a pull request, issue, or just ping me on discord `@o.v` (jan Lili lon ma pona pi toki pona) and we can talk!
