@@ -55,6 +55,8 @@ Paste this snippet of code into the text box. (No need to worry about security! 
 
 Once you have pasted this code into the QuickCSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
 
+> Note: If `sitelen seli kiwen mono juniko` doesnt work for you, try using `sitelen seli kiwen mono juniko meso` or `sitelen seli kiwen mono juniko meso Regular` instead (in the CSS, replace all occurrences of it with this new text).
+
 ### Android
 
 > I do not own an Android phone, so I cannot give an accurate guide on this section (maybe somebody fill this in with a pull request), however kulupu Mimuki (`@.mouseless`) has put together an [excellent video guide](https://cdn.discordapp.com/attachments/882652782509846548/943688987070062612/YouCut_20220217_121644150.mp4) for achieving this with [Aliucord](https://github.com/Aliucord/Aliucord).
