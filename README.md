@@ -113,7 +113,7 @@ It uses the characters `^><v` for direction, similar to linja lipamanka. For exm
 
 <!-- Seems to work for jan Osuka so I hope this is fine. Again, I do want to add multidir ni to this... -->
 
-jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
+jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
 
 ### Linux
 
@@ -121,7 +121,7 @@ jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubuserc
 
 The only current supported input engine for Linux is ibus, for this to work, you need both ibus, and ibus-tables installed.
 
-jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
+jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
 
 ![an image of the ibus input engine in action](ibus.png)
 
