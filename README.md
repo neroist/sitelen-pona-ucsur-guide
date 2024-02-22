@@ -121,7 +121,7 @@ jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubuserc
 
 <!-- TODO: Test this... tenpo lon la mi kepeken ilo sama tawa sitelen · taso ilo ibus ala -->
 
-The only current supported input engine for Linux is ibus, for this to work, you need both ibus, and ibus-tables installed.
+The ~~only~~ (nasin sitelen Wakalito li lon · ken la ilo ante a kin li lon) current supported input engine for Linux is ibus, for this to work, you need both ibus, and ibus-tables installed.
 
 jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
 
