@@ -142,7 +142,7 @@ Two input engines for android exist:
 
 - and [kulupu Mimuki's (`@.mouseless`)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
 
-<!-- TODO: iOS? nasin sitelen Wakalito? -->
+<!-- TODO: iOS? -->
 
 ### Web
 
