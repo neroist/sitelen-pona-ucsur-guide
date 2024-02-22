@@ -85,9 +85,13 @@ Installing the font:
 
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
+<!-- TODO: Add how this changes the OS's font & how to change it back to default -->
+
 ### Browser
 
 If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add [the css code above](#desktop). Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com" (or "discord.com/channels", I suppose), as choosing a different URL will make it not work outside of the channel you were looking at.
+
+<!-- TODO: iOS? -->
 
 ## Input
 
@@ -107,9 +111,13 @@ It uses the characters `^><v` for direction, similar to linja lipamanka. For exm
 
 ### macOS
 
+<!-- Seems to work for jan Osuka so I hope this is fine. Again, I do want to add multidir ni to this... -->
+
 jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/Id405/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
 
 ### Linux
+
+<!-- TODO: Test this... tenpo lon la mi kepeken ilo sama tawa sitelen · taso ilo ibus ala -->
 
 The only current supported input engine for Linux is ibus, for this to work, you need both ibus, and ibus-tables installed.
 
@@ -131,6 +139,8 @@ Two input engines for android exist:
 - [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp)
 
 - and [kulupu Mimuki's (`@.mouseless`)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
+
+<!-- TODO: iOS? nasin sitelen Wakalito? -->
 
 ### Web
 
