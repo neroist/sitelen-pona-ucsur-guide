@@ -38,9 +38,9 @@ Because internally the Discord application relies on electron, it does not fall 
 
 ### Desktop
 
-To patch your Discord to correctly render sitelen pona on desktop, we will use the [Powercord client modification](https://powercord.dev/). Start by following the installation guide on their website to install it. After installing Powercord we need to add a CSS snippet, this is a small snippet of code that tells Powercord to use Fairfax HD or nasin nanpa when sitelen pona is present.
+To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, this is a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
 
-First go to "User Settings" in Discord, then scroll down to "Themes" and click the "Quick CSS" tab.
+First go to go to Settings, then scroll down to "Vencord", click "Themes", and press "Edit QuickCSS"
 
 Paste this snippet of code into the text box. (No need to worry about security! CSS can only change visual aspects of Discord, and cannot steal your login token or act on your behalf)
 
@@ -53,7 +53,7 @@ Paste this snippet of code into the text box. (No need to worry about security! 
 }
 ```
 
-Once you have pasted this code into the Quick CSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
+Once you have pasted this code into the QuickCSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
 
 ### Android
 
@@ -65,7 +65,7 @@ There used to be a video guide for viewing sitelen pona in [Aliucord](https://gi
 
 Installing the font:
 
-1. Download [nasin-nanpa-2.5.1.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/nasin-nanpa-2.5.1.otf) ~~or the latest version from https://github.com/ETBCOR/nasin-nanpa/releases~~ (I don't know if latest version will work). 
+1. Download [nasin-nanpa-2.5.1.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/nasin-nanpa-2.5.1.otf) ~~or the latest version from https://github.com/ETBCOR/nasin-nanpa/releases~~ (I don't think the latest version will work). 
 
 2. Convert nasin-nanpa-2.5.1.otf to [nasin-nanpa-2.5.1.ttf](https://www.mediafire.com/file/pj5nmp2io9y34qt/nasin-nanpa-2.5.1.ttf/file) (If you're not sure how, skip this step or click the link).
 
