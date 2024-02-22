@@ -67,7 +67,7 @@ There used to be a video guide for viewing sitelen pona in [Aliucord](https://gi
 
 Installing the font:
 
-1. Download [nasin-nanpa-2.5.1.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/nasin-nanpa-2.5.1.otf) ~~or the latest version from https://github.com/ETBCOR/nasin-nanpa/releases~~ (I don't think the latest version will work). 
+1. Download [nasin-nanpa-2.5.1.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/nasin-nanpa-2.5.1.otf). (Please note that the latest version will not work; the latest version of nasin nanpa now translations Latin characters as well as UCSUR, which messes things up).
 
 2. Convert nasin-nanpa-2.5.1.otf to [nasin-nanpa-2.5.1.ttf](https://www.mediafire.com/file/pj5nmp2io9y34qt/nasin-nanpa-2.5.1.ttf/file) (If you're not sure how, skip this step or click the link).
 
