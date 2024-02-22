@@ -1,4 +1,5 @@
 ; ahk script from nasin-nanpa
+; with modifications (multidirectional-ni)
 
 #EscapeChar \
 
@@ -140,6 +141,20 @@
 :*?:a`::{U+F1900} ; 󱤀
 :*?:e`::{U+F1909} ; 󱤉
 
+; multidirectional ni
+
+:*?:ni<`::{U+FFB00} ; 󿬀
+:*?:ni^`::{U+FFB01} ; 󿬁
+:*?:ni>`::{U+FFB02} ; 󿬂
+:*?:niv`::{U+F1941} ; 󱥁
+:*?:ni^<`::{U+FFD70} ; 󿵰
+:*?:ni<^`::{U+FFD70} ; 󿵰
+:*?:ni^>`::{U+FFD71} ; 󱤉
+:*?:ni>^`::{U+FFD71} ; 󱤉
+:*?:niv>`::{U+FFD72} ; 󱤉
+:*?:ni>v`::{U+FFD72} ; 󱤉
+:*?:niv<`::{U+FFD73} ; 󱤉
+:*?:ni<v`::{U+FFD73} ; 󱤉
 
 :*?:[`::{U+F1990} ; cartouche start
 :*?:]`::{U+F1991} ; cartouche end
