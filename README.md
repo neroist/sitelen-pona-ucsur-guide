@@ -200,7 +200,7 @@ Two input engines for android exist:
 
 - [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar Y better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
  
-    - When trying to install the APK, if you get an error that you cannot due to "package conflicts," delete the other toki pona keyboard app and try again
+    - When trying to install the APK, if you get an error that you cannot due to "package conflicts," delete the other Toki Pona Keyboard app and try again.
 
 - and [kulupu Mimuki's (`@.mouseless`)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
 
