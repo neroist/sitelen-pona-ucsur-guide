@@ -55,7 +55,7 @@ AUTHOR = jan Komi
 STATUS_PROMPT = toki
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxy:z[]_,-^'
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyz[](){}<>:;.?!+-'
 
 ### Layout
 LAYOUT = us
@@ -117,7 +117,7 @@ DYNAMIC_ADJUST = TRUE
 SELECT_KEYS = 1,2,3,4,5,6,7,8,9
 
 ### The default orientation of the candidate list
-### TRUE means the candidate list is vertical, FALSE means it is vertical
+### TRUE means the candidate list is vertical, FALSE means it is horizontal
 ORIENTATION=TRUE
 
 END_DEFINITION
@@ -271,26 +271,17 @@ pake	󱦠	1
 apeja	󱦡	1
 majuna	󱦢	1
 powe	󱦣	1
+.	󱦜	1
+!	󱦜	1
+?	󱦜	1
+:	󱦝	1
+;	󱦝	1
 [	󱦐	1
 ]	󱦑	1
-_	󱦒	1
-pi_	󱦓	1
-'	󱦜	1
-:	󱦝	1
+(	󱦗	1
+)	󱦘	1
+{	󱦚	1
+}	󱦛	1
 -	󱦖	1
 ^	󱦕	1
 END_TABlE
-
-### Since some input methods use different table for every character to make
-### phrase, such as ZhengMa, they need explict define the goucima (the
-### phrase-building code for the given character), the format of every entry is
-### "character\tgoucima\n". 
-### For the input method which just use the full code as word-building code
-### just skip this field. The ibus-table will build the codes needed from
-### above TABLE.
-### if you don't need different word-building code, please comment out the
-### next few lines with ###, just like these lines you are look at now.
-### BEGIN_GOUCI
-### character_1	goucima_1
-### character_1	goucima_2
-### END_GOUCI

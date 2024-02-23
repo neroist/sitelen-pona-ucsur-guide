@@ -138,16 +138,59 @@ jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubuserc
 
 The ~~only~~ (nasin sitelen Wakalito li lon · ilo ante kin li lon) current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
 
-jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
+> During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
 
-![an image of the ibus input engine in action](ibus.png)
+jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
 
 ```bash
 sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s tokipona.txt
 ibus-daemon -drxR
 ```
 
-Once you have done this, open the ibus preferences, go to Input Method, click ADD and then select sitelen pona (the last option under the English category). Cartouches are typed with `[`, `_`, and `]`. Long pi is started with `pi_` and extended with `'`.
+![an image of the ibus input engine in action](ibus1.png)
+
+Once you have done this, open the ibus preferences (you can do this with the `ibus-setup` command). Go to `Input Method`, click `Add` and then select `sitelen pona` (the last option under the English category).
+
+Finally, if necessary, go to your keyboard settings in your settings application and add a "sitelen pona" input source (the name should be "English (sitelen pona)").
+
+This should result in a new tray icon which indicates which input source you're using — English or sitelen pona. Which keybinding which allows you to switch input sources may depend on your distro. However, on Pop!_OS it is <kbd>Super</kbd> + <kbd>Space</kbd>
+
+<details>
+<summary>
+  <b>List format for instructions</b>
+</summary>
+
+1. Install `ibus` and `ibus-tables`. Follow the instructions on [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
+
+    - For Ubuntu, do not install the `ibus-qt4` package
+
+2. Download the ibus input table [here](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt).
+
+3. Copy the file to a chosen directory and open a terminal in the directory
+
+4. Run these two commands:
+
+```bash
+sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s tokipona.txt
+```
+
+```bash
+ibus-daemon -drxR
+```
+
+5. Open ibus preferences (you may run the `ibus-setup` command)
+
+6. Add the sitelen pona input method. Go to `Input Methods` -> `Add` -> `English` -> *(scroll all the way down to)* `sitelen pona`
+
+7. If needed, go to your settings application and add a new input source of the name "English (sitelen pona)" 
+
+    - Feel free to search for "sitelen pona" and select anything similar, if "English (sitelen pona)" is not present
+
+8. Switch input sources (either via keybindings or the tray icon).
+
+9. pini a!
+
+</details>
 
 ### Android
 
