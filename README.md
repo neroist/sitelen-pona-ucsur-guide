@@ -105,12 +105,6 @@ If you use windows, there is an [Auto Hotkey Script](https://github.com/ETBCOR/n
 
 Other features of the script are explained near the bottom of [nasin-nanpa's releases page](https://github.com/ETBCOR/nasin-nanpa/releases/tag/n2.5.1).
 
-The [Auto Hotkey script in this repository](/sitelen-pona-input.ahk) is the same script from nasin-nanpa, with a modification that enables multidirectional-ni, which is helpful for writing in sitelen pona. Not all fonts support this, of the three that were mentioned above, nasin nanpa doesn't support it. Feel free to not use it! I just like it.
-
-![multidirectional ni showcase](multidir.png)
-
-It uses the characters `^><v` for direction, similar to linja lipamanka. For exmaple, `ni>` is a rightward/east pointing ni, and `ni>^` and `ni^>` both result in a northeast pointing ni.
-
 ### macOS
 
 jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
