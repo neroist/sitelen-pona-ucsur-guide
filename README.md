@@ -212,4 +212,25 @@ If you are on a device which cannot use these input methods for any reason, [jan
 
 # End
 
-This is a really huge step for toki pona, and I am extremely happy to see this happen. If you have created a font, input method, or any other resource that you want added, please create a pull request, issue, or just ping me on discord `@o.v` (jan Lili lon ma pona pi toki pona) and we can talk!
+> This is a really huge step for toki pona, and I am extremely happy to see this happen. If you have created a font, input method, or any other resource that you want added, please create a pull request, issue, or just ping me on discord `@o.v` (jan Lili lon ma pona pi toki pona) and we can talk!
+
+*~ tan jan Lili*
+
+## ijo pona
+
+thank you to
+
+- jan Komi
+- kulupu Mimuki
+- jan Tala
+- soweli pona Tesa
+- mun Kekan San
+- jan Tepo
+- jan Itan
+- jan Lili
+- jan Semu
+- ijo `@Qwerty-Space` (lon lipu github)
+- ijo `@ReveredOxygen`
+
+sina ale li pona wawa a li pana sona pona anu pali pona a (anu ni tu a a)
+
