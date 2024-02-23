@@ -55,7 +55,7 @@ This method does not work on macOS or mobile devices.
 
 ### Desktop
 
-**⚠️⚠️⚠️ THIS VIOLATES DISCORD'S TOS. O SONA A**
+**⚠️⚠️⚠️ THIS VIOLATES DISCORD'S TOS. O SONA A ⚠️⚠️⚠️**
 
 To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, this is a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
 
