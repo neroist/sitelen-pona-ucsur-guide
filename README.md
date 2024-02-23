@@ -113,8 +113,6 @@ It uses the characters `^><v` for direction, similar to linja lipamanka. For exm
 
 ### macOS
 
-<!-- Seems to work for jan Osuka so I hope this is fine. Again, I do want to add multidir ni to this... -->
-
 jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Install it by double clicking. Then enable it in System Preferences > Keyboard > Input Sources. You'll find it listed under "Chinese, Simplified" for some reason.
 
 ### Linux
