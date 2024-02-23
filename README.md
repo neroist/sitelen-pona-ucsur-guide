@@ -34,9 +34,28 @@ Once you have installed any of these fonts you are done, in many applications si
 
 ## Discord
 
-Because internally the Discord application relies on electron, it does not fall back to the font you installed when sitelen pona glyphs are present, instead displaying these frustrating little squares. To fix this, sadly the only option is to modify your Discord. Currently, this modification is possible on all Desktop systems, and on Android.
+Because internally the Discord application relies on Electron, it does not fall back to the font you installed when sitelen pona glyphs are present, instead displaying these frustrating little squares. To fix this, one option is to install a fake *Helvetica Neue* font, which will allow sitelen pona to render wherever Helvetica Neue is used, which includes Discord!
+
+Another option is to modify your Discord. Currently, this modification is possible on all Desktop systems. **This option is dangerous, violates Discord TOS, and may result in your account being banned.**
+
+### Font
+
+Simply install the fake Helvetica Neue font, and it should result in Discord displaying UCSUR.
+
+**For Windows,**
+
+- Download and install [this font](./nasin-nanpa-patched.otf)
+
+**For Linux,**
+
+- Cownload the above font
+- Copy the file to `~/.local/share/fonts/`
+
+This method does not work on macOS or mobile devices. 
 
 ### Desktop
+
+**⚠️⚠️⚠️ THIS VIOLATES DISCORD'S TOS. O SONA A**
 
 To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, this is a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
 
