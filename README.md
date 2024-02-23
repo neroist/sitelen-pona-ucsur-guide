@@ -57,6 +57,10 @@ Once you have pasted this code into the QuickCSS box, you can now exit settings,
 
 <!-- > Note: If `sitelen seli kiwen mono juniko` doesnt work for you, try using `sitelen seli kiwen mono juniko meso` instead (in the CSS, replace all occurrences of it with this new text). -->
 
+### Browser
+
+If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at.
+
 ### Android
 
 > I do not own an Android phone, so I cannot give an accurate guide on this section (maybe somebody fill this in with a pull request), however kulupu Mimuki (`@.mouseless`) has put together an [excellent video guide](https://cdn.discordapp.com/attachments/882652782509846548/943688987070062612/YouCut_20220217_121644150.mp4) for achieving this with [Aliucord](https://github.com/Aliucord/Aliucord).
@@ -86,10 +90,6 @@ Installing the font:
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
 <!-- TODO: Add how this changes the OS's font & how to change it back to default -->
-
-### Browser
-
-If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add [the css code above](#desktop). Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at.
 
 <!-- TODO: iOS? -->
 
