@@ -14,13 +14,13 @@ The current recomended fonts for sitelen pona are:
 
   ![an image preview of fairfax hd](fairfaxhd.png)
   
-  This font supports the 2022-05-20 version of UCSUR. It looks a bit nasa, however it is mostly readable.
+  This font supports the latest (2024-02-20) version of UCSUR. It looks a bit nasa, however it is mostly readable.
 
 - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
 
   ![an image preview of nasin nanpa](nasinnanpa.png)
   
-  This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2022-05-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+  This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2024-02-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
 
 - [sitelen seli kiwen juniko (mono)](https://www.kreativekorp.com/software/fonts/sitelenselikiwen)
     
@@ -121,7 +121,7 @@ jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubuserc
 
 <!-- TODO: Test this... tenpo lon la mi kepeken ilo sama tawa sitelen · taso ilo ibus ala -->
 
-The ~~only~~ (nasin sitelen Wakalito li lon · ken la ilo ante a kin li lon) current supported input engine for Linux is ibus, for this to work, you need both ibus, and ibus-tables installed.
+The ~~only~~ (nasin sitelen Wakalito li lon · ken la ilo ante a kin li lon) current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
 
 jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt) (download with ctrl+s). Copy it to a directory of your choice, and then open a command line in the same directory. Run these commands to install it.
 
@@ -132,7 +132,7 @@ sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s tokipona
 ibus-daemon -drxR
 ```
 
-Once you have done this, open the ibus preferences, go to Input Method, click ADD and then select sitelen pona (the last option under the English category). Cartouches are typed with '\[', '\_', and '\]'. Long pi is started with 'pi_' and extended with '.
+Once you have done this, open the ibus preferences, go to Input Method, click ADD and then select sitelen pona (the last option under the English category). Cartouches are typed with `[`, `_`, and `]`. Long pi is started with `pi_` and extended with `'`.
 
 ### Android
 
