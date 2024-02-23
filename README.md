@@ -105,7 +105,7 @@ If you use windows, there is an [Auto Hotkey Script](https://github.com/ETBCOR/n
 
 Other features of the script are explained near the bottom of [nasin-nanpa's releases page](https://github.com/ETBCOR/nasin-nanpa/releases/tag/n2.5.1).
 
-The [Auto Hotkey script in this repository](/sitelen-pona-input.ahk) is the same script from nasin-nanpa, with a modification that enables multidirectional-ni, which is helpful for writing in sitelen pona.
+The [Auto Hotkey script in this repository](/sitelen-pona-input.ahk) is the same script from nasin-nanpa, with a modification that enables multidirectional-ni, which is helpful for writing in sitelen pona. Not all fonts support this, of the three that were mentioned above, nasin nanpa doesn't support it. Feel free to not use it! I just like it.
 
 ![multidirectional ni showcase](multidir.png)
 
