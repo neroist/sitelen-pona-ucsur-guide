@@ -46,16 +46,16 @@ Paste this snippet of code into the text box. (No need to worry about security! 
 
 ```CSS
 :root {
-    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko';
-    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko';
-    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko';
-    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko';
+    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
+    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
+    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
 }
 ```
 
 Once you have pasted this code into the QuickCSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
 
-> Note: If `sitelen seli kiwen mono juniko` doesnt work for you, try using `sitelen seli kiwen mono juniko meso` or `sitelen seli kiwen mono juniko meso Regular` instead (in the CSS, replace all occurrences of it with this new text).
+<!-- > Note: If `sitelen seli kiwen mono juniko` doesnt work for you, try using `sitelen seli kiwen mono juniko meso` instead (in the CSS, replace all occurrences of it with this new text). -->
 
 ### Android
 
