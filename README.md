@@ -206,7 +206,7 @@ nasin:
 
     - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur.yml) uses nasin Wakalito's triggers, and outputs UCSUR
 
-    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur-nimi.yml) uses toki pona word triggers with `:` as a starting character (e.g. `:meli`, `:kala`), and outputs UCSUR
+    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur-nimi.yml) uses toki pona word triggers with `\` as en ending character (e.g. `meli\`, `kala`\), and outputs UCSUR
 
 3. Copy or move the file to Espanso packages folder
 

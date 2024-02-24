@@ -3,517 +3,504 @@
 
 matches:
   # punctuation etc
-  - triggers: [":zz", ":  "]
+  - triggers: ["zz\\", "  \\"]
     replace: "　" # ! changed to logograph fullwidth space
     
-  - trigger: "::- "
+  - trigger: "-\\"
     replace: "‍" # ! changed to zero width non joiner
  
-  - trigger: "::^ "
+  - trigger: "^\\"
     replace: "󱦕" # ! changed to stacking joiner
   
-  - trigger: "::* "
+  - trigger: "*\\"
     replace: "󱦖" # ! changed to scaling joiner
 
-  - trigger: "::: "
+  - trigger: ":\\"
     replace: "󱦝" # ! changed to sp colon
     
-  - trigger: "::. "
+  - trigger: ".\\"
     replace: "󱦜" # ! changed to sp full stop 
   
-  - trigger: "::[ "
+  - trigger: "[\\"
     replace: "󱦐" # ! changed to cartouche start
 
-  - trigger: "::] "
+  - trigger: "]\\"
     replace: "󱦑" # ! changed to cartouche end
 
-  - trigger: "::< "
+  - trigger: "<\\"
     replace: "「" # ! changed to cjk start quote
 
-  - trigger: "::> "
+  - trigger: ">\\"
     replace: "」" # ! changed to cjk end quote
   
-  - trigger: "::( "
+  - trigger: "(\\"
     replace: "󱦗" # ! changed to "start left-combining (normal) long glyph"
 
-  - trigger: "::) "
+  - trigger: ")\\"
     replace: "󱦘" # ! changed to "end left-combining (normal) long glyph"  
   
-  - trigger: "::{ "
+  - trigger: "{\\"
     replace: "󱦚" # ! changed to "start right-combining (reversed) long glyph"
   
-  - trigger: "::} "
+  - trigger: "}\\"
     replace: "󱦛" # ! changed to "end right-combining (reversed) long glyph" 
 
   # contractions
-  - triggers: [":msa ", ":misonala ", ":misonaala "]
+  - triggers: ["msa\\", "misonala\\", "misonaala\\"]
     replace: "󱤴󱥡󱤂"
     
-  # emoticons
-  - triggers: [":a1 ", ":ay ", ":at "]
-    replace: ":)" 
-
-  - triggers: [":a6 ", ":a5 "]
-    replace: ":(" 
-
-  - triggers: [":a2 ", ":aw "]
-    replace: ":|"  
-
-  - trigger: ":a5 "
-    replace: ":v "
-
   # pu
-  - trigger: ":a "
+  - trigger: "a\\"
     replace: "󱤀"
     
-  - trigger: ":aaa "
+  - trigger: "aaa\\"
     replace: "󱤀󱤀󱤀"
     
-  - trigger: ":akesi "
+  - trigger: "akesi\\"
     replace: "󱤁"
 
-  - trigger: ":ala "
+  - trigger: "ala\\"
     replace: "󱤂"
 
-  - trigger: ":alasa "
+  - trigger: "alasa\\"
     replace: "󱤃"
 
-  - triggers: [":ale ", ":ali "]
+  - triggers: ["ale\\", "ali\\"]
     replace: "󱤄"
 
-  - trigger: ":anpa "
+  - trigger: "anpa\\"
     replace: "󱤅"
 
-  - trigger: ":ante "
+  - trigger: "ante\\"
     replace: "󱤆"
 
-  - trigger: ":anu "
+  - trigger: "anu\\"
     replace: "󱤇"
 
-  - trigger: ":awen "
+  - trigger: "awen\\"
     replace: "󱤈"
 
-  - trigger: ":e "
+  - trigger: "e\\"
     replace: "󱤉"
 
-  - trigger: ":en "
+  - trigger: "en\\"
     replace: "󱤊"
 
-  - trigger: ":esun "
+  - trigger: "esun\\"
     replace: "󱤋"
 
-  - trigger: ":ijo "
+  - trigger: "ijo\\"
     replace: "󱤌"
 
-  - trigger: ":ike "
+  - trigger: "ike\\"
     replace: "󱤍"
 
-  - trigger: ":ilo "
+  - trigger: "ilo\\"
     replace: "󱤎"
 
-  - trigger: ":insa "
+  - trigger: "insa\\"
     replace: "󱤏"
 
-  - trigger: ":jaki "
+  - trigger: "jaki\\"
     replace: "󱤐"
 
-  - trigger: ":jan "
+  - trigger: "jan\\"
     replace: "󱤑"
 
-  - trigger: ":jelo "
+  - trigger: "jelo\\"
     replace: "󱤒"
 
-  - trigger: ":jo "
+  - trigger: "jo\\"
     replace: "󱤓"
 
-  - trigger: ":kala "
+  - trigger: "kala\\"
     replace: "󱤔"
 
-  - trigger: ":kalama "
+  - trigger: "kalama\\"
     replace: "󱤕"
 
-  - trigger: ":kama "
+  - trigger: "kama\\"
     replace: "󱤖"
 
-  - trigger: ":kasi "
+  - trigger: "kasi\\"
     replace: "󱤗"
 
-  - trigger: ":ken "
+  - trigger: "ken\\"
     replace: "󱤘"
 
-  - triggers: [":kepeken ", ":kepen ", ":kpkn "]
+  - triggers: ["kepeken\\", "kepen\\", "kpkn\\"]
     replace: "󱤙"
 
-  - trigger: ":kili "
+  - trigger: "kili\\"
     replace: "󱤚"
 
-  - trigger: ":kin "
+  - trigger: "kin\\"
     replace: "󱥹"
 
-  - trigger: ":kiwen "
+  - trigger: "kiwen\\"
     replace: "󱤛"
 
-  - trigger: ":ko "
+  - trigger: "ko\\"
     replace: "󱤜"
 
-  - trigger: ":kon "
+  - trigger: "kon\\"
     replace: "󱤝"
 
-  - trigger: ":kule "
+  - trigger: "kule\\"
     replace: "󱤞"
 
-  - trigger: ":kulupu "
+  - trigger: "kulupu\\"
     replace: "󱤟"
 
-  - trigger: ":kute "
+  - trigger: "kute\\"
     replace: "󱤠"
 
-  - trigger: ":la "
+  - trigger: "la\\"
     replace: "󱤡"
 
-  - trigger: ":lape "
+  - trigger: "lape\\"
     replace: "󱤢"
 
-  - trigger: ":laso "
+  - trigger: "laso\\"
     replace: "󱤣"
 
-  - trigger: ":lawa "
+  - trigger: "lawa\\"
     replace: "󱤤"
 
-  - trigger: ":len "
+  - trigger: "len\\"
     replace: "󱤥"
 
-  - trigger: ":lete "
+  - trigger: "lete\\"
     replace: "󱤦"
 
-  - trigger: ":li "
+  - trigger: "li\\"
     replace: "󱤧"
 
-  - trigger: ":lili "
+  - trigger: "lili\\"
     replace: "󱤨"
 
-  - trigger: ":linja "
+  - trigger: "linja\\"
     replace: "󱤩"
 
-  - trigger: ":lipu "
+  - trigger: "lipu\\"
     replace: "󱤪"
 
-  - trigger: ":loje "
+  - trigger: "loje\\"
     replace: "󱤫"
 
-  - trigger: ":lon "
+  - trigger: "lon\\"
     replace: "󱤬"
 
-  - trigger: ":luka "
+  - trigger: "luka\\"
     replace: "󱤭"
 
-  - trigger: ":lukin "
+  - trigger: "lukin\\"
     replace: "󱤮"
 
-  - trigger: ":oko "
+  - trigger: "oko\\"
     replace: "󱥺"
 
-  - trigger: ":lupa "
+  - trigger: "lupa\\"
     replace: "󱤯"
 
-  - trigger: ":ma "
+  - trigger: "ma\\"
     replace: "󱤰"
 
-  - trigger: ":mama "
+  - trigger: "mama\\"
     replace: "󱤱"
 
-  - trigger: ":mani "
+  - trigger: "mani\\"
     replace: "󱤲"
 
-  - trigger: ":meli "
+  - trigger: "meli\\"
     replace: "󱤳"
 
-  - trigger: ":mi "
+  - trigger: "mi\\"
     replace: "󱤴"
 
-  - trigger: ":mije "
+  - trigger: "mije\\"
     replace: "󱤵"
 
-  - trigger: ":moku "
+  - trigger: "moku\\"
     replace: "󱤶"
 
-  - trigger: ":moli "
+  - trigger: "moli\\"
     replace: "󱤷"
 
-  - trigger: ":monsi "
+  - trigger: "monsi\\"
     replace: "󱤸"
 
-  - trigger: ":mu "
+  - trigger: "mu\\"
     replace: "󱤹"
 
-  - trigger: ":mun "
+  - trigger: "mun\\"
     replace: "󱤺"
 
-  - trigger: ":musi "
+  - trigger: "musi\\"
     replace: "󱤻"
 
-  - trigger: ":mute "
+  - trigger: "mute\\"
     replace: "󱤼"
 
-  - trigger: ":namako "
+  - trigger: "namako\\"
     replace: "󱥸"
 
-  - trigger: ":nanpa "
+  - trigger: "nanpa\\"
     replace: "󱤽"
 
-  - trigger: ":nasa "
+  - trigger: "nasa\\"
     replace: "󱤾"
 
-  - trigger: ":nasin "
+  - trigger: "nasin\\"
     replace: "󱤿"
 
-  - trigger: ":nena "
+  - trigger: "nena\\"
     replace: "󱥀"
 
-  - trigger: ":ni "
+  - trigger: "ni\\"
     replace: "󱥁"
 
-  - trigger: ":nimi "
+  - trigger: "nimi\\"
     replace: "󱥂"
 
-  - trigger: ":noka "
+  - trigger: "noka\\"
     replace: "󱥃"
 
-  - trigger: ":o "
+  - trigger: "o\\"
     replace: "󱥄"
 
-  - trigger: ":olin "
+  - trigger: "olin\\"
     replace: "󱥅"
 
-  - trigger: ":ona "
+  - trigger: "ona\\"
     replace: "󱥆"
 
-  - trigger: ":open "
+  - trigger: "open\\"
     replace: "󱥇"
 
-  - trigger: ":pakala "
+  - trigger: "pakala\\"
     replace: "󱥈"
 
-  - trigger: ":pali "
+  - trigger: "pali\\"
     replace: "󱥉"
 
-  - trigger: ":palisa "
+  - trigger: "palisa\\"
     replace: "󱥊"
 
-  - trigger: ":pan "
+  - trigger: "pan\\"
     replace: "󱥋"
 
-  - trigger: ":pana "
+  - trigger: "pana\\"
     replace: "󱥌"
 
-  - trigger: ":pi "
+  - trigger: "pi\\"
     replace: "󱥍"
 
-  - trigger: ":pilin "
+  - trigger: "pilin\\"
     replace: "󱥎"
 
-  - trigger: ":pimeja "
+  - trigger: "pimeja\\"
     replace: "󱥏"
 
-  - trigger: ":pini "
+  - trigger: "pini\\"
     replace: "󱥐"
 
-  - trigger: ":pipi "
+  - trigger: "pipi\\"
     replace: "󱥑"
 
-  - trigger: ":poka "
+  - trigger: "poka\\"
     replace: "󱥒"
 
-  - trigger: ":poki "
+  - trigger: "poki\\"
     replace: "󱥓"
 
-  - trigger: ":pona "
+  - trigger: "pona\\"
     replace: "󱥔"
 
-  - trigger: ":pu "
+  - trigger: "pu\\"
     replace: "󱥕"
 
-  - trigger: ":sama "
+  - trigger: "sama\\"
     replace: "󱥖"
 
-  - trigger: ":seli "
+  - trigger: "seli\\"
     replace: "󱥗"
 
-  - trigger: ":selo "
+  - trigger: "selo\\"
     replace: "󱥘"
 
-  - trigger: ":seme "
+  - trigger: "seme\\"
     replace: "󱥙"
 
-  - trigger: ":sewi "
+  - trigger: "sewi\\"
     replace: "󱥚"
 
-  - trigger: ":sijelo "
+  - trigger: "sijelo\\"
     replace: "󱥛"
 
-  - trigger: ":sike "
+  - trigger: "sike\\"
     replace: "󱥜"
 
-  - trigger: ":sin "
+  - trigger: "sin\\"
     replace: "󱥝"
 
-  - trigger: ":sina "
+  - trigger: "sina\\"
     replace: "󱥞"
 
-  - trigger: ":sinpin "
+  - trigger: "sinpin\\"
     replace: "󱥟"
 
-  - trigger: ":sitelen "
+  - trigger: "sitelen\\"
     replace: "󱥠"
 
-  - trigger: ":sona "
+  - trigger: "sona\\"
     replace: "󱥡"
 
-  - trigger: ":soweli "
+  - trigger: "soweli\\"
     replace: "󱥢"
 
-  - trigger: ":suli "
+  - trigger: "suli\\"
     replace: "󱥣"
 
-  - trigger: ":suno "
+  - trigger: "suno\\"
     replace: "󱥤"
 
-  - trigger: ":supa "
+  - trigger: "supa\\"
     replace: "󱥥"
 
-  - trigger: ":suwi "
+  - trigger: "suwi\\"
     replace: "󱥦"
 
-  - trigger: ":tan "
+  - trigger: "tan\\"
     replace: "󱥧"
 
-  - trigger: ":taso "
+  - trigger: "taso\\"
     replace: "󱥨"
 
-  - trigger: ":tawa "
+  - trigger: "tawa\\"
     replace: "󱥩"
 
-  - trigger: ":telo "
+  - trigger: "telo\\"
     replace: "󱥪"
 
-  - trigger: ":tenpo "
+  - trigger: "tenpo\\"
     replace: "󱥫"
 
-  - trigger: ":toki "
+  - trigger: "toki\\"
     replace: "󱥬"
 
-  - trigger: ":tomo "
+  - trigger: "tomo\\"
     replace: "󱥭"
 
-  - trigger: ":tu "
+  - trigger: "tu\\"
     replace: "󱥮"
 
-  - trigger: ":unpa "
+  - trigger: "unpa\\"
     replace: "󱥯"
 
-  - trigger: ":uta "
+  - trigger: "uta\\"
     replace: "󱥰"
 
-  - trigger: ":utala "
+  - trigger: "utala\\"
     replace: "󱥱"
 
-  - trigger: ":walo "
+  - trigger: "walo\\"
     replace: "󱥲"
 
-  - trigger: ":wan "
+  - trigger: "wan\\"
     replace: "󱥳"
 
-  - trigger: ":waso "
+  - trigger: "waso\\"
     replace: "󱥴"
 
-  - trigger: ":wawa "
+  - trigger: "wawa\\"
     replace: "󱥵"
 
-  - trigger: ":weka "
+  - trigger: "weka\\"
     replace: "󱥶"
 
-  - trigger: ":wile "
+  - trigger: "wile\\"
     replace: "󱥷"
 
   # ku suli
-  - trigger: ":tonsi "
+  - trigger: "tonsi\\"
     replace: "󱥾"
 
-  - trigger: ":monsuta "
+  - trigger: "monsuta\\"
     replace: "󱥽"
 
-  - triggers: [":kije ", ":kijete ", ":kijetesantakalu "]
+  - triggers: ["kije\\", "kijete\\", "kijetesantakalu\\"]
     replace: "󱦀"
 
-  - trigger: ":leko "
+  - trigger: "leko\\"
     replace: "󱥼"
     
-  - trigger: ":kipisi "
+  - trigger: "kipisi\\"
     replace: "󱥻"
 
-  - trigger: ":apeja "
+  - trigger: "apeja\\"
     replace: "󱦡"
  
-  - trigger: ":jasima "
+  - trigger: "jasima\\"
     replace: "󱥿"
     
-  - triggers: [":oke ", ":oki ", ":ke "]
+  - triggers: ["oke\\", "oki\\", "ke\\"]
     replace: "󿫤"
 
-  - trigger: ":n "
+  - trigger: "n\\"
     replace: "󱦆"
   
-  - trigger: ":soko "
+  - trigger: "soko\\"
     replace: "󱦁"
 
-  - trigger: ":meso "
+  - trigger: "meso\\"
     replace: "󱦂"
 
-  - trigger: ":epiku "
+  - trigger: "epiku\\"
     replace: "󱦃"
 
-  - trigger: ":kokosila "
+  - trigger: "kokosila\\"
     replace: "󱦄"
 
-  - trigger: ":lanpan "
+  - trigger: "lanpan\\"
     replace: "󱦅"
 
-  - trigger: ":misikeke "
+  - trigger: "misikeke\\"
     replace: "󱦇"
 
-  - trigger: ":ku "
+  - trigger: "ku\\"
     replace: "󱦈"
 
-  - trigger: ":su "
+  - trigger: "su\\"
     replace: "󿬯"
 
   # (select) ku lili
-  - trigger: ":isipin "
+  - trigger: "isipin\\"
     replace: "󿫀"
 
-  - trigger: ":kapesi "
+  - trigger: "kapesi\\"
     replace: "󿫁"
 
-  - trigger: ":kiki "
+  - trigger: "kiki\\"
     replace: "󿫃"
 
-  - triggers: [":linluwi ", ":linuwi "]
+  - triggers: ["linluwi\\", "linuwi\\"]
     replace: "󿫄"
 
-  - trigger: ":mulapisu "
+  - trigger: "mulapisu\\"
     replace: "󿫈"
 
-  - trigger: ":pake "
+  - trigger: "pake\\"
     replace: "󱦠"
 
-  - trigger: ":Pingo "
+  - trigger: "Pingo\\"
     replace: "󿫽"
 
-  - trigger: ":powe "
+  - trigger: "powe\\"
     replace: "󱦣"
 
-  - trigger: ":unu "
+  - trigger: "unu\\"
     replace: "󿫊"
 
-  - trigger: ":wa "
+  - trigger: "wa\\"
     replace: "󿫋"
