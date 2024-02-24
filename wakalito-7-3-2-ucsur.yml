@@ -58,12 +58,12 @@ matches:
     replace: "󱦛" # ! changed to "end right-combining (reversed) long glyph"
     word: true 
 
-  #contractions
+  # contractions
   - trigger: "wd4"
     replace: "󱤴󱥡󱤂"
     word: true
     
-  #emoticons
+  # emoticons
   - triggers: ["a1", "ay", "at"]
     replace: ":)"
     word: true
@@ -80,7 +80,7 @@ matches:
     replace: ":v"
     word: true
 
-  #pu
+  # pu
   - triggers: ["we3", "w33"]
     replace: "󱤀"
     word: true
@@ -143,7 +143,6 @@ matches:
   - triggers: ["dw", "wd"]
     replace: "󱤎"
     word: true
-    
 
   - triggers: ["s33", "33s33"]
     replace: "󱤏"
@@ -577,7 +576,7 @@ matches:
     replace: "󱥷"
     word: true
 
-# ku suli
+  # ku suli
   - triggers: ["e22w", "ew22", "e2w2"]
     replace: "󱥾"
     word: true
@@ -646,8 +645,7 @@ matches:
     replace: "󿬯"
     word: true
 
-# (select) ku lili
-
+  # (select) ku lili
   - triggers: ["e22f", "fe22", "ef22"]
     replace: "󿫀"
     word: true
