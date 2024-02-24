@@ -128,7 +128,7 @@ Other features of the script are explained near the bottom of [nasin-nanpa's rel
 
 ### macOS
 
-jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support the 2022-05-20 version of UCSUR (download with ctrl+s). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
+jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
 
 ### Linux
 
@@ -232,7 +232,7 @@ nasin:
 | `󱦝` (":" sp colon)                         | `6y`                    |
 | `󱦜` ("·" sp dot)                           | `3`                     |
 | `󱦐` ("[" cartouche start)                  | `c1`                    |
-| `󱦑` ("]"cartouche end)                     | `c2`                    |
+| `󱦑` ("]" cartouche end)                    | `c2`                    |
 | `「` (cjk start quote)                      | `q1`                    |
 | `」` (cjk end quote)                        | `q2`                    |
 | `󱦗` ("(" start left-combining long glyph)  | `b1`                    |
