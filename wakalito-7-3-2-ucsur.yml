@@ -669,7 +669,7 @@ matches:
     word: true
 
   - triggers: ["w22", "22w"]
-    replace: "󿫄"
+    replace: "󱦠"
     word: true
 
   - trigger: "w21"
