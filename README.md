@@ -198,22 +198,26 @@ nasin:
 
 1. Install Espanso [here](https://espanso.org/install/)
 
-2. Download the [modified config file](./wakalito-7-3-2-ucsur.yml)
+2. Download a modified config file. There are two:
+
+    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur.yml) uses nasin Wakalito's triggers, and outputs UCSUR
+
+    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur-nimi.yml) uses toki pona word triggers with `:` as a starting character (e.g. `:meli`, `:kala`), and outputs UCSUR
 
 3. Copy or move the file to Espanso packages folder
 
-	  - Windows: `C:\Users\user\AppData\Roaming\espanso\match\packages`
+	  - Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
         - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`)
 	
-    - macOS: `/Users/user/Library/Preferences/espanso/match/packages`
+    - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
 	
-    - Linux: `/home/user/.config/espanso/match/packages`
+    - Linux: `/home/<user>/.config/espanso/match/packages`
 
 4. Start Espanso
 
 5. Start writing!
 
-    - A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with a few modifications listed below
+    - A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with a few modifications listed below. This is for the first config file, `wakalito-7-3-2-ucsur.yml`.
 
 #### Modifications
 
