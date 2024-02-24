@@ -1,7 +1,5 @@
 # sitelen pona UCSUR guide!!!
 
-o sitelen e sitelen pona lon ilo mute a!
-
 ## Render sitelen pona on most desktop applications!
 
 Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
@@ -120,8 +118,6 @@ Installing the font:
 
 Now that sitelen pona is rendering properly, we need to be able to type it!
 
-<!-- TODO: Talk abt nasin sitelen Wakalito (atleast in macOS and Linux) -->
-
 ### Windows
 
 If you use windows, there is an [Auto Hotkey Script](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/sitelen-pona-3.0.ahk) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/stl-pon-3.0.ahk) that uses 3 letter codes for each word instead of typing the whole word.
@@ -193,6 +189,50 @@ ibus-daemon -drxR
 9. pini a!
 
 </details>
+
+### nasin sitelen Wakalito
+
+*nasin Wakalito* is an input method for writing Toki pona words. It is available on macOS, Linux, and Windows using [Espanso](https://espanso.org/). By default, nasin Wakalito outputs words in sitelen Lasina. However, by using a modified config file, we can make it output UCSUR instead.
+
+nasin:
+
+1. Install Espanso [here](https://espanso.org/install/)
+
+2. Download the [modified config file](./wakalito-7-3-2-ucsur.yml)
+
+3. Copy or move the file to Espanso packages folder
+
+	  - Windows: `C:\Users\user\AppData\Roaming\espanso\match\packages`
+        - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`)
+	
+    - macOS: `/Users/user/Library/Preferences/espanso/match/packages`
+	
+    - Linux: `/home/user/.config/espanso/match/packages`
+
+4. Start Espanso
+
+5. Start writing!
+
+    - A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with a few modifications listed below
+
+#### Modifications
+
+| Character                                  | Keys on a QWERTY layout |
+| -------------------------------------------| ----------------------- |
+| `　` (fullwidth space)                     | `666`, `   ` (3 spaces) |
+| `‍` ("-" zero width joiner)                 | `aa`                    |
+| `󱦕` ("^" stacking joiner)                  | `gg`                    |
+| `󱦖` ("*" scaling joiner)                   | `hh`                    |
+| `󱦝` (":" sp colon)                         | `6y`                    |
+| `󱦜` ("·" sp dot)                           | `3`                     |
+| `󱦐` ("[" cartouche start)                  | `c1`                    |
+| `󱦑` ("]"cartouche end)                     | `c2`                    |
+| `「` (cjk start quote)                      | `q1`                    |
+| `」` (cjk end quote)                        | `q2`                    |
+| `󱦗` ("(" start left-combining long glyph)  | `b1`                    |
+| `󱦘` (")" end left-combining long glyph)    | `b2`                    |
+| `󱦚` ("{" start right-combining long glyph) | `d1`                    |
+| `󱦛` ("}" end left-combining long glyph)    | `d2`                    |
 
 ### Android
 
