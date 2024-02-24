@@ -174,7 +174,7 @@ matches:
     word: true
 
   - trigger: "22r"
-    replace: "󱤕"
+    replace: "󱤖"
     word: true
 
   - triggers: ["eew", "wee", "ewe"]
