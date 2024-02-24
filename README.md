@@ -1,5 +1,7 @@
 # sitelen pona UCSUR guide!!!
 
+o sitelen e sitelen pona lon ilo mute a!
+
 ## Render sitelen pona on most desktop applications!
 
 Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
