@@ -110,7 +110,7 @@ Installing the font:
 
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
-<!-- TODO: Add how this changes the OS's font & how to change it back to default -->
+<!-- TODO: Add how this changes the OS's font & how to change it back to default, if possible -->
 
 <!-- TODO: iOS? -->
 
@@ -190,9 +190,11 @@ ibus-daemon -drxR
 
 </details>
 
-### nasin sitelen Wakalito
+### nasin sitelen Wakalito / Espanso
 
-*nasin Wakalito* is an input method for writing Toki pona words. It is available on macOS, Linux, and Windows using [Espanso](https://espanso.org/). By default, nasin Wakalito outputs words in sitelen Lasina. However, by using a modified config file, we can make it output UCSUR instead.
+<!-- > I reccommend the above methods more than this one. -->
+
+*nasin Wakalito* is an input method for writing Toki pona words. It is available on macOS, Linux, and Windows using [Espanso](https://espanso.org/). By default, nasin Wakalito outputs words in sitelen Lasina. However, by using a modified config file, we can use it to output UCSUR instead.
 
 nasin:
 
