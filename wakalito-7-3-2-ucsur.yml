@@ -599,7 +599,7 @@ matches:
     word: true
 
   - triggers: ["eeer", "eere", "eree", "reee"]
-    replace: "apeja"
+    replace: "󱦡"
     word: true
  
   - triggers: ["5t5tw", "t5t5w", "wt5t5", "w5t5t"]
