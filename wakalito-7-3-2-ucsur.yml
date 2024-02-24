@@ -642,6 +642,10 @@ matches:
     replace: "󱦈"
     word: true
 
+  - triggers: ["ff2", "2ff", "f2f"]
+    replace: "󿬯"
+    word: true
+
 # (select) ku lili
 
   - triggers: ["e22f", "fe22", "ef22"]
