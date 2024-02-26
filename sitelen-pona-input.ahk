@@ -1,3 +1,5 @@
+; ahk script 3.2 from nasin-nanpa
+
 #EscapeChar \
 
 :*?:kijetesantakalu`::{U+F1980} ; 󱦀
@@ -146,9 +148,9 @@
 :*?:[`::{U+F1990} ; cartouche start
 :*?:]`::{U+F1991} ; cartouche end
 
-:*?:=`::{U+200D} ; default zero width joiner
-:*?:+`::{U+F1996} ; scaling joiner
-:*?:-`::{U+F1995} ; stacking joiner
+:*?:-`::{U+200D} ; default zero width joiner
+:*?:*`::{U+F1996} ; scaling joiner
+:*?:^`::{U+F1995} ; stacking joiner
 
 :*?:(`::{U+F1997} ; start left-combining (normal) long glyph
 :*?:)`::{U+F1998} ; end left-combining (normal) long glyph
