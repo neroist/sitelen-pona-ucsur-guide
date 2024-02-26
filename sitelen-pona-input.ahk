@@ -1,5 +1,3 @@
-; ahk script from nasin-nanpa
-
 #EscapeChar \
 
 :*?:kijetesantakalu`::{U+F1980} ; 󱦀
@@ -17,10 +15,12 @@
 :*?:sijelo`::{U+F195B} ; 󱥛
 :*?:sinpin`::{U+F195F} ; 󱥟
 :*?:soweli`::{U+F1962} ; 󱥢
+:*?:majuna`::{U+F19A2} ; 󱦢
 :*?:namako`::{U+F1978} ; 󱥸
 :*?:kipisi`::{U+F197B} ; 󱥻
 :*?:jasima`::{U+F197F} ; 󱥿
 :*?:akesi`::{U+F1901} ; 󱤁
+:*?:apeja`::{U+F19A1} ; 󱦡
 :*?:kiwen`::{U+F191B} ; 󱤛
 :*?:linja`::{U+F1929} ; 󱤩
 :*?:lukin`::{U+F192E} ; 󱤮
@@ -64,6 +64,7 @@
 :*?:noka`::{U+F1943} ; 󱥃
 :*?:olin`::{U+F1945} ; 󱥅
 :*?:open`::{U+F1947} ; 󱥇
+:*?:pake`::{U+F19A0} ; 󱦠
 :*?:pali`::{U+F1949} ; 󱥉
 :*?:pana`::{U+F194C} ; 󱥌
 :*?:pini`::{U+F1950} ; 󱥐
@@ -71,6 +72,7 @@
 :*?:poka`::{U+F1952} ; 󱥒
 :*?:poki`::{U+F1953} ; 󱥓
 :*?:pona`::{U+F1954} ; 󱥔
+:*?:powe`::{U+F19A3} ; 󱦣
 :*?:sama`::{U+F1956} ; 󱥖
 :*?:seli`::{U+F1957} ; 󱥗
 :*?:selo`::{U+F1958} ; 󱥘
@@ -143,11 +145,10 @@
 
 :*?:[`::{U+F1990} ; cartouche start
 :*?:]`::{U+F1991} ; cartouche end
-:*?:=`::{U+F1992} ; cartouche extender
 
-:*?:-`::{U+200D} ; default zero width joiner
-:*?:^`::{U+F1995} ; stacking joiner
-:*?:*?`::{U+F1996} ; scaling joiner
+:*?:=`::{U+200D} ; default zero width joiner
+:*?:+`::{U+F1996} ; scaling joiner
+:*?:-`::{U+F1995} ; stacking joiner
 
 :*?:(`::{U+F1997} ; start left-combining (normal) long glyph
 :*?:)`::{U+F1998} ; end left-combining (normal) long glyph
