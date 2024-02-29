@@ -61,20 +61,9 @@ To patch your Discord to correctly render sitelen pona on desktop, we will use t
 
 First go to go to Settings, then scroll down to "Vencord", click "Themes", and press "Edit QuickCSS"
 
-Paste this snippet of code into the text box. (No need to worry about security! CSS can only change visual aspects of Discord, and cannot steal your login token or act on your behalf)
+Paste the [sitelen-pona.css](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.css) file into the text box (click the link, then press <kbd>Ctrl</kbd> + <kbd>A</kbd> then <kbd>Ctrl</kbd> + <kbd>C</kbd>. Then, paste the text into the text box.) Remember to remove the `@-moz-document domain("discord.com") {` line from the code!
 
-```CSS
-:root {
-  --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
-  --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
-  --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
-  --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
-}
-```
-
-Once you have pasted this code into the QuickCSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
-
-<!-- > Note: If `sitelen seli kiwen mono juniko` doesnt work for you, try using `sitelen seli kiwen mono juniko meso` instead (in the CSS, replace all occurrences of it with this new text). -->
+Once you have pasted the code into the QuickCSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
 
 ### Browser
 
