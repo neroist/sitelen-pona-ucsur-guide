@@ -1,104 +1,105 @@
 /* ==UserStyle==
 @name         sitelen pona o lon lipu Siko a
-@version      20240223.07.48
+@version      20240229.01.13
 @namespace    userstyles.world/user/neroist
+@homepageURL  https://github.com/neroist/sitelen-pona-ucsur-guide
+@supportURL   https://github.com/neroist/sitelen-pona-ucsur-guide/issues
 @description  Enables the viewing of UCSUR sitelen pona in Discord.
-@author       neroist
-@license      No License
+@author       neroist <niko@linluwi.la> [https://github.com/neroist]
+@license      CC0-1.0
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-    :root {
-      /* set sitelen pona font vars */
-      --font-sp-mono: 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
-  
-      --font-sp: var(--font-sp-mono), 'sitelen seli kiwen juniko', 'sitelen seli kiwen juniko meso';
-  
-      /* set discord fonts */
-      --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-                  'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
-                  var(--font-sp-mono);
-    }
-  
-    :root:lang(el),
-    :root:lang(ru),
-    :root:lang(uk),
-    :root:lang(bg) {
-      --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-headline: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-                   'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
-                   var(--font-sp-mono);
-    }
-  
-    :root:lang(ko) {
-      --font-primary: 'gg sans', 'Apple SD Gothic Neo', NanumBarunGothic, '맑은 고딕', 'Malgun Gothic', Gulim, 굴림, Dotum,
-                      돋움, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-display: 'gg sans', 'Apple SD Gothic Neo', NanumBarunGothic, '맑은 고딕', 'Malgun Gothic', Gulim, 굴림, Dotum,
-                      돋움, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-headline: 'ABC Ginto Nord', 'Apple SD Gothic Neo', NanumBarunGothic, '맑은 고딕', 'Malgun Gothic', Gulim, 굴림,
-                       Dotum, 돋움, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-                   'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
-                   var(--font-sp-mono);
-    }
-  
-    :root:lang(ja) {
-      --font-primary: 'gg sans', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,
-                      Osaka, 'MS PGothic', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-display: 'gg sans', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,
-                      Osaka, 'MS PGothic', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-headline: 'ABC Ginto Nord', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ,
-                       Meiryo, Osaka, 'MS PGothic', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-                   'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
-                   var(--font-sp-mono);
-    }
-  
-    :root:lang(zh-CN) {
-      --font-primary: 'gg sans', 'Microsoft YaHei New', 微软雅黑, 'Microsoft Yahei', 'Microsoft JhengHei', 宋体, SimSun,
-                      'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-display: 'gg sans', 'Microsoft YaHei New', 微软雅黑, 'Microsoft Yahei', 'Microsoft JhengHei', 宋体, SimSun,
-                      'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-headline: 'ABC Ginto Nord', 'Microsoft YaHei New', 微软雅黑, 'Microsoft Yahei', 'Microsoft JhengHei', 宋体,
-                       SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-                   'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
-                   var(--font-sp-mono);
-    }
-  
-    :root:lang(zh-TW) {
-      --font-primary: 'gg sans', 'Microsoft JhengHei', 微軟正黑體, 'Microsoft JhengHei UI', 'Microsoft YaHei', 微軟雅黑,
-                      宋体, SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-display: 'gg sans', 'Microsoft JhengHei', 微軟正黑體, 'Microsoft JhengHei UI', 'Microsoft YaHei', 微軟雅黑,
-                      宋体, SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-headline: 'ABC Ginto Nord', 'Microsoft JhengHei', 微軟正黑體, 'Microsoft JhengHei UI', 'Microsoft YaHei',
-                       微軟雅黑, 宋体, SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
-      
-      --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
-                   'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
-                   var(--font-sp-mono);
-    }
+  :root {
+    /* set sitelen pona font vars */
+    --font-sp-mono: 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
+
+    --font-sp: var(--font-sp-mono), 'sitelen seli kiwen juniko', 'sitelen seli kiwen juniko meso';
+
+    /* set discord fonts */
+    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+                'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+                var(--font-sp-mono);
   }
-  
+
+  :root:lang(el),
+  :root:lang(ru),
+  :root:lang(uk),
+  :root:lang(bg) {
+    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-headline: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+                 var(--font-sp-mono);
+  }
+
+  :root:lang(ko) {
+    --font-primary: 'gg sans', 'Apple SD Gothic Neo', NanumBarunGothic, '맑은 고딕', 'Malgun Gothic', Gulim, 굴림, Dotum,
+                    돋움, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-display: 'gg sans', 'Apple SD Gothic Neo', NanumBarunGothic, '맑은 고딕', 'Malgun Gothic', Gulim, 굴림, Dotum,
+                    돋움, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-headline: 'ABC Ginto Nord', 'Apple SD Gothic Neo', NanumBarunGothic, '맑은 고딕', 'Malgun Gothic', Gulim, 굴림,
+                     Dotum, 돋움, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+                 var(--font-sp-mono);
+  }
+
+  :root:lang(ja) {
+    --font-primary: 'gg sans', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,
+                    Osaka, 'MS PGothic', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-display: 'gg sans', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,
+                    Osaka, 'MS PGothic', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-headline: 'ABC Ginto Nord', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ,
+                     Meiryo, Osaka, 'MS PGothic', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+                 var(--font-sp-mono);
+  }
+
+  :root:lang(zh-CN) {
+    --font-primary: 'gg sans', 'Microsoft YaHei New', 微软雅黑, 'Microsoft Yahei', 'Microsoft JhengHei', 宋体, SimSun,
+                    'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-display: 'gg sans', 'Microsoft YaHei New', 微软雅黑, 'Microsoft Yahei', 'Microsoft JhengHei', 宋体, SimSun,
+                    'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-headline: 'ABC Ginto Nord', 'Microsoft YaHei New', 微软雅黑, 'Microsoft Yahei', 'Microsoft JhengHei', 宋体,
+                     SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+                 var(--font-sp-mono);
+  }
+
+  :root:lang(zh-TW) {
+    --font-primary: 'gg sans', 'Microsoft JhengHei', 微軟正黑體, 'Microsoft JhengHei UI', 'Microsoft YaHei', 微軟雅黑,
+                    宋体, SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-display: 'gg sans', 'Microsoft JhengHei', 微軟正黑體, 'Microsoft JhengHei UI', 'Microsoft YaHei', 微軟雅黑,
+                    宋体, SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-headline: 'ABC Ginto Nord', 'Microsoft JhengHei', 微軟正黑體, 'Microsoft JhengHei UI', 'Microsoft YaHei',
+                     微軟雅黑, 宋体, SimSun, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, var(--font-sp);
+    
+    --font-code: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace,
+                 var(--font-sp-mono);
+  }
+}
