@@ -196,7 +196,7 @@ ibus-daemon -drxR
 
 </details>
 
-### nasin sitelen Wakalito / Espanso
+### Espanso / nasin sitelen Wakalito
 
 <!-- > I reccommend the above methods more than this one. -->
 
