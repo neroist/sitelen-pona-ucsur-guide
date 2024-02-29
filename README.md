@@ -200,17 +200,19 @@ ibus-daemon -drxR
 
 <!-- > I reccommend the above methods more than this one. -->
 
-*nasin Wakalito* is an input method for writing Toki pona words. It is available on macOS, Linux, and Windows using [Espanso](https://espanso.org/). By default, nasin Wakalito outputs words in sitelen Lasina. However, by using a modified config file, we can use it to output UCSUR instead.
+*nasin Wakalito* is an input method for writing Toki pona words. It is available on macOS, Linux, and Windows using [Espanso](https://espanso.org/). By default, nasin Wakalito outputs words in sitelen Lasina. However, by using a modified config file, we can output UCSUR instead.
+
+In addition, if you just need/want to use Espanso and don't like the triggers in nasin Wakalito, there is also a config file for that ([`sitelen-pona-espanso.yml`](./sitelen-pona-espanso.yml)).
 
 nasin:
 
 1. Install Espanso [here](https://espanso.org/install/)
 
-2. Download a modified config file. There are two:
+2. Download a config file. There are two:
 
     - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur.yml) uses nasin Wakalito's triggers, and outputs UCSUR
 
-    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur-nimi.yml) uses toki pona word triggers with `\` as en ending character (e.g. `meli\`, `kala`\), and outputs UCSUR
+    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona-espanso.yml) uses toki pona word triggers with `\` as en ending character (e.g. `meli\`, `kala\`), and outputs UCSUR
 
 3. Copy or move the file to Espanso packages folder
 
