@@ -275,5 +275,5 @@ thank you to
 - ijo `@Qwerty-Space` (lon lipu github)
 - ijo `@ReveredOxygen`
 
-sina ale li pona wawa a li pana sona pona anu pali pona a (anu ni tu a a)
+sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
 
