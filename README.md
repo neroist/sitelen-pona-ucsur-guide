@@ -14,7 +14,7 @@ The current recomended fonts for sitelen pona are:
 
   ![an image preview of fairfax hd](./images/fairfaxhd.png)
   
-  This font supports the latest (2024-02-20) version of UCSUR. It looks a bit nasa, however it is mostly readable.
+  This font supports the latest (2024-02-20) version of UCSUR. It *does not* look a bit nasa, however it is mostly readable.
 
 - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
 
