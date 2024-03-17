@@ -4,39 +4,51 @@ o sitelen e sitelen pona lon ilo mute a!
 
 ## Render sitelen pona on most desktop applications!
 
-Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
+sitelen pona li kama lon nasin USCUR lon tenpo pini la sina kama ken lukin a e sitelen pona lon ilo sina. ilo mute la o pana e nasin nanpa anu sitelen seli kiwen anu sama tawa ilo la sina kama ken lukin a! taso a ~~nasa li lon nasin ni~~. kin la sina wile kama e sitelen la ilo li wile tawa ni. 
 
-# Fonts
+lipu ni li lukin pana e sona ni ->
 
-The current recomended fonts for sitelen pona are:
+nasin seme la mi ken kama e sitelen pona e ken lukin lon ilo mi?
 
-- [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
+### o awen e sona ni
+
+mi niko
+
+# linja mute
+
+linja ni li ken kepeken tawa sitelen pona:
+
+- [linja Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
 
   ![an image preview of fairfax hd](./images/fairfaxhd.png)
   
-  This font supports the latest (2024-02-20) version of UCSUR. It *does not* look a bit nasa, however it is mostly readable.
+  sitelen mute mute a li lon linja ni (pu + ku [+ su?] + nimi sin mute). ona li ike ala li nasa ala a tawa lukin
 
 - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
 
   ![an image preview of nasin nanpa](./images/nasin-nanpa.png)
   
-  This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2024-02-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+  jan wawa Itan li mama li pali e nasin ni! ona li pona a! kin la jan Sonja li kepeken ona lon [*su*](https://www.amazon.com/dp/0978292375)!
 
 - [sitelen seli kiwen juniko (mono)](https://www.kreativekorp.com/software/fonts/sitelenselikiwen)
     
   ![an image preview of sitelen seli kiwen](./images/sitelenselikiwen.png)
     
-  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommened for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
+  sitelen seli kiwen juniko li linja li tan jan Lepeka. linja ni li suwi nanpa wan a tawa niko. ona li tu a. wan (sitelen seli kiwen juniko mono) la sitelen ale li suli sama, ante (sitelen seli kiwen juniko) la suli sitelen li ken suli a anu lili. sitelen pona la sitelen linja li suli sama la pona a. ni li ken a e nasin pona tawa sitelen e lukin pona. linja tu ante sewi la sitelen ale li suli sama. 
+  
+  sitelen CSS li lon anpa li kepeken ona pona (sitelen seli kiwen juniko mono)
 
-If you are unsure of which font to pick, I would recommend nasin nanpa.
+sina sona ala e linja wile la o kepeken **nasin nanpa**
 
 Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord. 
 
-## Discord
+## ilo Siko
 
 Because internally the Discord application relies on Electron, it does not fall back to the font you installed when sitelen pona glyphs are present, instead displaying these frustrating little squares. To fix this, one option is to install a fake *Helvetica Neue* font, which will allow sitelen pona to render wherever Helvetica Neue is used, which includes Discord!
 
-Another option is to modify your Discord. Currently, this modification is possible on all Desktop systems. **This option is dangerous, violates Discord TOS, and may result in your account being banned.**
+Another option is to modify your Discord. Currently, this modification is possible on all Desktop systems. 
+
+**This option is dangerous, violates Discord TOS, and may result in your account being banned.**
 
 ### Font
 
@@ -51,7 +63,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 - Cownload the above font
 - Copy the file to `~/.local/share/fonts/`
 
-This method does not work on macOS or mobile devices. 
+ilo macOS en ilo luka la nasin ni li pali ala 
 
 ### Desktop
 
