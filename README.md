@@ -20,7 +20,7 @@ The current recomended fonts for sitelen pona are:
 
   ![an image preview of nasin nanpa](./images/nasin-nanpa.png)
   
-  This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2024-02-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!.
+  This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2024-02-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!
 
 - [sitelen seli kiwen juniko (mono)](https://www.kreativekorp.com/software/fonts/sitelenselikiwen)
     
@@ -48,7 +48,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 
 **For Linux,**
 
-- Cownload the above font
+- Download the above font
 - Copy the file to `~/.local/share/fonts/`
 
 This method does not work on macOS or mobile devices. 
