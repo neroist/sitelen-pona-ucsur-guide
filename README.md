@@ -274,6 +274,7 @@ thank you to
 - jan Semu
 - ijo `@Qwerty-Space` (lon lipu github)
 - ijo `@ReveredOxygen`
+- kulupu katu
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
 
