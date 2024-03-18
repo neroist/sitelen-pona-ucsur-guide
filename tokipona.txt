@@ -33,11 +33,6 @@ SYMBOL = 󱥬
 ### The default name of this table, this is needed
 NAME = sitelen pona
 
-### The local names of this table, this is optional
-### NAME.zh_CN = 形码
-### NAME.zh_HK = 形碼
-### NAME.zh_TW = 形碼
-
 ### Description
 DESCRIPTION = sitelen pona input method for IBus
 
@@ -131,8 +126,10 @@ END_DEFINITION
 ### or phrase.
 BEGIN_TABLE
 a	󱤀	1
+aa	󱤀	1
 akesi	󱤁	1
 ala	󱤂	1
+alaa	󱤂	1
 alasa	󱤃	1
 ale	󱤄	1
 anpa	󱤅	1
@@ -140,6 +137,7 @@ ante	󱤆	1
 anu	󱤇	1
 awen	󱤈	1
 e	󱤉	1
+ee	󱤉	1
 en	󱤊	1
 esun	󱤋	1
 ijo	󱤌	1
@@ -164,12 +162,14 @@ kule	󱤞	1
 kulupu	󱤟	1
 kute	󱤠	1
 la	󱤡	1
+laa	󱤡	1
 lape	󱤢	1
 laso	󱤣	1
 lawa	󱤤	1
 len	󱤥	1
 lete	󱤦	1
 li	󱤧	1
+lii	󱤧	1
 lili	󱤨	1
 linja	󱤩	1
 lipu	󱤪	1
@@ -183,11 +183,13 @@ mama	󱤱	1
 mani	󱤲	1
 meli	󱤳	1
 mi	󱤴	1
+mii	󱤴	1
 mije	󱤵	1
 moku	󱤶	1
 moli	󱤷	1
 monsi	󱤸	1
 mu	󱤹	1
+muu	󱤹	1
 mun	󱤺	1
 musi	󱤻	1
 mute	󱤼	1
@@ -196,9 +198,11 @@ nasa	󱤾	1
 nasin	󱤿	1
 nena	󱥀	1
 ni	󱥁	1
+nii	󱥁	1
 nimi	󱥂	1
 noka	󱥃	1
 o	󱥄	1
+oo	󱥄	1
 olin	󱥅	1
 ona	󱥆	1
 open	󱥇	1
@@ -208,6 +212,7 @@ palisa	󱥊	1
 pan	󱥋	1
 pana	󱥌	1
 pi	󱥍	1
+pii	󱥍	1
 pilin	󱥎	1
 pimeja	󱥏	1
 pini	󱥐	1
@@ -224,6 +229,7 @@ sewi	󱥚	1
 sijelo	󱥛	1
 sike	󱥜	1
 sin	󱥝	1
+sinn	󱥝	1
 sina	󱥞	1
 sinpin	󱥟	1
 sitelen	󱥠	1
@@ -265,6 +271,7 @@ epiku	󱦃	1
 kokosila	󱦄	1
 lanpan	󱦅	1
 n	󱦆	1
+nn	󱦆	1
 misikeke	󱦇	1
 ku	󱦈	1
 pake	󱦠	1
@@ -284,5 +291,9 @@ su	󿬯	1
 {	󱦚	1
 }	󱦛	1
 -	󱦖	1
++	󱦕	1
 ^	󱦕	1
-END_TABlE
+<	「	1
+>	」	1
+END_TABLE
+
