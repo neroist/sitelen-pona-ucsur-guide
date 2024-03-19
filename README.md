@@ -101,8 +101,6 @@ Installing the font:
 
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
-<!-- TODO: Add how this changes the OS's font & how to change it back to default, if possible -->
-
 <!-- TODO: iOS? -->
 
 ## Input
@@ -115,11 +113,11 @@ There are two input methods for Windows: nasin Ajemi and nasin AHK
 
 You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it. 
 
-For nasin AHK, there is an [Auto Hotkey Script](https://raw.githubusercontent.com/ETBCOR/nasin-nanpa/main/ahk-script/sitelen-pona-4.0.ahk) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](https://raw.githubusercontent.com/ETBCOR/nasin-nanpa/main/ahk-script/stl-pon-4.0.ahk) that uses 3 letter codes for each word instead of typing the whole word.
+For nasin AHK, there is an [Auto Hotkey Script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-script/sitelen-pona-4.0.ahk) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-script/stl-pon-4.0.ahk) that uses 3 letter codes for each word instead of typing the whole word.
 
 For this of this to work, you need to have [Auto Hotkey](https://www.autohotkey.com/) installed.
 
-Other features of the script are explained near the bottom of [nasin-nanpa's releases page](https://github.com/ETBCOR/nasin-nanpa/releases/tag/n2.5.1).
+Other features of the script are explained in [this README file](https://github.com/neroist/sitelen-pona-ucsur-guide/blob/main/ahk-scipts/README.md).
 
 ### macOS
 
@@ -127,16 +125,14 @@ jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubuserc
 
 ### Linux
 
-<!-- TODO: Test this... tenpo lon la mi kepeken ilo sama tawa sitelen · taso ilo ibus ala -->
-
 The ~~only~~ (nasin sitelen Wakalito li lon · ilo ante kin li lon) current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
 
 > During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
 
-jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
+jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ibus-tables/sitelen-pona-4.0.ibus-table) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
 
 ```bash
-sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s tokipona.txt
+sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s sitelen-pona-4.0.ibus-table
 ibus-daemon -drxR
 ```
 
@@ -146,7 +142,7 @@ Once you have done this, open the ibus preferences (you can do this with the `ib
 
 Finally, if necessary, go to your keyboard settings in your settings application and add a "sitelen pona" input source (the name should be "English (sitelen pona)").
 
-This should result in a new tray icon which indicates which input source you're using — English or sitelen pona. Which keybinding which allows you to switch input sources may depend on your distro. However, on Pop!_OS it is <kbd>Super</kbd> + <kbd>Space</kbd>
+This should result in a new tray icon which indicates which input source you're using—English or sitelen pona. Which keybinding which allows you to switch input sources may depend on your distro. However, on Pop!_OS it is <kbd>Super</kbd> + <kbd>Space</kbd>
 
 <details>
 <summary>
@@ -157,14 +153,14 @@ This should result in a new tray icon which indicates which input source you're 
 
     - For Ubuntu, do not install the `ibus-qt4` package
 
-2. Download the ibus input table [here](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/tokipona.txt).
+2. Download the ibus input table [here](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ibus-tables/sitelen-pona-4.0.ibus-table).
 
 3. Copy the file to a chosen directory and open a terminal in the directory
 
 4. Run these two commands:
 
 ```bash
-sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s tokipona.txt
+sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s ibus-tables/sitelen-pona-4.0.ibus-table
 ```
 
 ```bash
@@ -275,6 +271,7 @@ thank you to
 - ijo `@Qwerty-Space` (lon lipu github)
 - ijo `@ReveredOxygen`
 - kulupu katu
+- kule Piton
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
 
