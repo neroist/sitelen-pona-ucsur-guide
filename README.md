@@ -113,11 +113,11 @@ There are two input methods for Windows: nasin Ajemi and nasin AHK
 
 You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it. 
 
-For nasin AHK, there is an [Auto Hotkey Script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-script/sitelen-pona-4.0.ahk) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-script/stl-pon-4.0.ahk) that uses 3 letter codes for each word instead of typing the whole word.
+For nasin AHK, there is an [Auto Hotkey Script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-scripts/sitelen-pona-4.0.ahk) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-scripts/stl-pon-4.0.ahk) that uses 3 letter codes for each word instead of typing the whole word.
 
 For this of this to work, you need to have [Auto Hotkey](https://www.autohotkey.com/) installed.
 
-Other features of the script are explained in [this README file](https://github.com/neroist/sitelen-pona-ucsur-guide/blob/main/ahk-scipts/README.md).
+Other features of the script are explained in [this README file](https://github.com/neroist/sitelen-pona-ucsur-guide/blob/main/ahk-scripts/README.md).
 
 ### macOS
 
