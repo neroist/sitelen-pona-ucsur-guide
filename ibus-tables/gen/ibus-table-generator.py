@@ -7,7 +7,7 @@ import datetime
 
 now = datetime.datetime.now().strftime("%Y%m%d")
 
-# taken and modified from here: https://github.com/Id405/sitelen-pona-ucsur-guide/blob/bc3bbfb820c438bcc54152f7bbf1b3a3dafc21e1/tokipona.txt
+# taken and modified from here: https://github.com/neroist/sitelen-pona-ucsur-guide/blob/bc3bbfb820c438bcc54152f7bbf1b3a3dafc21e1/tokipona.txt
 # created by jan Komi and edited by niko, jan Kekan San, @Querty-Space and kule Piton
 def gen_table(needed_input_chars, file_name):
     table_id = str(uuid.uuid4())
