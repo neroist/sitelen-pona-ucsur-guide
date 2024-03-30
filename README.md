@@ -61,9 +61,13 @@ To patch your Discord to correctly render sitelen pona on desktop, we will use t
 
 First go to go to Settings, then scroll down to "Vencord", click "Themes", and then "Online Themes"
 
-Paste this link to the `sitelen-pona.css` file into the text box: https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.css
+Paste this link into the text box:
 
-If the "Validator" section below shows that the theme is valid, you can now exit settings, your Discord should be properly set up to render sitelen pona!
+```
+https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.css
+```
+
+If the "Validator" section below shows that the theme is valid, you can now exit settings, and your Discord should be properly set up to render sitelen pona!
 
 ### Browser
 
