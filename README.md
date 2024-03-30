@@ -276,7 +276,7 @@ thank you to
 - ijo `@ReveredOxygen`
 - kulupu katu
 - kule Piton
-- @gustav-langer
+- ijo `@gustav-langer`
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
 
