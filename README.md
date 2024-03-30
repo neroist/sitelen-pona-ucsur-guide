@@ -59,11 +59,15 @@ This method does not work on macOS or mobile devices.
 
 To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, this is a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
 
-First go to go to Settings, then scroll down to "Vencord", click "Themes", and press "Edit QuickCSS"
+First go to go to Settings, then scroll down to "Vencord", click "Themes", then "Online Themes"
 
-Paste the [sitelen-pona.css](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.css) file into the text box (click the link, then press <kbd>Ctrl</kbd> + <kbd>A</kbd> then <kbd>Ctrl</kbd> + <kbd>C</kbd>. Then, paste the text into the text box.) Remember to remove the `@-moz-document domain("discord.com") {` line from the code!
+Paste this link into the text box:
 
-Once you have pasted the code into the QuickCSS box, you can now exit settings, your Discord should be properly set up to render sitelen pona!
+```
+https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.css
+```
+
+If the "Validator" section below shows that the theme is valid, you can now exit settings, and your Discord should be properly set up to render sitelen pona!
 
 ### Browser
 
