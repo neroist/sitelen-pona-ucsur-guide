@@ -1,14 +1,9 @@
-/* ==UserStyle==
-@name         sitelen pona o lon lipu Siko a
-@version      20240229.01.13
-@namespace    userstyles.world/user/neroist
-@homepageURL  https://github.com/neroist/sitelen-pona-ucsur-guide
-@supportURL   https://github.com/neroist/sitelen-pona-ucsur-guide/issues
-@description  Enables the viewing of UCSUR sitelen pona in Discord.
-@author       neroist <niko@linluwi.la> [https://github.com/neroist]
-@license      CC0-1.0
-==/UserStyle== */
-
+/**
+* @name         sitelen pona o lon lipu Siko a
+* @version      2024.04.01
+* @description  Enables the viewing of UCSUR sitelen pona in Discord.
+* @author       neroist (@usawiniko)
+**/
 
 :root {
   /* set sitelen pona font vars */
