@@ -163,7 +163,7 @@ def process(f, filename):
             continue
 
         key = line[0].strip().replace('`', '').replace('=', '*')
-        
+
         for c in key:
             needed_input_chars.add(c)
 
@@ -187,11 +187,11 @@ def process(f, filename):
 
     output_dir = os.path.join("ibus-tables", new_file)
 
-    with open(output_dir, 'w') as f:
+    with open(output_dir, 'w', encoding="utf8") as f:
         print(f'mi kama e lipu sin {new_file}')
 
         f.write(gen_table(needed_input_chars, filename))
-        
+
         for item in table:
             f.write(f'{item[0]}\t{item[1]}\t1\n')
 
@@ -212,7 +212,7 @@ def main():
 
             print(f'mi jo e lipu {filename}')
 
-            with open(os.path.join(ahk_dir, filename), 'r') as f:
+            with open(os.path.join(ahk_dir, filename), 'r', encoding="utf8") as f:
                 process(f, filename)
 
 if __name__ == '__main__':
