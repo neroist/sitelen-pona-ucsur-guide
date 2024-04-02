@@ -57,14 +57,30 @@ This method does not work on macOS or mobile devices.
 
 **⚠️⚠️⚠️ THIS VIOLATES DISCORD'S TOS. O SONA A ⚠️⚠️⚠️**
 
-To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, this is a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
+
+<details>
+<summary><b>If you use BetterDiscord...</b></summary>
+
+1. Download the sitelen pona theme: <https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.theme.css>
+
+2. In Discord, go to your BetterDiscord settings and select the `Themes` tab.
+
+3. At the top click the "Open themes Folder" button (either as a large blue button or the small folder icon near the top)
+
+4. Move the file you downloaded into this folder.
+
+5. Go back to your `Themes` page and enable the theme.
+
+</details>
+
+To patch your Discord to correctly render sitelen pona on desktop, we will use the [Vencord client modification](https://vencord.dev/). Start by following the installation guide on their website to install it. After installing Vencord we need to add a CSS snippet, a small snippet of code that tells Vencord to use Fairfax HD or nasin nanpa when sitelen pona is present.
 
 First go to go to Settings, then scroll down to "Vencord", click "Themes", then "Online Themes"
 
 Paste this link into the text box:
 
 ```
-https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.css
+https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/sitelen-pona.theme.css
 ```
 
 If the "Validator" section below shows that the theme is valid, you can now exit settings, and your Discord should be properly set up to render sitelen pona!
@@ -276,6 +292,7 @@ thank you to
 - ijo `@ReveredOxygen`
 - kulupu katu
 - kule Piton
+- ijo `@gustav-langer`
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
 
