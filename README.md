@@ -241,11 +241,11 @@ nasin:
 
     - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur.yml) uses nasin Wakalito's triggers, and outputs UCSUR
 
-    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona-espanso.yml) uses toki pona word triggers with `\` as en ending character (e.g. `meli\`, `kala\`), and outputs UCSUR
+    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona-espanso.yml) uses toki pona word triggers and outputs UCSUR
 
 3. Copy or move the file to Espanso packages folder
 
-	  - Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
+	- Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
         - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`)
 	
     - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
@@ -264,24 +264,24 @@ nasin:
 | -------------------------------------------| ----------------------- |
 | `　` (fullwidth space)                     | `666`, `   ` (3 spaces) |
 | `‍` ("-" zero width joiner)                 | `aa`                    |
-| `󱦕` ("^" stacking joiner)                  | `gg`                    |
-| `󱦖` ("*" scaling joiner)                   | `hh`                    |
+| `󱦕` ("^" stacking joiner)                   | `gg`                    |
+| `󱦖` ("*" scaling joiner)                    | `hh`                    |
 | `󱦝` (":" sp colon)                         | `6y`                    |
 | `󱦜` ("·" sp dot)                           | `3`                     |
 | `󱦐` ("[" cartouche start)                  | `c1`                    |
 | `󱦑` ("]" cartouche end)                    | `c2`                    |
-| `「` (cjk start quote)                      | `q1`                    |
-| `」` (cjk end quote)                        | `q2`                    |
-| `󱦗` ("(" start left-combining long glyph)  | `b1`                    |
-| `󱦘` (")" end left-combining long glyph)    | `b2`                    |
-| `󱦚` ("{" start right-combining long glyph) | `d1`                    |
-| `󱦛` ("}" end left-combining long glyph)    | `d2`                    |
+| `「` (cjk start quote)                     | `q1`                    |
+| `」` (cjk end quote)                       | `q2`                    |
+| `󱦗` ("(" start left-combining long glyph)   | `b1`                    |
+| `󱦘` (")" end left-combining long glyph)     | `b2`                    |
+| `󱦚` ("{" start right-combining long glyph)  | `d1`                    |
+| `󱦛` ("}" end left-combining long glyph)     | `d2`                    |
 
 ### Android
 
 Two input engines for android exist:
 
-- [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar Y better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
+- [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar anu better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
  
     - When trying to install the APK, if you get an error that you cannot due to "package conflicts," delete the other Toki Pona Keyboard app and try again.
 
