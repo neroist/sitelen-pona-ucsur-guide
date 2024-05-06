@@ -44,7 +44,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 
 **For Windows,**
 
-- Download and install [this font](./nasin-nanpa-patched.otf)
+- Download and install [this font](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-Helvetica.otf)
 
 **For Linux,**
 
@@ -95,11 +95,9 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 ### Android
 
-> I do not own an Android phone, so I cannot give an accurate guide on this section (maybe somebody fill this in with a pull request), however kulupu Mimuki (`@.mouseless`) has put together an [excellent video guide](https://cdn.discordapp.com/attachments/882652782509846548/943688987070062612/YouCut_20220217_121644150.mp4) for achieving this with [Aliucord](https://github.com/Aliucord/Aliucord).
+[This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
 
-*\~ the previous text here, tan jan Lili*
-
-There used to be a video guide for viewing sitelen pona in [Aliucord](https://github.com/Aliucord/Aliucord) by kulupu Mimuki. However, the video link is now dead, nor have I been able to get sitelen pona working in Aliucord. But [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) is a wonderful guide on how to get UCSUR sitelen pona on Android. Regarding viewing sitelen pona, here are the listed steps:
+> :warning: **note**: this changes the system font to something else, if you want to only view sitelen pona on Discord please use Aliucord (the next section)
 
 Installing the font:
 
@@ -122,6 +120,32 @@ Installing the font:
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
 <!-- TODO: iOS? -->
+
+### Aliucord
+
+> jan Nasaka (`@harger` lon ilo Siko) li pana e sona ni tawa mi. ona li pona mute a! :)
+
+With the release of nasin-nanpa 4.0, there is now a "UCSUR-only" version of the font. This
+means that we can safely use it without it doing any \~weird stuff\~ to english text.
+
+1. Install Aliucord from its [Github page](https://github.com/Aliucord/Aliucord#)
+    * Please follow the [installation instructions](https://github.com/Aliucord/Aliucord?tab=readme-ov-file#-installation) in the readme
+
+2. Install the Themer plugin, which will allow you to change Aliucord's font
+    * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord. 
+
+3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Themer</kbd>  (scroll down) -> <kbd>New Theme</kbd>.
+
+4. Enter the name for your new theme, then look (or scroll) down and click the pencil icon
+on your theme to edit it
+
+5. On the new menu click the <kbd>Fonts</kbd> button, then click the `*` and paste in this link: <https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf>.
+
+    This is nasin-nanpa, which is the font that'll allow you to view sitelen pona
+
+6. Click off the popup, then press the save button in the bottom right. When it prompts you to restart, restart.
+
+7. pini a! sitelen pona la o lukin pona
 
 ## Input
 
@@ -293,6 +317,7 @@ thank you to
 - kulupu katu
 - kule Piton
 - ijo `@gustav-langer`
+- jan Nasaka (`@harger` lon ilo Siko)
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
 
