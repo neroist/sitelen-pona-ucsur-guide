@@ -160,7 +160,7 @@ The above method may not be supported on your device. One alternative is to use 
 
 to view sitelen pona in Discord, jan Nasaka (`@harger` lon ilo Siko) has written a [bash script](https://github.com/Hargers/enmity-sp-script/blob/main/Enmity-nasin-nanpa-merge.sh) to download and merge the latest versions of the [Enmity Discord client](https://github.com/enmity-mod) and the font [nasin-nanpa](https://github.com/ETBCOR/nasin-nanpa) into a `.ipa` app file. A premerged `.ipa` file can be found [here](https://github.com/Hargers/enmity-sp-script/releases).
 
-To install the app, refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
+For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
 
 ## Input
 
