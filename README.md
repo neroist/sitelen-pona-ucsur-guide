@@ -341,6 +341,7 @@ A table for triggers -> words can be found on sona.pona.la, [here](https://sona.
 | `󱥸` (namako)      | `<v‴`, `‴<v`, `□•`, `•□`    |
 | `󱦢` (majuna)      | `-‴-`, `‴--`                |
 | `󱦤` (linluwi)     |  `ooo^>-`, `^>-ooo`, `\|-\|\|•••ᴗᴖ`, `\|-\|\|ᴗᴖ•••`, `\|-\|•••ᴗᴖ\|`, `\|-\|ᴗᴖ\|•••` |
+| `󱦥` (kiki)      | `^>-^>-`, `-^>-^>-`, `^>^>^>^><v<v<v<v`, `^>^>^><v<v<v` |
 | `󱦦` (su)          | `▢<v`                        |
 | `󱦮` (owe)         | `‴o•`                        |
 
