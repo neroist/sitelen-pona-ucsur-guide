@@ -95,19 +95,25 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 ### Android
 
-[This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
+[This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
+
 
 > :warning: **note**: this changes the system font to something else, if you want to only view sitelen pona on Discord please use Aliucord (the next section)
 
+<details>
+<summary>
+  <b>List format for instructions (zFont systemwide)</b>
+</summary>
+
 Installing the font:
 
-1. Download [nasin-nanpa-2.5.1.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n2.5.1/nasin-nanpa-2.5.1.otf). (Please note that the latest version will not work; the latest version of nasin nanpa now translations Latin characters as well as UCSUR, which messes things up).
+1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
 
-2. Convert nasin-nanpa-2.5.1.otf to [nasin-nanpa-2.5.1.ttf](https://www.mediafire.com/file/pj5nmp2io9y34qt/nasin-nanpa-2.5.1.ttf/file) (If you're not sure how, skip this step or click the link).
+2. Convert nasin-nanpa-4.0.0-UCSUR.otf to [nasin-nanpa-4.0.0-UCSUR.ttf](https://drive.google.com/file/d/1herShyK8TGajd10tWQqV1JOkSPVwoWyZ/view?usp=sharing) (If you're not sure how, skip this step or click the link.)
 
 3. Download [zFont 3](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2&gl=US) from the Play Store. *(Other font changing apps such as [#mono_](https://xdaforums.com/t/app-mono_-flipfont-custom-ttf-installer-v2-1-for-samsung-oneui-1-2-3-no-root.4195613/) might work instead)*
 
-4. In the app, go to Downloads, press the + icon in the bottom right and add the font file (select "Add File"). (If you didn't convert it, the app will prompt you to install another app and you can do it there if you need).
+4. In the app, go to Local, press the + icon in the bottom right and add the font file. (If you didn't convert it, the app will prompt you to install another app and you can do it there if you need.)
 
 5. Click on the font file and press Apply.
 
@@ -119,25 +125,26 @@ Installing the font:
 
 > You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
 
-<!-- TODO: iOS? -->
-
-### Aliucord
+</details>
 
 > jan Nasaka (`@harger` lon ilo Siko) li pana e sona ni tawa mi. ona li pona mute a! :)
 
-With the release of nasin-nanpa 4.0, there is now a "UCSUR-only" version of the font. This
-means that we can safely use it without it doing any \~weird stuff\~ to english text.
+The above method may not be supported on your device. One alternative is to use the Aliucord Discord client and set a custom font. *(This method causes small font discrepancies in the Aliucord client).* The setup instructions are below:
 
-1. Install Aliucord from its [Github page](https://github.com/Aliucord/Aliucord#)
+<details>
+<summary>
+  <b>List format for instructions (Aliucord)</b>
+</summary>
+
+1. Install Aliucord from its [Github page](https://github.com/Aliucord/Aliucord/releases)
     * Please follow the [installation instructions](https://github.com/Aliucord/Aliucord?tab=readme-ov-file#-installation) in the readme
 
-2. Install the Themer plugin, which will allow you to change Aliucord's font
+2. Install the Themer plugin, which will allow you to change Aliucord's font.
     * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord. 
 
-3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Themer</kbd>  (scroll down) -> <kbd>New Theme</kbd>.
+3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Plugins</kbd> -> <kbd>Themer</kbd> and toggle <kbd>Enable Custom Fonts</kbd>.
 
-4. Enter the name for your new theme, then look (or scroll) down and click the pencil icon
-on your theme to edit it
+4. Click <kbd>New Theme</kbd>, enter a name for your new theme, toggle the theme, and click the pencil icon on your theme to edit it.
 
 5. On the new menu click the <kbd>Fonts</kbd> button, then click the `*` and paste in this link: <https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf>.
 
@@ -146,6 +153,14 @@ on your theme to edit it
 6. Click off the popup, then press the save button in the bottom right. When it prompts you to restart, restart.
 
 7. pini a! sitelen pona la o lukin pona
+
+</details>
+
+### iOS
+
+to view sitelen pona in Discord, jan Nasaka (`@harger` lon ilo Siko) has written a [bash script](https://github.com/Hargers/enmity-sp-script/blob/main/Enmity-nasin-nanpa-merge.sh) to download and merge the latest versions of the [Enmity Discord client](https://github.com/enmity-mod) and the font [nasin-nanpa](https://github.com/ETBCOR/nasin-nanpa) into a `.ipa` app file. A premerged `.ipa` file can be found [here](https://github.com/Hargers/enmity-sp-script/releases).
+
+For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
 
 ## Input
 
@@ -157,15 +172,15 @@ There are two input methods for Windows: nasin Ajemi and nasin AHK
 
 You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it. 
 
-For nasin AHK, there is an [Auto Hotkey Script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-scripts/sitelen-pona-4.0.ahk) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ahk-scripts/stl-pon-4.0.ahk) that uses 3 letter codes for each word instead of typing the whole word.
+For nasin AHK, there is an [Auto Hotkey Script](./ahk-scripts/sitelen-pona-4.0.ahk?raw=1) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](./ahk-scripts/stl-pon-4.0.ahk?raw=1) that uses 3 letter codes for each word instead of typing the whole word.
 
 For this of this to work, you need to have [Auto Hotkey](https://www.autohotkey.com/) installed.
 
-Other features of the script are explained in [this README file](https://github.com/neroist/sitelen-pona-ucsur-guide/blob/main/ahk-scripts/README.md).
+Other features of the script are explained in [this README file](./ahk-scripts/README.md).
 
 ### macOS
 
-jan Tepo (`@tbodt`) has made an [input plugin for macOS](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona.inputplugin) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
+jan Tepo (`@tbodt`) has made an [input plugin for macOS](./sitelen-pona.inputplugin?raw=1) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
 
 ### Linux
 
@@ -173,7 +188,7 @@ The ~~only~~ (nasin sitelen Wakalito li lon · ilo ante kin li lon) current supp
 
 > During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
 
-jan Komi (`@cominixo`) has created an [ibus input table](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ibus-tables/sitelen-pona-4.0.ibus-table) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
+jan Komi (`@cominixo`) has created an [ibus input table](./ibus-tables/sitelen-pona-4.0.ibus-table?raw=1) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
 
 ```bash
 sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s sitelen-pona-4.0.ibus-table
@@ -197,7 +212,7 @@ This should result in a new tray icon which indicates which input source you're 
 
     - For Ubuntu, do not install the `ibus-qt4` package
 
-2. Download the ibus input table [here](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/ibus-tables/sitelen-pona-4.0.ibus-table).
+2. Download the ibus input table [here](./ibus-tables/sitelen-pona-4.0.ibus-table?raw=1).
 
 3. Copy the file to a chosen directory and open a terminal in the directory
 
@@ -227,7 +242,7 @@ ibus-daemon -drxR
 
 ### Espanso / nasin sitelen Wakalito
 
-<!-- > I reccommend the above methods more than this one. -->
+<!-- > I recommend the above methods more than this one. -->
 
 *nasin Wakalito* is an input method for writing Toki pona words. It is available on macOS, Linux, and Windows using [Espanso](https://espanso.org/). By default, nasin Wakalito outputs words in sitelen Lasina. However, by using a modified config file, we can output UCSUR instead.
 
@@ -239,15 +254,15 @@ nasin:
 
 2. Download a config file. There are two:
 
-    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/wakalito-7-3-2-ucsur.yml) uses nasin Wakalito's triggers, and outputs UCSUR
+    - [This file](./wakalito-7-3-2-ucsur.yml?raw=1) uses nasin Wakalito's triggers, and outputs UCSUR
 
-    - [This file](https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/sitelen-pona-espanso.yml) uses toki pona word triggers and outputs UCSUR
+    - [This file](./sitelen-pona-espanso.yml?raw=1) uses toki pona word triggers, and outputs UCSUR
 
 3. Copy or move the file to Espanso packages folder
 
 	- Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
-        - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`)
-	
+	  - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`
+
     - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
 	
     - Linux: `~/.config/espanso/match/packages`
@@ -287,7 +302,52 @@ Two input engines for android exist:
 
 - and [kulupu Mimuki's (`@.mouseless`)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
 
-<!-- TODO: iOS? -->
+### iOS
+
+Currently, the only the input method for iOS is nasin Wakalito. [nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app available on iOS, iPadOS, and MacOS created by jan Likipi, kala pona Tonyu, jan Tepo, and Lipamanka. Normally, the app can only output sitelen Lasina, but with some small changes, the output can be changed to its UCSUR equivalent. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
+
+For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
+
+A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with modifications listed below.  
+
+<details>
+<summary>
+  <b>List format for modifications</b>
+</summary>
+
+#### Formatting Modifications
+
+| Character                              | Keys on nasin Wakalito layout |
+| ---------------------------------------| ----------------------------- |
+| `　` (fullwidth space)                 | `-` 	                          |
+| `‍` (zero width joiner)                 | `---`                         |
+| `󱦕` (stacking joiner)                   | `•^>`                         |
+| `󱦖` (scaling joiner)                    | `•<v`                         |
+| `󱦝` (sp colon)                        | `:`                           |
+| `󱦜` (sp dot)                          | `•`                           |
+| `󱦐` (cartouche start)                  | `[`                           |
+| `󱦑` (cartouche end)                    | `]`                           |
+| `「` (cjk start quote)                 | `▢[`                         |
+| `」` (cjk end quote)                   | `▢]`                         |
+| `󱦗` (start left-combining long glyph)   | `[[`                          |
+| `󱦘` (end left-combining long glyph)     | `]]`                          |
+| `󱦚` (start right-combining long glyph)  | `[[[`                         |
+| `󱦛` (end left-combining long glyph)     | `]]]`                         |
+
+#### nimi sin Modifications
+
+| Character          | Keys on nasin Wakalito layout |
+| -------------------| ----------------------------- |
+| `󱥸` (namako)      | `<v‴`, `‴<v`, `□•`, `•□`    |
+| `󱦢` (majuna)      | `-‴-`, `‴--`                |
+| `󱦤` (linluwi)     |  `ooo^>-`, `^>-ooo`, `\|-\|\|•••ᴗᴖ`, `\|-\|\|ᴗᴖ•••`, `\|-\|•••ᴗᴖ\|`, `\|-\|ᴗᴖ\|•••` |
+| `󱦥` (kiki)      | `^>-^>-`, `-^>-^>-`, `^>^>^>^><v<v<v<v`, `^>^>^><v<v<v` |
+| `󱦦` (su)          | `▢<v`                        |
+| `󱦮` (owe)         | `‴o•`                        |
+
+Additionally, triggers were removed for ASCII art, a Discord command, and words without sitelen pona characters in the font nasin-nanpa (`unu`, `Pingo`, `oke`, `mulapisu`, `kapesi`, and `isipin`).
+
+</details>
 
 ### Web
 
@@ -320,4 +380,3 @@ thank you to
 - jan Nasaka (`@harger` lon ilo Siko)
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
-
