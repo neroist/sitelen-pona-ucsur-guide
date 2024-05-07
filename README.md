@@ -256,7 +256,7 @@ nasin:
 
     - [This file](./wakalito-7-3-2-ucsur.yml?raw=1) uses nasin Wakalito's triggers, and outputs UCSUR
 
-    - [This file](./sitelen-pona-espanso.yml?raw=1) uses toki pona word triggers with `\` as en ending character (e.g. `meli\`, `kala\`), and outputs UCSUR
+    - [This file](./sitelen-pona-espanso.yml?raw=1) uses toki pona word triggers, and outputs UCSUR
 
 3. Copy or move the file to Espanso packages folder
 
