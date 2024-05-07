@@ -250,7 +250,7 @@ nasin:
 	
     - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
 	
-    - Linux: `/home/<user>/.config/espanso/match/packages`
+    - Linux: `~/.config/espanso/match/packages`
 
 4. Start Espanso
 
