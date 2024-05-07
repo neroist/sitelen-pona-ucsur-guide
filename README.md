@@ -338,11 +338,11 @@ A table for triggers -> words can be found on sona.pona.la, [here](https://sona.
 
 | Character          | Keys on nasin Wakalito layout |
 | -------------------| ----------------------------- |
-| `󱥸` (namako)      | `<v𐎌`, `𐎌<v`, `□•`, `•□`    |
-| `󱦢` (majuna)      | `-𐎌-`, `𐎌--`                |
+| `󱥸` (namako)      | `<v‴`, `‴<v`, `□•`, `•□`    |
+| `󱦢` (majuna)      | `-‴-`, `‴--`                |
 | `󱦤` (linluwi)     |  `ooo^>-`, `^>-ooo`, `\|-\|\|•••ᴗᴖ`, `\|-\|\|ᴗᴖ•••`, `\|-\|•••ᴗᴖ\|`, `\|-\|ᴗᴖ\|•••` |
 | `󱦦` (su)          | `▢<v`                        |
-| `󱦮` (owe)         | `𐎌o•`                        |
+| `󱦮` (owe)         | `‴o•`                        |
 
 Additionally, triggers were removed for ASCII art, a Discord command, and words without sitelen pona characters in the font nasin-nanpa (`unu`, `Pingo`, `oke`, `mulapisu`, `kapesi`, and `isipin`).
 
