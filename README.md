@@ -113,7 +113,7 @@ Installing the font:
 
 3. Download [zFont 3](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2&gl=US) from the Play Store. *(Other font changing apps such as [#mono_](https://xdaforums.com/t/app-mono_-flipfont-custom-ttf-installer-v2-1-for-samsung-oneui-1-2-3-no-root.4195613/) might work instead)*
 
-4. In the app, go to Local, press the + icon in the bottom right and add the font file. (If you didn't convert it, the app will prompt you to install another app and you can do it there if you need.)
+4. In the app, go to Downloads, press the + icon in the bottom right and add the font file (select "Add File"). (If you didn't convert it, the app will prompt you to install another app and you can do it there if you need).
 
 5. Click on the font file and press Apply.
 
