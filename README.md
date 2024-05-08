@@ -142,7 +142,7 @@ The above method may not be supported on your device. One alternative is to use 
 2. Install the Themer plugin, which will allow you to change Aliucord's font.
     * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord. 
 
-3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Plugins</kbd> -> <kbd>Themer</kbd> and toggle <kbd>Enable Custom Fonts</kbd>.
+3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Plugin Settings</kbd> (near the bottom) -> <kbd>Themer</kbd> and toggle <kbd>Enable Custom Fonts</kbd>.
 
 4. Click <kbd>New Theme</kbd>, enter a name for your new theme, toggle the theme, and click the pencil icon on your theme to edit it.
 
