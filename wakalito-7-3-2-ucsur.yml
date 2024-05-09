@@ -3,685 +3,517 @@
 
 matches:
   # punctuation etc
-  - triggers: ["666", "   "]
+  - triggers: ["666 ", "    "]
     replace: "　" # ! changed to logograph fullwidth space
     
-  - trigger: "aa"
+  - trigger: "aa "
     replace: "‍" # ! changed to zero width non joiner
-    word: true
  
-  - trigger: "gg"
+  - trigger: "gg "
     replace: "󱦕" # ! changed to stacking joiner
-    word: true
   
-  - trigger: "hh"
+  - trigger: "hh "
     replace: "󱦖" # ! changed to scaling joiner
-    word: true
 
-  - trigger: "6y"
+  - trigger: "6y "
     replace: "󱦝" # ! changed to sp colon
-    word: true
     
-  - trigger: "3"
-    replace: "󱦜" # ! changed to sp full stop
-    word: true 
+  - trigger: "3 "
+    replace: "󱦜" # ! changed to sp full stop 
   
-  - trigger: "c1"
+  - trigger: "c1 "
     replace: "󱦐" # ! changed to cartouche start
-    word: true
 
-  - trigger: "c2"
+  - trigger: "c2 "
     replace: "󱦑" # ! changed to cartouche end
-    word: true
 
-  - trigger: "q1"
+  - trigger: "q1 "
     replace: "「" # ! changed to cjk start quote
-    word: true
 
-  - trigger: "q2"
+  - trigger: "q2 "
     replace: "」" # ! changed to cjk end quote
-    word: true
   
-  - trigger: "b1"
+  - trigger: "b1 "
     replace: "󱦗" # ! changed to "start left-combining (normal) long glyph"
-    word: true
 
-  - trigger: "b2"
-    replace: "󱦘" # ! changed to "end left-combining (normal) long glyph"
-    word: true  
+  - trigger: "b2 "
+    replace: "󱦘" # ! changed to "end left-combining (normal) long glyph"  
   
-  - trigger: "d1"
+  - trigger: "d1 "
     replace: "󱦚" # ! changed to "start right-combining (reversed) long glyph"
-    word: true
   
-  - trigger: "d2"
-    replace: "󱦛" # ! changed to "end right-combining (reversed) long glyph"
-    word: true 
+  - trigger: "d2 "
+    replace: "󱦛" # ! changed to "end right-combining (reversed) long glyph" 
 
   # contractions
-  - trigger: "wd4"
+  - trigger: "wd4 "
     replace: "󱤴󱥡󱤂"
-    word: true
     
   # emoticons
-  - triggers: ["a1", "ay", "at"]
+  - triggers: ["a1 ", "ay ", "at "]
     replace: ":)"
-    word: true
 
-  - triggers: ["a6", "a5"]
+  - triggers: ["a6 ", "a5 "]
     replace: ":("
-    word: true
 
-  - triggers: ["a2", "aw"]
-    replace: ":|"
-    word: true 
+  - triggers: ["a2 ", "aw "]
+    replace: ":|" 
 
-  - trigger: "a5"
+  - trigger: "a5 "
     replace: ":v"
-    word: true
 
   # pu
-  - triggers: ["we3", "w33"]
+  - triggers: ["we3 ", "w33 "]
     replace: "󱤀"
-    word: true
     
-  - trigger : "w3w3"
+  - trigger : "w3w3 "
     replace: "󱤀󱤀󱤀"
     
-  - triggers: ["33222e", "e22233"]
+  - triggers: ["33222e ", "e22233 "]
     replace: "󱤁"
-    word: true
 
-  - trigger: "4r"
+  - trigger: "4r "
     replace: "󱤂"
-    word: true
 
-  - triggers: ["w12", "w12r", "1w2", "1w2r"]
+  - triggers: ["w12 ", "w12r ", "1w2 ", "1w2r "]
     replace: "󱤃"
-    word: true
 
-  - trigger: "e1"
+  - trigger: "e1 "
     replace: "󱤄"
-    word: true
 
-  - trigger: "3s3"
+  - trigger: "3s3 "
     replace: "󱤅"
-    word: true
 
-  - trigger: "r4"
+  - trigger: "r4 "
     replace: "󱤆"
-    word: true
 
-  - trigger: "4w"
+  - trigger: "4w "
     replace: "󱤇"
-    word: true
 
-  - trigger: "2r2"
+  - trigger: "2r2 "
     replace: "󱤈"
-    word: true
 
-  - trigger: "rr"
+  - trigger: "rr "
     replace: "󱤉"
-    word: true
 
-  - trigger: "w2w"
+  - trigger: "w2w "
     replace: "󱤊"
-    word: true
 
-  - trigger: "tw5"
+  - trigger: "tw5 "
     replace: "󱤋"
-    word: true
 
-  - trigger: "e"
+  - trigger: "e "
     replace: "󱤌"
-    word: true
 
-  - trigger: "5"
+  - trigger: "5 "
     replace: "󱤍"
-    word: true
 
-  - triggers: ["dw", "wd"]
+  - triggers: ["dw ", "wd "]
     replace: "󱤎"
-    word: true
 
-  - triggers: ["s33", "33s33"]
+  - triggers: ["s33 ", "33s33 "]
     replace: "󱤏"
-    word: true
 
-  - trigger: "qqq"
+  - trigger: "qqq "
     replace: "󱤐"
-    word: true
 
-  - trigger: "er"
+  - trigger: "er "
     replace: "󱤑"
-    word: true
 
-  - trigger: "edr2"
+  - trigger: "edr2 "
     replace: "󱤒"
-    word: true
 
-  - trigger: "et2"
+  - trigger: "et2 "
     replace: "󱤓"
-    word: true
 
-  - trigger: "re"
+  - trigger: "re "
     replace: "󱤔"
-    word: true
 
-  - trigger: "t2f"
+  - trigger: "t2f "
     replace: "󱤕"
-    word: true
 
-  - trigger: "22r"
+  - trigger: "22r "
     replace: "󱤖"
-    word: true
 
-  - triggers: ["eew", "wee", "ewe"]
+  - triggers: ["eew ", "wee ", "ewe "]
     replace: "󱤗"
-    word: true
 
-  - trigger: "ww4"
+  - trigger: "ww4 "
     replace: "󱤘"
-    word: true
 
-  - triggers: ["dwq", "wdq", "qwd", "qdw", "dqw"]
+  - triggers: ["dwq ", "wdq ", "qwd ", "qdw ", "dqw "]
     replace: "󱤙"
-    word: true
 
-  - triggers: ["55tw", "5t5w"]
+  - triggers: ["55tw ", "5t5w "]
     replace: "󱤚"
-    word: true
 
-  - triggers: ["w4rw", "w4r"]
+  - triggers: ["w4rw ", "w4r "]
     replace: "󱥹"
-    word: true
 
-  - triggers: ["4r2", "4ww2"]
+  - triggers: ["4r2 ", "4ww2 "]
     replace: "󱤛"
-    word: true
 
-  - triggers: ["5et", "te5"]
+  - triggers: ["5et ", "te5 "]
     replace: "󱤜"
-    word: true
 
-  - triggers: ["4r4r", "1111", "r4r4"]
+  - triggers: ["4r4r ", "1111 ", "r4r4 "]
     replace: "󱤝"
-    word: true
 
-  - triggers: ["r2", "r222"]
+  - triggers: ["r2 ", "r222 "]
     replace: "󱤞"
-    word: true
 
-  - trigger: "eee"
+  - trigger: "eee "
     replace: "󱤟"
-    word: true
 
-  - triggers: ["13", "31"]
+  - triggers: ["13 ", "31 "]
     replace: "󱤠"
-    word: true
 
-  - trigger: "1"
+  - trigger: "1 "
     replace: "󱤡"
-    word: true
 
-  - trigger: "22e"
+  - trigger: "22e "
     replace: "󱤢"
-    word: true
 
-  - triggers: ["eewr2", "weer2", "wee2r", "eew2r", "r2wee", "r2ewe"]
+  - triggers: ["eewr2 ", "weer2 ", "wee2r ", "eew2r ", "r2wee ", "r2ewe "]
     replace: "󱤣"
-    word: true
 
-  - trigger: "e2"
+  - trigger: "e2 "
     replace: "󱤤"
-    word: true
 
-  - triggers: ["dwww", "wwwd"]
+  - triggers: ["dwww ", "wwwd "]
     replace: "󱤥"
-    word: true
 
-  - triggers: ["42r", "r42"]
+  - triggers: ["42r ", "r42 "]
     replace: "󱤦"
-    word: true
 
-  - trigger: "r"
+  - trigger: "r "
     replace: "󱤧"
-    word: true
 
-  - trigger: "4"
+  - trigger: "4 "
     replace: "󱤨"
-    word: true
 
-  - triggers: ["t5", "5t"]
+  - triggers: ["t5 ", "5t "]
     replace: "󱤩"
-    word: true
 
-  - trigger: "d"
+  - trigger: "d "
     replace: "󱤪"
-    word: true
 
-  - triggers: ["t2r2", "2tr2", "r2t2", "2rt2", "r22t", "2r2t"]
+  - triggers: ["t2r2 ", "2tr2 ", "r2t2 ", "2rt2 ", "r22t ", "2r2t "]
     replace: "󱤫"
-    word: true
 
-  - triggers: ["32", "23"]
+  - triggers: ["32 ", "23 "]
     replace: "󱤬"
-    word: true
 
-  - trigger: "q"
+  - trigger: "q "
     replace: "󱤭"
-    word: true
 
-  - trigger: "e3"
+  - trigger: "e3 "
     replace: "󱤮"
-    word: true
 
-  - trigger: "413"
+  - trigger: "413 "
     replace: "󱥺"
-    word: true
 
-  - triggers: ["tww", "wtw", "wwt"]
+  - triggers: ["tww ", "wtw ", "wwt "]
     replace: "󱤯"
-    word: true
 
-  - trigger: "e2w"
+  - trigger: "e2w "
     replace: "󱤰"
-    word: true
 
-  - trigger: "3e"
+  - trigger: "3e "
     replace: "󱤱"
-    word: true
 
-  - triggers: ["et", "2e2"]
+  - triggers: ["et ", "2e2 "]
     replace: "󱤲"
-    word: true
 
-  - triggers: ["5e", "e5"]
+  - triggers: ["5e ", "e5 "]
     replace: "󱤳"
-    word: true
 
-  - trigger: "we"
+  - trigger: "we "
     replace: "󱤴"
-    word: true
 
-  - trigger: "rer"
+  - trigger: "rer "
     replace: "󱤵"
-    word: true
 
-  - triggers: ["t2q", "2tq", "q2t", "qt2"]
+  - triggers: ["t2q ", "2tq ", "q2t ", "qt2 "]
     replace: "󱤶"
-    word: true
 
-  - triggers: ["e4r4r", "er4r4", "e4r"]
+  - triggers: ["e4r4r ", "er4r4 ", "e4r "]
     replace: "󱤷"
-    word: true
 
-  - triggers: ["32w2", "36"]
+  - triggers: ["32w2 ", "36 "]
     replace: "󱤸"
-    word: true
 
-  - triggers: ["ee3e", "e3ee", "eee3"]
+  - triggers: ["ee3e ", "e3ee ", "eee3 "]
     replace: "󱤹"
-    word: true
 
-  - trigger: "11"
+  - trigger: "11 "
     replace: "󱤺"
-    word: true
 
-  - trigger: "ete"
+  - trigger: "ete "
     replace: "󱤻"
-    word: true
 
-  - trigger: "www"
+  - trigger: "www "
     replace: "󱤼"
-    word: true
 
-  - triggers: ["d3", "3d"]
+  - triggers: ["d3 ", "3d "]
     replace: "󱥸"
-    word: true
 
-  - triggers: ["ww22", "22ww"]
+  - triggers: ["ww22 ", "22ww "]
     replace: "󱤽"
-    word: true
 
-  - triggers: ["t5t", "5t5"]
+  - triggers: ["t5t ", "5t5 "]
     replace: "󱤾"
-    word: true
 
-  - triggers: ["wr", "rw"]
+  - triggers: ["wr ", "rw "]
     replace: "󱤿"
-    word: true
 
-  - triggers: ["5ww", "ww5", "w5w"]
+  - triggers: ["5ww ", "ww5 ", "w5w "]
     replace: "󱥀"
-    word: true
 
-  - trigger: "w4"
+  - trigger: "w4 "
     replace: "󱥁"
-    word: true
 
-  - triggers: ["w2w2", "2w2w"]
+  - triggers: ["w2w2 ", "2w2w "]
     replace: "󱥂"
-    word: true
 
-  - triggers: ["w1w", "w12w"]
+  - triggers: ["w1w ", "w12w "]
     replace: "󱥃"
-    word: true
 
-  - trigger: "w3"
+  - trigger: "w3 "
     replace: "󱥄"
-    word: true
 
-  - triggers: ["554554", "455455"]
+  - triggers: ["554554 ", "455455 "]
     replace: "󱥅"
-    word: true
 
-  - trigger: "2e"
+  - trigger: "2e "
     replace: "󱥆"
-    word: true
 
-  - triggers: ["s2", "2s"]
+  - triggers: ["s2 ", "2s "]
     replace: "󱥇"
-    word: true
 
-  - triggers: ["d4r", "dr4"]
+  - triggers: ["d4r ", "dr4 "]
     replace: "󱥈"
-    word: true
 
-  - triggers: ["eq", "qe"]
+  - triggers: ["eq ", "qe "]
     replace: "󱥉"
-    word: true
 
-  - triggers: ["5wwt", "tww5", "5wtw", "tw5w", "w5wt", "wtw5"]
+  - triggers: ["5wwt ", "tww5 ", "5wtw ", "tw5w ", "w5wt ", "wtw5 "]
     replace: "󱥊"
-    word: true
 
-  - trigger: "444"
+  - trigger: "444 "
     replace: "󱥋"
-    word: true
 
-  - triggers: ["qf", "fq"]
+  - triggers: ["qf ", "fq "]
     replace: "󱥌"
-    word: true
 
-  - trigger: "w2"
+  - trigger: "w2 "
     replace: "󱥍"
-    word: true
 
-  - triggers: ["554", "455", "55t"]
+  - triggers: ["554 ", "455 ", "55t "]
     replace: "󱥎"
-    word: true
 
-  - triggers: ["r24r", "4rr2"]
+  - triggers: ["r24r ", "4rr2 "]
     replace: "󱥏"
-    word: true
 
-  - trigger: "2w2"
+  - trigger: "2w2 "
     replace: "󱥐"
-    word: true
 
-  - triggers: ["33w222", "w22233", "222w33"]
+  - triggers: ["33w222 ", "w22233 ", "222w33 "]
     replace: "󱥑"
-    word: true
 
-  - trigger: "s3"
+  - trigger: "s3 "
     replace: "󱥒"
-    word: true
 
-  - trigger: "s"
+  - trigger: "s "
     replace: "󱥓"
-    word: true
 
-  - trigger: "t"
+  - trigger: "t "
     replace: "󱥔"
-    word: true
 
-  - trigger: "deft"
+  - trigger: "deft "
     replace: "󱥕"
-    word: true
 
-  - trigger: "22"
+  - trigger: "22 "
     replace: "󱥖"
-    word: true
 
-  - triggers: ["3f", "f3"]
+  - triggers: ["3f ", "f3 "]
     replace: "󱥗"
-    word: true
 
-  - triggers: ["w2www", "2wwww", "22w22"]
+  - triggers: ["w2www ", "2wwww ", "22w22 "]
     replace: "󱥘"
-    word: true
 
-  - triggers: ["q3", "3q"]
+  - triggers: ["q3 ", "3q "]
     replace: "󱥙"
-    word: true
 
-  - triggers: ["ttw", "wttw"]
+  - triggers: ["ttw ", "wttw "]
     replace: "󱥚"
-    word: true
 
-  - triggers: ["w2ww", "2www"]
+  - triggers: ["w2ww ", "2www "]
     replace: "󱥛"
-    word: true
 
-  - trigger: "ee"
+  - trigger: "ee "
     replace: "󱥜"
-    word: true
 
-  - trigger: "f"
+  - trigger: "f "
     replace: "󱥝"
-    word: true
 
-  - trigger: "ew"
+  - trigger: "ew "
     replace: "󱥞"
-    word: true
 
-  - triggers: ["2w23", "y3"]
+  - triggers: ["2w23 ", "y3 "]
     replace: "󱥟"
-    word: true
 
-  - triggers: ["d333", "d33"]
+  - triggers: ["d333 ", "d33 "]
     replace: "󱥠"
-    word: true
 
-  - triggers: ["df", "fd"]
+  - triggers: ["df ", "fd "]
     replace: "󱥡"
-    word: true
 
-  - triggers: ["2133wwww", "133ww", "1wwww33", "133wwww", "1ww33"]
+  - triggers: ["2133wwww ", "133ww ", "1wwww33 ", "133wwww ", "1ww33 "]
     replace: "󱥢"
-    word: true
 
-  - triggers: ["44", "w4w"]
+  - triggers: ["44 ", "w4w "]
     replace: "󱥣"
-    word: true
 
-  - trigger: "ed"
+  - trigger: "ed "
     replace: "󱥤"
-    word: true
 
-  - triggers: ["2ww", "ww2"]
+  - triggers: ["2ww ", "ww2 "]
     replace: "󱥥"
-    word: true
 
-  - triggers: ["r3r", "rr3", "3rr"]
+  - triggers: ["r3r ", "rr3 ", "3rr "]
     replace: "󱥦"
-    word: true
 
-  - triggers: ["45", "54"]
+  - triggers: ["45 ", "54 "]
     replace: "󱥧"
-    word: true
 
-  - trigger: "2w"
+  - trigger: "2w "
     replace: "󱥨"
-    word: true
 
-  - trigger: "r22"
+  - trigger: "r22 "
     replace: "󱥩"
-    word: true
 
-  - triggers: ["5t5t", "t5t5"]
+  - triggers: ["5t5t ", "t5t5 "]
     replace: "󱥪"
-    word: true
 
-  - trigger: "ew2"
+  - trigger: "ew2 "
     replace: "󱥫"
-    word: true
 
-  - trigger: "ef"
+  - trigger: "ef "
     replace: "󱥬"
-    word: true
 
-  - triggers: ["rs", "sr"]
+  - triggers: ["rs ", "sr "]
     replace: "󱥭"
-    word: true
 
-  - trigger: "ww"
+  - trigger: "ww "
     replace: "󱥮"
-    word: true
 
-  - triggers: ["554e", "55te"]
+  - triggers: ["554e ", "55te "]
     replace: "󱥯"
-    word: true
 
-  - triggers: ["t23", "2t3"]
+  - triggers: ["t23 ", "2t3 "]
     replace: "󱥰"
-    word: true
 
-  - triggers: ["4r4", "44r4"]
+  - triggers: ["4r4 ", "44r4 "]
     replace: "󱥱"
-    word: true
 
-  - triggers: ["r24", "2r4"]
+  - triggers: ["r24 ", "2r4 "]
     replace: "󱥲"
-    word: true
 
-  - trigger: "w"
+  - trigger: "w "
     replace: "󱥳"
-    word: true
 
-  - triggers: ["rw33", "33rw"]
+  - triggers: ["rw33 ", "33rw "]
     replace: "󱥴"
-    word: true
 
-  - trigger: "wew"
+  - trigger: "wew "
     replace: "󱥵"
-    word: true
 
-  - trigger: "fw"
+  - trigger: "fw "
     replace: "󱥶"
-    word: true
 
-  - trigger: "tt"
+  - trigger: "tt "
     replace: "󱥷"
-    word: true
 
   # ku suli
-  - triggers: ["e22w", "ew22", "e2w2"]
+  - triggers: ["e22w ", "ew22 ", "e2w2 "]
     replace: "󱥾"
-    word: true
 
-  - triggers: ["rrrr", "4444"]
+  - triggers: ["rrrr ", "4444 "]
     replace: "󱥽"
-    word: true
 
-  - trigger: "ewww5rwww33"
+  - trigger: "ewww5rwww33 "
     replace: "󱦀"
-    word: true
 
-  - trigger: "dd"
+  - trigger: "dd "
     replace: "󱥼"
-    word: true
     
-  - trigger: "3w3"
+  - trigger: "3w3 "
     replace: "󱥻"
-    word: true
 
-  - triggers: ["eeer", "eere", "eree", "reee"]
+  - triggers: ["eeer ", "eere ", "eree ", "reee "]
     replace: "󱦡"
-    word: true
  
-  - triggers: ["5t5tw", "t5t5w", "wt5t5", "w5t5t"]
+  - triggers: ["5t5tw ", "t5t5w ", "wt5t5 ", "w5t5t "]
     replace: "󱥿"
-    word: true
     
-  - triggers: ["e4w", "4we"]
+  - triggers: ["e4w ", "4we "]
     replace: "󿫤"
-    word: true
 
-  - trigger: "w5"
+  - trigger: "w5 "
     replace: "󱦆"
-    word: true
   
-  - triggers: ["es", "52s"]
+  - triggers: ["es ", "52s "]
     replace: "󱦁"
-    word: true
 
-  - triggers: ["w3w", "3ww"]
+  - triggers: ["w3w ", "3ww "]
     replace: "󱦂"
-    word: true
 
-  - triggers: ["wwr", "rww"]
+  - triggers: ["wwr ", "rww "]
     replace: "󱦃"
-    word: true
 
-  - triggers: ["ef2", "fe2"]
+  - triggers: ["ef2 ", "fe2 "]
     replace: "󱦄"
-    word: true
 
-  - trigger: "5t53"
+  - trigger: "5t53 "
     replace: "󱦅"
-    word: true
 
-  - triggers: ["5wwt2", "tww52", "5wtw2", "tw5w2", "w5wt2", "wtw52"]
+  - triggers: ["5wwt2 ", "tww52 ", "5wtw2 ", "tw5w2 ", "w5wt2 ", "wtw52 "]
     replace: "󱦇"
-    word: true
   
-  - triggers: ["d423", "d42eft"]
+  - triggers: ["d423 ", "d42eft "]
     replace: "󱦈"
-    word: true
 
-  - triggers: ["ff2", "2ff", "f2f"]
+  - triggers: ["ff2 ", "2ff ", "f2f "]
     replace: "󿬯"
-    word: true
 
   # (select) ku lili
-  - triggers: ["e22f", "fe22", "ef22"]
+  - triggers: ["e22f ", "fe22 ", "ef22 "]
     replace: "󿫀"
-    word: true
 
-  - triggers: ["e2wr2", "ew2r2", "e2w2r", "ew22r", "r2e2w", "r2ew2", "2re2w", "2rew2"]
+  - triggers: ["e2wr2 ", "ew2r2 ", "e2w2r ", "ew22r ", "r2e2w ", "r2ew2 ", "2re2w ", "2rew2 "]
     replace: "󿫁"
-    word: true
 
-  - triggers: ["rrr444", "rrrr4444"]
+  - triggers: ["rrr444 ", "rrrr4444 "]
     replace: "󿫃"
-    word: true
 
-  - triggers: ["w2wt5w333", "w2w333t5w", "w2wwt5333", "w2ww333t5"]
+  - triggers: ["w2wt5w333 ", "w2w333t5w ", "w2wwt5333 ", "w2ww333t5 "]
     replace: "󿫄"
-    word: true
 
-  - triggers: ["r2eee", "2reee", "eeer2", "eee2r"]
+  - triggers: ["r2eee ", "2reee ", "eeer2 ", "eee2r "]
     replace: "󿫈"
-    word: true
 
-  - triggers: ["w22", "22w"]
+  - triggers: ["w22 ", "22w "]
     replace: "󱦠"
-    word: true
 
-  - trigger: "w21"
+  - trigger: "w21 "
     replace: "󿫽"
-    word: true
 
-  - trigger: "wr4"
+  - trigger: "wr4 "
     replace: "󱦣"
-    word: true
 
-  - triggers: ["11r2", "112r", "r211", "2r11"]
+  - triggers: ["11r2 ", "112r ", "r211 ", "2r11 "]
     replace: "󿫊"
-    word: true
 
-  - trigger: "wtt"
+  - trigger: "wtt "
     replace: "󿫋"
-    word: true
