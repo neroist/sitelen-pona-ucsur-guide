@@ -260,16 +260,20 @@ nasin:
 
 3. Copy or move the file to Espanso packages folder
 
-	- Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
+    - Windows: `C:\Users\<user>\AppData\Roaming\espanso\match\packages`
 	  - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`
 
     - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
 	
     - Linux: `~/.config/espanso/match/packages`
 
-4. Start Espanso
+4. From where you've found your Espanso packages folder (`<wherever>/espanso/match/packages`), navigate to `<wherever>/espanso/config` and open the file `default.yml` in a text editor
 
-5. Start writing!
+5. On a new line, paste the text `toggle_key: RIGHT_ALT`, then save your changes and exit
+
+6. Start Espanso
+
+7. Start writing! *(When you want to toggle Espanso on/off, double tap <kbd>Alt</kbd> on the right side of your keyboard!)*
 
     - A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with a few modifications listed below. This is for the first config file, `wakalito-7-3-2-ucsur.yml`.
 
