@@ -304,6 +304,32 @@ Installation instruction are listed below by platform:
 
 <details>
 <summary>
+  <h4><b>List Windows instructions</b></h4>
+</summary>
+
+1. Go to Keyman's download [download page](https://keyman.com/windows/download) and click the green <kbd>Download Now</kbd> button.
+
+2. A file named `keyman-<version>.exe` will download. Open it.
+
+3. Click <kbd>Install</kbd>, then <kbd>Configuration</kbd>, then <kbd>Download Keyboard...</kbd> in the bottom left corner.
+
+4. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
+
+5. A list of keyboards will appear. Click on your desired input method, then click <kbd>Install keyboard</kbd> -> <kbd>Install</kbd> -> <kbd>Yes</kbd> -> <kbd>Yes</kbd>.
+
+6. A new window will pop up explaining the input method, regard it, then press <kbd>OK</kbd>.
+
+7. Close the window titled "Keyman Configuration," and, in the first Keyman window that opened, click <kbd>Start Keyman</kbd>.
+
+    - To toggle through input methods, press <kbd>Windows</kbd>+<kbd>Space bar</kbd>.
+    - To toggle an onscreen version of your keyboard, press <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd>.
+
+8. o sitelen pona!
+
+</details>
+
+<details>
+<summary>
   <h4><b>List Android and iOS instructions</b></h4>
 </summary>
 
