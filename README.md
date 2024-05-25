@@ -330,6 +330,39 @@ Installation instruction are listed below by platform:
 
 <details>
 <summary>
+  <h4><b>List MacOS instructions</b></h4>
+</summary>
+
+1. Go to Keyman's [download page](https://keyman.com/mac/download) and click the green <kbd>Download Now</kbd> button.
+
+2. A file named `keyman-<version>.dmg` will download. Open it.
+
+3. Double click the Keyman icon.
+
+4. A new window will pop up with a generic 3rd party software warning. Click <kbd>Open</kbd> -> <kbd>Install</kbd> -> <kbd>OK</kbd>.
+
+5. Your System Settings app will open, prompting you to enable Keyman. Click <kbd>OK</kbd>.
+
+6. On your toolbar, a new icon will appear showing your current "input source." Click it, set your input source to Keyman, then click <kbd>Configuration...</kbd>
+
+7. In your new window titled "Keyman Configuration," click <kbd>Download Keyboard...</kbd>
+
+8. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
+
+9. A list of keyboards will appear. Click on your desired input method -> <kbd>Install keyboard</kbd> -> <kbd>Done</kbd>.
+
+10. Your sitelen pona input method will be listed under the "Keyman" section in your toolbar input menu. Click it to enable it.
+
+    - You can toggle your default input method at any time in the toolbar input menu.
+
+11. To see an explanation of your input method, open the dropdown, and click <kbd>Configuration...</kbd>. A window will pop up explaining your input method under the "Read Me" tab.
+
+12. o sitelen pona!
+
+</details>
+
+<details>
+<summary>
   <h4><b>List Android and iOS instructions</b></h4>
 </summary>
 
