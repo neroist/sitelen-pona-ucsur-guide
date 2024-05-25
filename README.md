@@ -296,6 +296,10 @@ nasin:
 | `󱦚` ("{" start right-combining long glyph)  | `d1`                    |
 | `󱦛` ("}" end left-combining long glyph)     | `d2`                    |
 
+### Keyman
+
+[Keyman](https://apps.apple.com/us/app/keyman/id933676545) is an input engine created by the Summer Institute of Linguistics, which allows for user designed input keyboards and by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser.
+
 ### Android
 
 Two input engines for android exist:
