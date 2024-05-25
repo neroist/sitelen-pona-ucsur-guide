@@ -337,6 +337,27 @@ Installation instruction are listed below by platform:
 
 </details>
 
+<details>
+<summary>
+  <h4><b>List web browser instructions</b></h4>
+</summary>
+
+1. Go to the Keyman keyboard search page and search for "[Sitelen Pona](https://keyman.com/keyboards?q=sitelen%20pona)".
+
+2. A list of keyboards will appear. Click on your desired input method.
+
+    - For Latin keyboard input, use jan Lentan's [`Sitelen Pona (Lentan, UCSUR)`](https://keyman.com/keyboards/sp_lentan_ucsur) keyboard.
+
+3. On the next page, click <kbd>Use keyboard online</kbd>, then, under the section titled "Browser Add-in", right click the button <kbd>Toki Pona Keyboard</kbd> and add it to your bookmarks.
+
+4. On most pages tested, clicking your new bookmark will load your sitelen pona input method.
+
+    - If your keyboard uses an alternate layout, you can click the button <kbd>Show On Screen Keyboard</kbd> on the edge of a focused text box to view its layout.
+
+5. o sitelen pona!
+
+</details>
+
 ### Android
 
 Two input engines for android exist:
