@@ -168,7 +168,7 @@ Now that sitelen pona is rendering properly, we need to be able to type it!
 
 ### Windows
 
-There are two input methods for Windows: nasin Ajemi and nasin AHK
+There are three input engines for Windows: nasin Ajemi, nasin AHK, and Keyman
 
 You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it. 
 
@@ -178,9 +178,13 @@ For this of this to work, you need to have [Auto Hotkey](https://www.autohotkey.
 
 Other features of the script are explained in [this README file](./ahk-scripts/README.md).
 
+For Keyman, jan Lepeka has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
+
 ### macOS
 
 jan Tepo (`@tbodt`) has made an [input plugin for macOS](./sitelen-pona.inputplugin?raw=1) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
+
+jan Lepeka has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
 
 ### Linux
 
@@ -425,7 +429,9 @@ Installation instruction are listed below by platform:
 
 ### Android
 
-Two input engines for android exist:
+Three input engines for android exist:
+
+- jan Lepeka's Keyman keyboards (refer to the [#Keyman](#Keyman) section)
 
 - [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar anu better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
  
@@ -435,11 +441,15 @@ Two input engines for android exist:
 
 ### iOS
 
-Currently, the only the input method for iOS is nasin Wakalito. [nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app available on iOS, iPadOS, and MacOS created by jan Likipi, kala pona Tonyu, jan Tepo, and Lipamanka. Normally, the app can only output sitelen Lasina, but with some small changes, the output can be changed to its UCSUR equivalent. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
+Two input engines for iOS exist: Keyman (with jan Lepeka's keyboards) and a fork of nasin sitelen Wakalito.
 
-For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
+For instruction on installing Keyman sitelen pona keyboards, refer to the [#Keyman](#Keyman) section.
 
-A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with modifications listed below.  
+[nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app created by jan Likipi, kala pona Tonyu, jan Tepo, and Lipamanka. A fork of the app exists which changes its output to sitelen pona. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
+
+- For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
+
+- A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with modifications listed below.  
 
 <details>
 <summary>
@@ -483,6 +493,8 @@ Additionally, triggers were removed for ASCII art, a Discord command, and words 
 ### Web
 
 If you are on a device which cannot use these input methods for any reason, [jan Tala (`@at`)](https://github.com/DataKinds) has created a [web based converter](https://ilo-pi-sitelen-pona.glitch.me/) from sitelen Lasina to sitelen pona.
+
+A sitelen pona Keyman bookmark can be used for inputting sitelen pona in a web browser. For instructions, refer to the [#Keyman](#Keyman) section.
 
 # End
 
