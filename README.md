@@ -312,7 +312,7 @@ Installation instruction are listed below by platform:
 
 <details>
 <summary>
-  <h4><b>List Windows instructions</b></h4>
+  <h4><b>Windows instructions</b></h4>
 </summary>
 
 1. Go to Keyman's download [download page](https://keyman.com/windows/download) and click the green <kbd>Download Now</kbd> button.
@@ -338,7 +338,7 @@ Installation instruction are listed below by platform:
 
 <details>
 <summary>
-  <h4><b>List MacOS instructions</b></h4>
+  <h4><b>MacOS instructions</b></h4>
 </summary>
 
 1. Go to Keyman's [download page](https://keyman.com/mac/download) and click the green <kbd>Download Now</kbd> button.
@@ -373,13 +373,13 @@ Installation instruction are listed below by platform:
 
 <details>
 <summary>
-  <h4><b>List Android and iOS instructions</b></h4>
+  <h4><b>Android and iOS instructions</b></h4>
 </summary>
 
 1. Install the app:
 
-- On iOS, Install Keyman [from the App Store](https://apps.apple.com/us/app/keyman/id933676545)
-- On Android, install Keyman [from the Google Play Store](https://play.google.com/store/apps/details?id=com.tavultesoft.kmapro)
+    - On iOS, Install Keyman [from the App Store](https://apps.apple.com/us/app/keyman/id933676545)
+    - On Android, install Keyman [from the Google Play Store](https://play.google.com/store/apps/details?id=com.tavultesoft.kmapro)
 
 2. Open the app and click the <kbd>◦◦◦</kbd> button on top right corner.
 
@@ -406,7 +406,7 @@ Installation instruction are listed below by platform:
 
 <details>
 <summary>
-  <h4><b>List web browser instructions</b></h4>
+  <h4><b>web browser instructions</b></h4>
 </summary>
 
 1. Go to the Keyman keyboard search page and search for "[Sitelen Pona](https://keyman.com/keyboards?q=sitelen%20pona)".
