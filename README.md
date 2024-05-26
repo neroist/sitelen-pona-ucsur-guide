@@ -14,7 +14,7 @@ The current recommended fonts for sitelen pona are:
 
   ![an image preview of fairfax hd](./images/fairfaxhd.png)
   
-  This font supports the latest (2024-02-20) version of UCSUR. It *does not* look a bit nasa, however it is mostly readable.
+  This font by jan Lepeka (`@rebeccargb`) supports the latest (2024-02-20) version of UCSUR. It *does not* look a bit nasa, however it is mostly readable.
 
 - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
 
@@ -26,7 +26,7 @@ The current recommended fonts for sitelen pona are:
     
   ![an image preview of sitelen seli kiwen](./images/sitelenselikiwen.png)
     
-  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommended for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
+  This font by jan Lepeka (`@rebeccargb`) supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommended for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
 If you are unsure of which font to pick, I would recommend nasin nanpa.
 
