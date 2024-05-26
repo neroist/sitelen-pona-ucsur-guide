@@ -298,7 +298,15 @@ nasin:
 
 ### Keyman
 
-[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user designed input keyboards and by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser.
+[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user designed input keyboards and by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser. A few of the available sitelen pona keyboards are listed here:
+
+- For a sitelen pona taso keyboard, you can use:
+
+    - KreativeKorp's [`Sitelen Pona (KreativeKorp, UCSUR`](https://keyman.com/keyboards/kreative_sitelenpona_ucsur) tan jan Lepeka.
+    - Timeo Pochin's [`Sitelen Pona (Pochin, UCSUR)`](https://keyman.com/keyboards/sp_pochin_ucsur) tan jan Lepeka
+    - nasin Wakalito creators' [`Sitelen Pona (Wakalito, UCSUR`](https://keyman.com/keyboards/sp_wakalito_ucsur) tan jan Lepeka
+
+- For a Latin keyboard, you can use jan Lentan's [`Sitelen Pona (Lentan, UCSUR)`](https://keyman.com/keyboards/sp_lentan_ucsur) tan jan Lepeka.
 
 Installation instruction are listed below by platform:
 
@@ -361,6 +369,8 @@ Installation instruction are listed below by platform:
 
 </details>
 
+<!-- TODO: Linux instructions. (NOTE: Keyman supports both IBUs and Fcitx) -->
+
 <details>
 <summary>
   <h4><b>List Android and iOS instructions</b></h4>
@@ -404,8 +414,6 @@ Installation instruction are listed below by platform:
 1. Go to the Keyman keyboard search page and search for "[Sitelen Pona](https://keyman.com/keyboards?q=sitelen%20pona)".
 
 2. A list of keyboards will appear. Click on your desired input method.
-
-    - For Latin keyboard input, use jan Lentan's [`Sitelen Pona (Lentan, UCSUR)`](https://keyman.com/keyboards/sp_lentan_ucsur) keyboard.
 
 3. On the next page, click <kbd>Use keyboard online</kbd>, then, under the section titled "Browser Add-in", right click the button <kbd>Toki Pona Keyboard</kbd> and add it to your bookmarks.
 
