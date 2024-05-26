@@ -298,13 +298,13 @@ nasin:
 
 ### Keyman
 
-[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user designed input keyboards and by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser. A few of the available sitelen pona keyboards are listed here:
+[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user-designed keyboards and, by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser. A few of the available sitelen pona keyboards are listed below:
 
 - For a sitelen pona taso keyboard, you can use:
 
-    - KreativeKorp's [`Sitelen Pona (KreativeKorp, UCSUR`](https://keyman.com/keyboards/kreative_sitelenpona_ucsur) tan jan Lepeka.
+    - KreativeKorp's [`Sitelen Pona (KreativeKorp, UCSUR)`](https://keyman.com/keyboards/kreative_sitelenpona_ucsur) tan jan Lepeka.
     - Timeo Pochin's [`Sitelen Pona (Pochin, UCSUR)`](https://keyman.com/keyboards/sp_pochin_ucsur) tan jan Lepeka
-    - nasin Wakalito creators' [`Sitelen Pona (Wakalito, UCSUR`](https://keyman.com/keyboards/sp_wakalito_ucsur) tan jan Lepeka
+    - waso Likipi en kala pona Tonyu's [`Sitelen Pona (Wakalito, UCSUR)`](https://keyman.com/keyboards/sp_wakalito_ucsur) tan jan Lepeka
 
 - For a Latin keyboard, you can use jan Lentan's [`Sitelen Pona (Lentan, UCSUR)`](https://keyman.com/keyboards/sp_lentan_ucsur) tan jan Lepeka.
 
@@ -351,9 +351,9 @@ Installation instruction are listed below by platform:
 
 5. Your System Settings app will open, prompting you to enable Keyman. Click <kbd>OK</kbd>.
 
-6. On your toolbar, a new icon will appear showing your current "input source." Click it, set your input source to Keyman, then click <kbd>Configuration...</kbd>
+6. On your toolbar, a new icon will appear showing your current "input source." Click it, set your input source to Keyman, then click <kbd>Configuration...</kbd>.
 
-7. In your new window titled "Keyman Configuration," click <kbd>Download Keyboard...</kbd>
+7. In your new window titled "Keyman Configuration," click <kbd>Download Keyboard...</kbd>.
 
 8. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
 
@@ -381,24 +381,22 @@ Installation instruction are listed below by platform:
 - On iOS, Install Keyman [from the App Store](https://apps.apple.com/us/app/keyman/id933676545)
 - On Android, install Keyman [from the Google Play Store](https://play.google.com/store/apps/details?id=com.tavultesoft.kmapro)
 
-2. Open the app and click the <kbd>◦◦◦</kbd> button on top right corner
+2. Open the app and click the <kbd>◦◦◦</kbd> button on top right corner.
 
-3. A window titled "Get Started" will open. Click the button in the middle titled "Set up Keyman as system-wide keyboard" or "Enable Keyman as system-wide keyboard"
+3. A window titled "Get Started" will open. Click the button in the middle titled "Set up Keyman as system-wide keyboard" or "Enable Keyman as system-wide keyboard."
 
 4. On the new window, toggle Keyman as a keyboard.
 
-    - On iOS, under the section titled "PREFERRED LANGUAGE" click <kbd>Keyboards</kbd> and toggle <kbd>Keyman</kbd>
-    - On Android, toggle <kbd>Keyman</kbd>. A privacy popup will appear, regard it, then press <kbd>OK</kbd>, then <kbd>OK</kbd>
+    - On iOS, under the section titled "PREFERRED LANGUAGE" click <kbd>Keyboards</kbd> and toggle <kbd>Keyman</kbd>.
+    - On Android, toggle <kbd>Keyman</kbd>. A privacy popup will appear, regard it, then press <kbd>OK</kbd> -> <kbd>OK</kbd>.
 
 5. Navigate back to the Keyman app, click <kbd>◦◦◦</kbd> -> <kbd>Settings</kbd> -> <kbd>Installed Languages</kbd> -> <kbd>+</kbd>.
 
-6. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona"
+6. On the new window, click <kbd>Enter language or keyboard</kbd>, and type "Sitelen Pona".
 
-7. An array of keyboards will populate. Click on your desired input method.
+7. An list of keyboards will appear. Click on your desired input method.
 
-    - As of the time of writing, the keyboard `Sitelen Pona (KreativeKorp, UCSUR)` supports the most UCSUR features. 
-
-8. On the next page, click <kbd>Install keyboard</kbd> -> <kbd>Install</kbd> -> <kbd>Done</kbd>
+8. On the next page, click <kbd>Install keyboard</kbd> -> <kbd>Install</kbd> -> <kbd>Done</kbd>.
 
 9. Swap to the Keyman keyboard and press the keyboard's globe icon to change to your sitelen pona input method. 
 
@@ -415,7 +413,7 @@ Installation instruction are listed below by platform:
 
 2. A list of keyboards will appear. Click on your desired input method.
 
-3. On the next page, click <kbd>Use keyboard online</kbd>, then, under the section titled "Browser Add-in", right click the button <kbd>Toki Pona Keyboard</kbd> and add it to your bookmarks.
+3. On the next page, click <kbd>Use keyboard online</kbd>, then, under the section titled "Browser Add-in", right-click the button <kbd>Toki Pona Keyboard</kbd> and add it to your bookmarks.
 
 4. On most pages tested, clicking your new bookmark will load your sitelen pona input method.
 
