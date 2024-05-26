@@ -445,7 +445,7 @@ Two input engines for iOS exist: Keyman, with jan Lepeka's (`@rebeccargb`)  keyb
 
 For instruction on installing Keyman sitelen pona keyboards, refer to the [#Keyman](#Keyman) section.
 
-[nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app created by jan Likipi (`@lilscribby`), kala pona Tonyu (`@bucketfish`), and jan Tepo (`@tbodt`). It uses Lipamanka's (`@lipamanka`) font. A fork of the app exists which changes its output to sitelen pona. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
+[nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app created by jan Likipi (`@lilscribby`), kala pona Tonyu (`@bucketfish`), and jan Tepo (`@tbodt`). It uses Lipamanka's (`@lipamanka`) font, [linja lipamanka](https://lipamanka.gay/linjamanka). A fork of the app exists which changes its output to sitelen pona. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
 
 - For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
 
@@ -524,5 +524,6 @@ thank you to
 - jan Lepeka
 - kala pona Tonyu
 - jan Likipi
+- Lipamanka
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
