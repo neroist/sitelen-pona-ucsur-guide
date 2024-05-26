@@ -8,7 +8,7 @@ Due to the standardization of codepoints in the UCSUR, you can now render sitele
 
 # Fonts
 
-The current recomended fonts for sitelen pona are:
+The current recommended fonts for sitelen pona are:
 
 - [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
 
@@ -26,7 +26,7 @@ The current recomended fonts for sitelen pona are:
     
   ![an image preview of sitelen seli kiwen](./images/sitelenselikiwen.png)
     
-  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommened for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
+  This font by jan Lepeka supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommended for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
 If you are unsure of which font to pick, I would recommend nasin nanpa.
 
@@ -178,13 +178,13 @@ For this of this to work, you need to have [Auto Hotkey](https://www.autohotkey.
 
 Other features of the script are explained in [this README file](./ahk-scripts/README.md).
 
-For Keyman, jan Lepeka has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
+For Keyman, jan Lepeka (`@rebeccargb`) has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
 
 ### macOS
 
 jan Tepo (`@tbodt`) has made an [input plugin for macOS](./sitelen-pona.inputplugin?raw=1) with modifications by jan Semu (`@jmiibo`) to support UCSUR (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>). Download it, then install it by double clicking. Then enable it in `System Preferences` -> `Keyboard` -> `Input Sources`. You'll find it listed under "Chinese, Simplified".
 
-jan Lepeka has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
+jan Lepeka (`@rebeccargb`) has made keyboards for various toki pona input methods. For install instructions, refer to the [#Keyman](#Keyman) section.
 
 ### Linux
 
@@ -302,17 +302,17 @@ nasin:
 
 ### Keyman
 
-[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user-designed keyboards and, by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser. A few of the available sitelen pona keyboards are listed below:
+[Keyman](https://keyman.com/) is an input engine created by the Summer Institute of Linguistics, which allows for user-designed keyboards and, by extension, input methods. It is available on Windows, MacOS, Linux, iOS, iPadOS, Android, and in web browser. Four sitelen pona keyboard layouts, implemented by jan Lepeka (`@rebeccargb`), are listed below:
 
 - For a sitelen pona taso keyboard, you can use:
 
-    - KreativeKorp's [`Sitelen Pona (KreativeKorp, UCSUR)`](https://keyman.com/keyboards/kreative_sitelenpona_ucsur) tan jan Lepeka.
-    - Timeo Pochin's [`Sitelen Pona (Pochin, UCSUR)`](https://keyman.com/keyboards/sp_pochin_ucsur) tan jan Lepeka
-    - waso Likipi en kala pona Tonyu's [`Sitelen Pona (Wakalito, UCSUR)`](https://keyman.com/keyboards/sp_wakalito_ucsur) tan jan Lepeka
+    - jan Lepeka's (`@rebeccargb`) [`Sitelen Pona (KreativeKorp, UCSUR)`](https://keyman.com/keyboards/kreative_sitelenpona_ucsur).
+    - jan Komi's (`@cominixo`) [`Sitelen Pona (Pochin, UCSUR)`](https://keyman.com/keyboards/sp_pochin_ucsur).
+    - jan Likipi (`@lilscribby`), kala pona Tonyu's (`@bucketfish`), and jan Tepo's (`@tbodt`) [`Sitelen Pona (Wakalito, UCSUR)`](https://keyman.com/keyboards/sp_wakalito_ucsur).
 
-- For a Latin keyboard, you can use jan Lentan's [`Sitelen Pona (Lentan, UCSUR)`](https://keyman.com/keyboards/sp_lentan_ucsur) tan jan Lepeka.
+- For a Latin keyboard, you can use jan Lentan's (`@slashdevslashurandom`) [`Sitelen Pona (Lentan, UCSUR)`](https://keyman.com/keyboards/sp_lentan_ucsur).
 
-Installation instruction are listed below by platform:
+Installation instructions are listed below by platform:
 
 <details>
 <summary>
@@ -431,7 +431,7 @@ Installation instruction are listed below by platform:
 
 Three input engines for android exist:
 
-- jan Lepeka's Keyman keyboards (refer to the [#Keyman](#Keyman) section)
+- jan Lepeka's (`@rebeccargb`) Keyman keyboards (refer to the [#Keyman](#Keyman) section)
 
 - [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar anu better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
  
@@ -441,11 +441,11 @@ Three input engines for android exist:
 
 ### iOS
 
-Two input engines for iOS exist: Keyman (with jan Lepeka's keyboards) and a fork of nasin sitelen Wakalito.
+Two input engines for iOS exist: Keyman, with jan Lepeka's (`@rebeccargb`)  keyboards, and a fork of nasin sitelen Wakalito.
 
 For instruction on installing Keyman sitelen pona keyboards, refer to the [#Keyman](#Keyman) section.
 
-[nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app created by jan Likipi, kala pona Tonyu, jan Tepo, and Lipamanka. A fork of the app exists which changes its output to sitelen pona. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
+[nasin sitelen Wakalito](https://apps.apple.com/us/app/nasin-sitelen-wakalito/id1569543076) is an app created by jan Likipi (`@lilscribby`), kala pona Tonyu (`@bucketfish`), and jan Tepo (`@tbodt`). It uses Lipamanka's (`@lipamanka`) font. A fork of the app exists which changes its output to sitelen pona. The project files for this can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR) and the latest prebuilt `.ipa` app file can be found [here](https://github.com/Hargers/wakalito-ios-UCSUR/releases). This fork of the app is maintained by jan Nasaka (`@harger` lon ilo Siko).
 
 - For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
 
@@ -521,5 +521,8 @@ thank you to
 - kule Piton
 - ijo `@gustav-langer`
 - jan Nasaka (`@harger` lon ilo Siko)
+- jan Lepeka
+- kala pona Tonyu
+- jan Likipi
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
