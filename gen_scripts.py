@@ -366,8 +366,8 @@ to 」
 
 
 if __name__ == "__main__":
-    words = get_words()
     args = parse_args()
+    words = get_words()
     encoding = "utf-8"
 
     match args.outputtype: 
