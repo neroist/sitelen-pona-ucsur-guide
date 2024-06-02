@@ -272,7 +272,7 @@ def ahk_script(words, toggle: bool = False, end_chars: str | None = ""):
         if toggle:
             end_chars = " "
         else:
-            end_chars = "`"
+            end_chars = "``"
 
     if toggle:
         # ` ^42` center-aligns the string to 42 characters
