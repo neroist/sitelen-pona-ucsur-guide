@@ -31,9 +31,16 @@ def get_words():
         else:
             exit(1)
 
-get_ucsur = lambda words: (
-        (word, chr(int(words[word]['representations']['ucsur'][2:], 16)))
-        for word in filter(lambda x: 'ucsur' in words[x]['representations'], words))
+def get_ucsur(words) -> list:
+    filter_fn = lambda x: 'ucsur' in words[x]['representations']
+    result = []
+
+    for word in filter(filter_fn, words):
+        codepoint = int(words[word]['representations']['ucsur'][2:], 16)
+        result.append((word, chr(codepoint)))
+
+    return result
+
 
 # TODO use both alises
 def to_short(word: str) -> list[str]:
@@ -123,7 +130,7 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
     return f"# {gen_header}\n\n" + buf.getvalue().decode() # yaml.dump_to_string(matches, add_final_eol=True)
 
 
-def ibus_table(words, short: bool = False):
+def ibus_table(words, short: bool = False) -> str:
     table_id = str(uuid.uuid4())
     now = datetime.datetime.now().strftime("%Y%m%d")
     table = f"""### {gen_header}
@@ -286,7 +293,7 @@ END_TABLE"""
     return table
 
 
-def ahk_script(words, short: bool = False, toggle: bool = False, end_chars: str | None = ""):
+def ahk_script(words, short: bool = False, toggle: bool = False, end_chars: str | None = "") -> str:
     # python uses lazy evaluation, so this runs (`len()` is not defined for `None`)
     if end_chars is None or len(end_chars) == 0:
         if toggle:
@@ -352,7 +359,7 @@ Hotstring("EndChars", "{end_chars}")
 """
 
 # TODO update input plugin (e.g. what else uses `pi_`??)
-def mac_os_plugin(words, short: bool = False):
+def mac_os_plugin(words, short: bool = False) -> str:
     return f"""# {gen_header}
 
 METHOD: TABLE
