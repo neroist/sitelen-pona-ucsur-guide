@@ -113,8 +113,8 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
         {"triggers": ["msa", "misonala", "misonaala"], "replace": "󱤴󱥡󱤂", "word": True, "word_separators": end_chars}
     ]
 
-    # sort_key = lambda x: len(x["trigger"]) if "trigger" in x else len(str(['triggers']))
-    # matches["matches"].sort(key=sort_key, reverse=True)
+    ## sort_key = lambda x: len(x["trigger"]) if "trigger" in x else len(str(['triggers']))
+    ## matches["matches"].sort(key=sort_key, reverse=True)
 
     # translate into `CommentedSeq` so we can add comments
     matches["matches"] = CommentedSeq(matches["matches"])
