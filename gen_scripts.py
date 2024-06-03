@@ -59,7 +59,7 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
     # python uses lazy evaluation, so this runs (`len()` is not defined for `None`)
     if end_chars is None or len(end_chars) == 0:
         end_chars = " "
-    
+
     # force into double-quoted string for consistency
     end_chars = dq(end_chars)
 
@@ -96,15 +96,15 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
             "word": True,
             "word_separators": end_chars
         })
-    
+
     words_len = len(matches["matches"])
-    
-    # use `+=` and a list if it needs to be extended
+
+    # use `+=` and a list if this needs to be extended
     # rather have a json array, but this works fine
     matches["matches"] += [
         {"triggers": ["msa", "misonala", "misonaala"], "replace": "󱤴󱥡󱤂", "word": True, "word_separators": end_chars}
     ]
-    
+
     # translate into `CommentedSeq` so we can add comments
     matches["matches"] = CommentedSeq(matches["matches"])
 
@@ -115,7 +115,7 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
     matches["matches"].yaml_set_comment_before_after_key(0, before="punctuation etc", indent=2)
     matches["matches"].yaml_set_comment_before_after_key(punctuation_len, before="nimi ale", indent=2)
     matches["matches"].yaml_set_comment_before_after_key(words_len, before="contractions", indent=2)
-    
+
     # init stream for use with `yaml.dump`
     buf = io.BytesIO()
     yaml.dump(matches, buf)
