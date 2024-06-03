@@ -21,7 +21,7 @@ def parse_args():
     p.add_argument('-f', '--file', help="What file to output to. Uses stdout by default")
     p.add_argument('-t', '--ahk-toggle', help="Whether or not to output the toggle variant of the AHK script", action='store_true')
     p.add_argument('-e', '--end-chars', help="What end/word-separator characters to use (only supported for AHK and Espanso)")
-    p.add_argument('-s', '--short', help="Whether ro not to use short aliases for the words", action='store_true')
+    p.add_argument('-s', '--short', help="Whether or not to use short aliases for the words", action='store_true')
     return p.parse_args()
 
 
