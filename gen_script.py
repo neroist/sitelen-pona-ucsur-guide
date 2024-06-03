@@ -1,4 +1,4 @@
-from ruamel.yaml.scalarstring import DoubleQuotedScalarString as dq
+from ruamel.yaml.scalarstring import SingleQuotedScalarString as sq
 from ruamel.yaml.comments import CommentedSeq
 from urllib.request import urlopen, Request
 import ruamel.yaml
@@ -44,21 +44,30 @@ def get_ucsur(words) -> list:
 
     return result
 
-
 # TODO reduce code duplication (only if this was nim...)
 def to_short(word: str) -> list[str]:
-    # if not word in long_to_short:
-    #     return [word]
-
     val = long_to_short[word]
 
     if type(val) is str:
         return [val]
-    
+
     return val
 
 
-def espanso(words, short: bool = False, end_chars: str | None = ""):
+def espanso(words, short: bool = False, end_chars: str | None = "") -> str:
+    def match(trigger: str, replace: str) -> dict:
+        # force into double-quoted string for consistency
+        if end_chars is None:
+            return {"trigger": sq(trigger), "replace": sq(replace), "word": True}
+        else:
+            return {"trigger": sq(trigger), "replace": sq(replace), "word": True, "word_separators": list(end_chars)}
+
+    def matches(triggers: list[str], replace: str) -> dict:
+        if end_chars is None:
+            return {"trigger": triggers, "replace": sq(replace), "word": True}
+        else:
+            return {"trigger": triggers, "replace": sq(replace), "word": True, "word_separators": list(end_chars)}
+
     yaml = ruamel.yaml.YAML(typ=['rt', 'string'])
     yaml.allow_unicode = True
     yaml.encoding = 'utf-8'
@@ -70,46 +79,29 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
     if end_chars is None or len(end_chars) == 0:
         end_chars = " "
 
-    # force into double-quoted string for consistency
-    end_chars = dq(end_chars)
-
-    matches = {"matches": [
-        {"trigger": dq("zz"), "replace": dq("　"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("  "), "replace": dq("　"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("-"),  "replace": dq("‍"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("^"),  "replace": dq("󱦕"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("*"),  "replace": dq("󱦖"), "word": True, "word_separators": end_chars},
-        {"trigger": dq(":"),  "replace": dq("󱦝"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("."),  "replace": dq("󱦜"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("["),  "replace": dq("󱦐"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("]"),  "replace": dq("󱦑"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("<"),  "replace": dq("「"), "word": True, "word_separators": end_chars},
-        {"trigger": dq(">"),  "replace": dq("」"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("("),  "replace": dq("󱦗"), "word": True, "word_separators": end_chars},
-        {"trigger": dq(")"),  "replace": dq("󱦘"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("{"),  "replace": dq("󱦚"), "word": True, "word_separators": end_chars},
-        {"trigger": dq("}"),  "replace": dq("󱦛"), "word": True, "word_separators": end_chars}
+    matches_dict = {"matches": [
+        match("zz", "　"), match("  ", "　"), match("-", "‍"),  match("^", "󱦕"),  match("*", "󱦖"),
+        match(":", "󱦝"),   match(".", "󱦜"),   match("[", "󱦐"),  match("]", "󱦑"),  match("<", "「"),
+        match(">", "」"),  match("(", "󱦗"),   match(")", "󱦘"),  match("{", "󱦚"),  match("}", "󱦛")
     ]}
 
     # store len to use as a "key" when adding comments
-    punctuation_len = len(matches["matches"])
+    punctuation_len = len(matches_dict["matches"])
 
     for i in words:
         if short: keys = to_short(i[0])
         else: keys = [i[0]]
-        
-        if len(keys) > 1:
-            matches["matches"].append({"triggers": keys, "replace": i[1], 
-                                       "word": True, "word_separators": end_chars})
-        else:
-            matches["matches"].append({"trigger": keys[0], "replace": i[1],
-                                       "word": True, "word_separators": end_chars})
 
-    words_len = len(matches["matches"])
+        if len(keys) == 1:
+            matches_dict["matches"].append(matches(keys[0], i[1]))
+        else:
+            matches_dict["matches"].append(match(keys[0], i[1]))
+
+    words_len = len(matches_dict["matches"])
 
     # use `+=` and a list if this needs to be extended
     # rather have a json array, but this works fine
-    matches["matches"] += [
+    matches_dict["matches"] += [
         {"triggers": ["msa", "misonala", "misonaala"], "replace": "󱤴󱥡󱤂", "word": True, "word_separators": end_chars}
     ]
 
@@ -117,19 +109,19 @@ def espanso(words, short: bool = False, end_chars: str | None = ""):
     ## matches["matches"].sort(key=sort_key, reverse=True)
 
     # translate into `CommentedSeq` so we can add comments
-    matches["matches"] = CommentedSeq(matches["matches"])
+    matches_dict["matches"] = CommentedSeq(matches_dict["matches"])
 
     # add comments
-    for i in range(1, len(matches["matches"])):
-        matches["matches"].yaml_set_comment_before_after_key(i, before='\n')
+    for i in range(1, len(matches_dict["matches"])):
+        matches_dict["matches"].yaml_set_comment_before_after_key(i, before='\n')
 
-    matches["matches"].yaml_set_comment_before_after_key(0, before="punctuation etc", indent=2)
-    matches["matches"].yaml_set_comment_before_after_key(punctuation_len, before="nimi ale", indent=2)
-    matches["matches"].yaml_set_comment_before_after_key(words_len, before="contractions", indent=2)
+    matches_dict["matches"].yaml_set_comment_before_after_key(0, before="punctuation etc", indent=2)
+    matches_dict["matches"].yaml_set_comment_before_after_key(punctuation_len, before="nimi ale", indent=2)
+    matches_dict["matches"].yaml_set_comment_before_after_key(words_len, before="contractions", indent=2)
 
     # init stream for use with `yaml.dump`
     buf = io.BytesIO()
-    yaml.dump(matches, buf)
+    yaml.dump(matches_dict, buf)
 
     return f"# {gen_header}\n\n" + buf.getvalue().decode() # yaml.dump_to_string(matches, add_final_eol=True)
 
@@ -319,7 +311,7 @@ def ahk_script(words, short: bool = False, toggle: bool = False, end_chars: str 
 
         result.sort(key=sort_key, reverse=True)
         return "\n".join(result)
-    
+
     # python uses lazy evaluation, so this runs (`len()` is not defined for `None`)
     if end_chars is None or len(end_chars) == 0:
         if toggle:
