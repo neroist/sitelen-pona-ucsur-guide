@@ -20,7 +20,7 @@ def parse_args():
     p.add_argument('outputtype', choices=["macos", "ahk", "ibus", "espanso"])
     p.add_argument('-f', '--file', help="What file to output to. Uses stdout by default")
     p.add_argument('-t', '--ahk-toggle', help="Whether or not to output the toggle variant of the AHK script", action='store_true')
-    p.add_argument('-e', '--end-chars', help="What end/word-separator characters to use (only supported for AHK and Espanso)")
+    p.add_argument('-e', '--end-chars', help="What end/word-separator characters to use. Only supported for AHK and Espanso. Espanso will only use the first character of the string.")
     p.add_argument('-s', '--short', help="Whether or not to use short aliases for the words", action='store_true')
     return p.parse_args()
 
@@ -51,18 +51,20 @@ def to_short(word: str) -> list[str]:
 
 # TODO reduce code duplication (only if this was nim...)
 def espanso(words, short: bool = False, end_chars: str | None = "") -> str:
+    # python uses lazy evaluation, so this runs (`len()` is not defined for `None`)
+    if end_chars is None or len(end_chars) == 0:
+        end_chars = " "
+
+    end_char = end_chars[0]
+
     def match(trigger: str, replace: str) -> dict:
-        # force into double-quoted string for consistency
-        if end_chars is None:
-            return {"trigger": sq(trigger), "replace": sq(replace), "word": True}
-        else:
-            return {"trigger": sq(trigger), "replace": sq(replace), "word": True, "word_separators": list(end_chars)}
+        # force into sing-quoted string for consistency
+        # return {"trigger": sq(trigger), "replace": sq(replace), "word": True, "word_separators": list(end_chars)}
+        return {"trigger": sq(trigger + end_char), "replace": sq(replace)}
 
     def matches(triggers: list[str], replace: str) -> dict:
-        if end_chars is None:
-            return {"trigger": triggers, "replace": sq(replace), "word": True}
-        else:
-            return {"trigger": triggers, "replace": sq(replace), "word": True, "word_separators": list(end_chars)}
+        # return {"trigger": triggers, "replace": sq(replace), "word": True, "word_separators": list(end_chars)}
+        return {"triggers": list(map(lambda trigger: sq(trigger + end_char), triggers)), "replace": sq(replace)}
 
     yaml = ruamel.yaml.YAML(typ=['rt', 'string'])
     yaml.allow_unicode = True
@@ -70,10 +72,6 @@ def espanso(words, short: bool = False, end_chars: str | None = "") -> str:
     yaml.default_flow_style = False
     yaml.block_seq_indent = 2
     yaml.indent = 4
-
-    # python uses lazy evaluation, so this runs (`len()` is not defined for `None`)
-    if end_chars is None or len(end_chars) == 0:
-        end_chars = " "
 
     matches_dict = {"matches": [
         match("zz", "　"), match("  ", "　"), match("-", "‍"),  match("^", "󱦕"),  match("*", "󱦖"),
@@ -89,16 +87,16 @@ def espanso(words, short: bool = False, end_chars: str | None = "") -> str:
         else: keys = [i[0]]
 
         if len(keys) == 1:
-            matches_dict["matches"].append(matches(keys[0], i[1]))
-        else:
             matches_dict["matches"].append(match(keys[0], i[1]))
+        else:
+            matches_dict["matches"].append(matches(keys, i[1]))
 
     words_len = len(matches_dict["matches"])
 
     # use `+=` and a list if this needs to be extended
     # rather have a json array, but this works fine
     matches_dict["matches"] += [
-        {"triggers": ["msa", "misonala", "misonaala"], "replace": "󱤴󱥡󱤂", "word": True, "word_separators": end_chars}
+        matches(["msa", "misonala", "misonaala"], "󱤴󱥡󱤂")
     ]
 
     ## sort_key = lambda x: len(x["trigger"]) if "trigger" in x else len(str(['triggers']))

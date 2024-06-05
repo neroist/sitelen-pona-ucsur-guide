@@ -2,954 +2,481 @@
 
 matches:
   # punctuation etc
-  - trigger: 'zz'
+  - trigger: 'zz '
     replace: '　'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '  '
+  - trigger: '   '
     replace: '　'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '-'
+  - trigger: '- '
     replace: '‍'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '^'
+  - trigger: '^ '
     replace: '󱦕'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '*'
+  - trigger: '* '
     replace: '󱦖'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ':'
+  - trigger: ': '
     replace: '󱦝'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '.'
+  - trigger: '. '
     replace: '󱦜'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '['
+  - trigger: '[ '
     replace: '󱦐'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ']'
+  - trigger: '] '
     replace: '󱦑'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '<'
+  - trigger: '< '
     replace: '「'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '>'
+  - trigger: '> '
     replace: '」'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '('
+  - trigger: '( '
     replace: '󱦗'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ')'
+  - trigger: ') '
     replace: '󱦘'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '{'
+  - trigger: '{ '
     replace: '󱦚'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: '}'
+  - trigger: '} '
     replace: '󱦛'
-    word: true
-    word_separators:
-      - ' '
 
   # nimi ale
-  - trigger: a
+  - trigger: 'a '
     replace: '󱤀'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: akesi
+  - trigger: 'akesi '
     replace: '󱤁'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ala
+  - trigger: 'ala '
     replace: '󱤂'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: alasa
+  - trigger: 'alasa '
     replace: '󱤃'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ale
+  - trigger: 'ale '
     replace: '󱤄'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ali
+  - trigger: 'ali '
     replace: '󱤄'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: anpa
+  - trigger: 'anpa '
     replace: '󱤅'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ante
+  - trigger: 'ante '
     replace: '󱤆'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: anu
+  - trigger: 'anu '
     replace: '󱤇'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: apeja
+  - trigger: 'apeja '
     replace: '󱦡'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: awen
+  - trigger: 'awen '
     replace: '󱤈'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: e
+  - trigger: 'e '
     replace: '󱤉'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: en
+  - trigger: 'en '
     replace: '󱤊'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: epiku
+  - trigger: 'epiku '
     replace: '󱦃'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: esun
+  - trigger: 'esun '
     replace: '󱤋'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ijo
+  - trigger: 'ijo '
     replace: '󱤌'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ike
+  - trigger: 'ike '
     replace: '󱤍'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ilo
+  - trigger: 'ilo '
     replace: '󱤎'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: insa
+  - trigger: 'insa '
     replace: '󱤏'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: jaki
+  - trigger: 'jaki '
     replace: '󱤐'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: jan
+  - trigger: 'jan '
     replace: '󱤑'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: jasima
+  - trigger: 'jasima '
     replace: '󱥿'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: jelo
+  - trigger: 'jelo '
     replace: '󱤒'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: jo
+  - trigger: 'jo '
     replace: '󱤓'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kala
+  - trigger: 'kala '
     replace: '󱤔'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kalama
+  - trigger: 'kalama '
     replace: '󱤕'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kama
+  - trigger: 'kama '
     replace: '󱤖'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kasi
+  - trigger: 'kasi '
     replace: '󱤗'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ken
+  - trigger: 'ken '
     replace: '󱤘'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kepeken
+  - trigger: 'kepeken '
     replace: '󱤙'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kijetesantakalu
+  - trigger: 'kijetesantakalu '
     replace: '󱦀'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kili
+  - trigger: 'kili '
     replace: '󱤚'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kin
+  - trigger: 'kin '
     replace: '󱥹'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kipisi
+  - trigger: 'kipisi '
     replace: '󱥻'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kiwen
+  - trigger: 'kiwen '
     replace: '󱤛'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ko
+  - trigger: 'ko '
     replace: '󱤜'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kokosila
+  - trigger: 'kokosila '
     replace: '󱦄'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kon
+  - trigger: 'kon '
     replace: '󱤝'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ku
+  - trigger: 'ku '
     replace: '󱦈'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kule
+  - trigger: 'kule '
     replace: '󱤞'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kulupu
+  - trigger: 'kulupu '
     replace: '󱤟'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: kute
+  - trigger: 'kute '
     replace: '󱤠'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: la
+  - trigger: 'la '
     replace: '󱤡'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lanpan
+  - trigger: 'lanpan '
     replace: '󱦅'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lape
+  - trigger: 'lape '
     replace: '󱤢'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: laso
+  - trigger: 'laso '
     replace: '󱤣'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lawa
+  - trigger: 'lawa '
     replace: '󱤤'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: leko
+  - trigger: 'leko '
     replace: '󱥼'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: len
+  - trigger: 'len '
     replace: '󱤥'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lete
+  - trigger: 'lete '
     replace: '󱤦'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: li
+  - trigger: 'li '
     replace: '󱤧'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lili
+  - trigger: 'lili '
     replace: '󱤨'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: linja
+  - trigger: 'linja '
     replace: '󱤩'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lipu
+  - trigger: 'lipu '
     replace: '󱤪'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: loje
+  - trigger: 'loje '
     replace: '󱤫'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lon
+  - trigger: 'lon '
     replace: '󱤬'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: luka
+  - trigger: 'luka '
     replace: '󱤭'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lukin
+  - trigger: 'lukin '
     replace: '󱤮'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: lupa
+  - trigger: 'lupa '
     replace: '󱤯'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ma
+  - trigger: 'ma '
     replace: '󱤰'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: majuna
+  - trigger: 'majuna '
     replace: '󱦢'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mama
+  - trigger: 'mama '
     replace: '󱤱'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mani
+  - trigger: 'mani '
     replace: '󱤲'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: meli
+  - trigger: 'meli '
     replace: '󱤳'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: meso
+  - trigger: 'meso '
     replace: '󱦂'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mi
+  - trigger: 'mi '
     replace: '󱤴'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mije
+  - trigger: 'mije '
     replace: '󱤵'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: misikeke
+  - trigger: 'misikeke '
     replace: '󱦇'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: moku
+  - trigger: 'moku '
     replace: '󱤶'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: moli
+  - trigger: 'moli '
     replace: '󱤷'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: monsi
+  - trigger: 'monsi '
     replace: '󱤸'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: monsuta
+  - trigger: 'monsuta '
     replace: '󱥽'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mu
+  - trigger: 'mu '
     replace: '󱤹'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mun
+  - trigger: 'mun '
     replace: '󱤺'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: musi
+  - trigger: 'musi '
     replace: '󱤻'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: mute
+  - trigger: 'mute '
     replace: '󱤼'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: n
+  - trigger: 'n '
     replace: '󱦆'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: namako
+  - trigger: 'namako '
     replace: '󱥸'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: nanpa
+  - trigger: 'nanpa '
     replace: '󱤽'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: nasa
+  - trigger: 'nasa '
     replace: '󱤾'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: nasin
+  - trigger: 'nasin '
     replace: '󱤿'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: nena
+  - trigger: 'nena '
     replace: '󱥀'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ni
+  - trigger: 'ni '
     replace: '󱥁'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: nimi
+  - trigger: 'nimi '
     replace: '󱥂'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: noka
+  - trigger: 'noka '
     replace: '󱥃'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: o
+  - trigger: 'o '
     replace: '󱥄'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: oko
+  - trigger: 'oko '
     replace: '󱥺'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: olin
+  - trigger: 'olin '
     replace: '󱥅'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: ona
+  - trigger: 'ona '
     replace: '󱥆'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: open
+  - trigger: 'open '
     replace: '󱥇'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pakala
+  - trigger: 'pakala '
     replace: '󱥈'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pake
+  - trigger: 'pake '
     replace: '󱦠'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pali
+  - trigger: 'pali '
     replace: '󱥉'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: palisa
+  - trigger: 'palisa '
     replace: '󱥊'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pan
+  - trigger: 'pan '
     replace: '󱥋'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pana
+  - trigger: 'pana '
     replace: '󱥌'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pi
+  - trigger: 'pi '
     replace: '󱥍'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pilin
+  - trigger: 'pilin '
     replace: '󱥎'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pimeja
+  - trigger: 'pimeja '
     replace: '󱥏'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pini
+  - trigger: 'pini '
     replace: '󱥐'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pipi
+  - trigger: 'pipi '
     replace: '󱥑'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: poka
+  - trigger: 'poka '
     replace: '󱥒'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: poki
+  - trigger: 'poki '
     replace: '󱥓'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pona
+  - trigger: 'pona '
     replace: '󱥔'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: powe
+  - trigger: 'powe '
     replace: '󱦣'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: pu
+  - trigger: 'pu '
     replace: '󱥕'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sama
+  - trigger: 'sama '
     replace: '󱥖'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: seli
+  - trigger: 'seli '
     replace: '󱥗'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: selo
+  - trigger: 'selo '
     replace: '󱥘'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: seme
+  - trigger: 'seme '
     replace: '󱥙'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sewi
+  - trigger: 'sewi '
     replace: '󱥚'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sijelo
+  - trigger: 'sijelo '
     replace: '󱥛'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sike
+  - trigger: 'sike '
     replace: '󱥜'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sin
+  - trigger: 'sin '
     replace: '󱥝'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sina
+  - trigger: 'sina '
     replace: '󱥞'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sinpin
+  - trigger: 'sinpin '
     replace: '󱥟'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sitelen
+  - trigger: 'sitelen '
     replace: '󱥠'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: soko
+  - trigger: 'soko '
     replace: '󱦁'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: sona
+  - trigger: 'sona '
     replace: '󱥡'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: soweli
+  - trigger: 'soweli '
     replace: '󱥢'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: suli
+  - trigger: 'suli '
     replace: '󱥣'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: suno
+  - trigger: 'suno '
     replace: '󱥤'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: supa
+  - trigger: 'supa '
     replace: '󱥥'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: suwi
+  - trigger: 'suwi '
     replace: '󱥦'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: tan
+  - trigger: 'tan '
     replace: '󱥧'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: taso
+  - trigger: 'taso '
     replace: '󱥨'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: tawa
+  - trigger: 'tawa '
     replace: '󱥩'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: telo
+  - trigger: 'telo '
     replace: '󱥪'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: tenpo
+  - trigger: 'tenpo '
     replace: '󱥫'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: toki
+  - trigger: 'toki '
     replace: '󱥬'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: tomo
+  - trigger: 'tomo '
     replace: '󱥭'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: tonsi
+  - trigger: 'tonsi '
     replace: '󱥾'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: tu
+  - trigger: 'tu '
     replace: '󱥮'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: unpa
+  - trigger: 'unpa '
     replace: '󱥯'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: uta
+  - trigger: 'uta '
     replace: '󱥰'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: utala
+  - trigger: 'utala '
     replace: '󱥱'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: walo
+  - trigger: 'walo '
     replace: '󱥲'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: wan
+  - trigger: 'wan '
     replace: '󱥳'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: waso
+  - trigger: 'waso '
     replace: '󱥴'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: wawa
+  - trigger: 'wawa '
     replace: '󱥵'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: weka
+  - trigger: 'weka '
     replace: '󱥶'
-    word: true
-    word_separators:
-      - ' '
 
-  - trigger: wile
+  - trigger: 'wile '
     replace: '󱥷'
-    word: true
-    word_separators:
-      - ' '
 
   # contractions
   - triggers:
-      - msa
-      - misonala
-      - misonaala
-    replace: 󱤴󱥡󱤂
-    word: true
-    word_separators: ' '
+      - 'msa '
+      - 'misonala '
+      - 'misonaala '
+    replace: '󱤴󱥡󱤂'
