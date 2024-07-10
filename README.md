@@ -44,7 +44,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 
 **For Windows,**
 
-- Download and install [this font](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-Helvetica.otf)
+- Download and install [this font](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-Helvetica.otf)
 
 **For Linux,**
 
@@ -107,7 +107,7 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 Installing the font:
 
-1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
+1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
 
 2. Convert nasin-nanpa-4.0.0-UCSUR.otf to [nasin-nanpa-4.0.0-UCSUR.ttf](https://drive.google.com/file/d/1herShyK8TGajd10tWQqV1JOkSPVwoWyZ/view?usp=sharing) (If you're not sure how, skip this step or click the link.)
 
@@ -146,7 +146,7 @@ The above method may not be supported on your device. One alternative is to use 
 
 4. Click <kbd>New Theme</kbd>, enter a name for your new theme, toggle the theme, and click the pencil icon on your theme to edit it.
 
-5. On the new menu click the <kbd>Fonts</kbd> button, then click the `*` and paste in this link: <https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.0/nasin-nanpa-4.0.0-UCSUR.otf>.
+5. On the new menu click the <kbd>Fonts</kbd> button, then click the `*` and paste in this link: <https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-UCSUR.otf>.
 
     This is nasin-nanpa, which is the font that'll allow you to view sitelen pona
 
