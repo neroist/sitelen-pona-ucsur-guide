@@ -2,11 +2,11 @@
 
 o sitelen e sitelen pona lon ilo mute a!
 
-## Render sitelen pona on most desktop applications!
+**Render sitelen pona on most desktop applications!**
 
 Due to the standardization of codepoints in the UCSUR, you can now render sitelen pona on many desktop applications (Firefox, Discord, etc). In many applications all you need to do is install a UCSUR compatible sitelen pona font, and you are good to go. However there are some quirks, and you need an input engine to be able to easily input these characters, which is the purpose of this guide.
 
-# Fonts
+## Fonts
 
 The current recommended fonts for sitelen pona are:
 
@@ -30,9 +30,25 @@ The current recommended fonts for sitelen pona are:
 
 If you are unsure of which font to pick, I would recommend nasin nanpa.
 
-Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord. 
+Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord.
 
-## Discord
+## Render sitelen pona in web browsers
+
+### Firefox (Desktop)
+
+The list of fonts Firefox uses for font fallback does not include sitelen pona fonts by default. This can be changed in the config.
+
+1. Type `about:config` into your address bar
+2. If you see a warning, click "Accept the Risk and Continue"
+3. Find the following four settings:
+    1. `font.name-list.cursive.x-western`
+    2. `font.name-list.monospace.x-western`
+    3. `font.name-list.sans-serif.x-western`
+    4. `font.name-list.serif.x-western`
+4. Add the name of the sitelen pona font you installed at the end of each
+    1. Example: `font.name-list.serif.x-western` = `Times New Roman, sitelen sewi kiwen mono juniko`
+
+## Render sitelen pona in Discord
 
 Because internally the Discord application relies on Electron, it does not fall back to the font you installed when sitelen pona glyphs are present, instead displaying these frustrating little squares. To fix this, one option is to install a fake *Helvetica Neue* font, which will allow sitelen pona to render wherever Helvetica Neue is used, which includes Discord!
 
@@ -89,7 +105,9 @@ If the "Validator" section below shows that the theme is valid, you can now exit
 
 <!-- If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at. -->
 
-If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to help render sitelen pona. 
+Some web browsers can be set up to display sitelen pona everywhere. See the section "Render sitelen pona in web browsers" above.
+
+Alternatively, if you just want sitelen pona in the Discord web app, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to help render sitelen pona. 
 
 Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pona-o-lon-lipu-siko-a) and you're done!
 
