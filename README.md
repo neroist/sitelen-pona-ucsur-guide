@@ -45,7 +45,7 @@ The list of fonts Firefox uses for font fallback does not include sitelen pona f
     2. `font.name-list.monospace.x-western`
     3. `font.name-list.sans-serif.x-western`
     4. `font.name-list.serif.x-western`
-4. Add the name of the sitelen pona font you installed at the end of each
+4. Add the name of the sitelen pona font you installed at the end of each setting
     1. Example: `font.name-list.serif.x-western` = `Times New Roman, sitelen sewi kiwen mono juniko`
 
 ## Render sitelen pona in Discord
