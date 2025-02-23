@@ -410,7 +410,8 @@ __ 󱦙
 te 「
 to 」
 < 「
-> 」""" + to_mac_fmt(words) + "\nENDCHARACTER"
+> 」
+""" + to_mac_fmt(words) + "\nENDCHARACTER"
 
 
 if __name__ == "__main__":
@@ -433,7 +434,7 @@ if __name__ == "__main__":
             text = espanso(get_ucsur(words), short=bool(args.short), end_chars=args.end_chars)
 
     if args.file:
-        with open(args.file, 'w', encoding=encoding) as f:
+        with open(args.file, 'w', encoding=encoding, newline="") as f:
             f.write(text)
     else:
         print(text)
