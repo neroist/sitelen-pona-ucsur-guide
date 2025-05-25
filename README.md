@@ -188,7 +188,7 @@ jan Lepeka (`@rebeccargb`) has made keyboards for various toki pona input method
 
 ### Linux
 
-The ~~only~~ (nasin sitelen Wakalito li lon · ilo ante kin li lon) current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
+One current supported input engine for Linux is ibus, for this to work, you need both `ibus`, and `ibus-tables` installed. For installation commands/instructions, see [this page](https://github.com/ibus/ibus/wiki/ReadMe#install-binary-packages).
 
 > During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
 
@@ -243,6 +243,8 @@ ibus-daemon -drxR
 9. pini a!
 
 </details>
+
+Alternatively, jan Balt (`@baltdev`) has created a Fcitx5 input method for toki pona based on the above ibus tables. Instructions on installation [can be found at their repo](https://github.com/balt-dev/ilo-sitelen).
 
 ### Espanso / nasin sitelen Wakalito
 
