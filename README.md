@@ -549,5 +549,6 @@ thank you to
 - jan Likipi
 - Lipamanka
 - tonsi Lijonala (`@not_your_mpdg` lon ilo Siko; `@0x3444ac53` lon lipu Githun)
+- jan Sonja
 
 sina ale li pona wawa a li pana sona e pona anu pali pona a (anu ni tu a a)
