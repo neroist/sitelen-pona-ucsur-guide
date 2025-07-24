@@ -113,6 +113,9 @@ Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pon
 
 ### Android
 
+If you have a Xiaomi device:
+There are some Toki Pona compatible font packages in the Themes app made by jan Ali (`@alinajafi`). Just search for Toki Pona or the font name, such as nasin nanpa. You'll find them.
+
 [This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
 
 
