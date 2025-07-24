@@ -21,7 +21,7 @@ def parse_args():
     p.add_argument('outputtype', choices=["macos", "ahk", "ibus", "espanso", "compose"])
     p.add_argument('-f', '--file', help="What file to output to. Uses stdout by default")
     p.add_argument('-t', '--ahk-toggle', help="Whether or not to output the toggle variant of the AHK script", action='store_true')
-    p.add_argument('-e', '--end-chars', help="What end/word-separator characters to use. Only supported for AHK, Espanso, and Compose. Espanso will only use the first character of the string. Compose expects Compose keyboard key names (e.g. '<equals>' or '<period>')")
+    p.add_argument('-e', '--end-chars', help="What end/word-separator characters to use. Only supported for AHK, Espanso, and Compose. Espanso will only use the first character of the string. Compose expects X keysyms enclosed in angle brackets (e.g. '<equals>' or '<period>')")
     p.add_argument('-s', '--short', help="Whether or not to use short aliases for the words", action='store_true')
     return p.parse_args()
 
