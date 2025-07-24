@@ -8,6 +8,9 @@ gen_script espanso -f "./sitelen-pona-espanso.yml"
 :: macos input plugin
 gen_script macos -f "./sitelen-pona.inputplugin"
 
+:: .XCompose file
+gen_script compose -f "./.XCompose"
+
 :: ahk scripts
 IF NOT EXIST "./ahk-scripts/" mkdir "./ahk-scripts/"
 gen_script ahk    -f "./ahk-scripts/sitelen-pona.ahk"
