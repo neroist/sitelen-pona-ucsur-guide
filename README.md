@@ -211,7 +211,7 @@ One current supported input engine for Linux is ibus, for this to work, you need
 
 > During installation, regarding Ubuntu, feel free to remove `ibus-qt4` from the `apt-get insall` command, which has been removed from Ubuntu's main repository.
 
-jan Komi (`@cominixo`) has created an [ibus input table](./ibus-tables/sitelen-pona-4.0.ibus-table?raw=1) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
+jan Komi (`@cominixo`) has created an [ibus input table](./ibus-tables//sitelen-pona.ibus-table?raw=1) *(click the link & download with <kbd>Ctrl</kbd>+<kbd>S</kbd>)*. Copy it to a directory of your choice, and then open a terminal in the same directory. Run these commands to install it:
 
 ```bash
 sudo ibus-table-createdb -n /usr/share/ibus-table/tables/tokipona.db -s sitelen-pona-4.0.ibus-table
@@ -235,7 +235,7 @@ This should result in a new tray icon which indicates which input source you're 
 
     - For Ubuntu, do not install the `ibus-qt4` package
 
-2. Download the ibus input table [here](./ibus-tables/sitelen-pona-4.0.ibus-table?raw=1).
+2. Download the ibus input table [here](./ibus-tables//sitelen-pona.ibus-table?raw=1).
 
 3. Copy the file to a chosen directory and open a terminal in the directory
 
