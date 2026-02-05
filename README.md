@@ -32,9 +32,61 @@ If you are unsure of which font to pick, I would recommend nasin nanpa.
 
 Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord.
 
-## Render sitelen pona in web browsers
+## Rendering
 
-### Firefox (Desktop)
+### Operating systems
+
+#### Windows
+
+Even after installing a UCSUR font, sitelen pona may not show up in some places on Windows (e.g. the file explorer). This can be fixed with a registry change.
+
+1. Clone this repository (press the "Code" button, then "Download ZIP" and extract)
+2. Locate the `ucsur.reg` file inside. Optionally open it and change `"Fairfax HD"` to your font of choice
+3. Run it and restart your computer
+
+Note that this method may not work for Windows in an East Asian language.
+
+#### Android
+
+[This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
+
+
+> :warning: **note**: this changes the system font to something else, if you want to only view sitelen pona on Discord please use Aliucord (see the section below)
+
+<details>
+<summary>
+  <b>List format for instructions (zFont systemwide)</b>
+</summary>
+
+Installing the font:
+
+1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
+
+2. Convert nasin-nanpa-4.0.0-UCSUR.otf to [nasin-nanpa-4.0.0-UCSUR.ttf](https://drive.google.com/file/d/1herShyK8TGajd10tWQqV1JOkSPVwoWyZ/view?usp=sharing) (If you're not sure how, skip this step or click the link.)
+
+3. Download [zFont 3](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2&gl=US) from the Play Store. *(Other font changing apps such as [#mono_](https://xdaforums.com/t/app-mono_-flipfont-custom-ttf-installer-v2-1-for-samsung-oneui-1-2-3-no-root.4195613/) might work instead)*
+
+4. In the app, go to Downloads, press the + icon in the bottom right and add the font file (select "Add File"). (If you didn't convert it, the app will prompt you to install another app and you can do it there if you need).
+
+5. Click on the font file and press Apply.
+
+6. The app will ask you for your Android version, choose "Auto".
+
+7. Follow the steps in the app, they vary depending on your phone, for me it involved installing a fake Samsung font.
+
+8. Once you're done you should now be able view sitelen pona in every app.
+
+> You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
+
+</details>
+
+> jan Nasaka (`@harger` lon ilo Siko) li pana e sona ni tawa mi. ona li pona mute a! :)
+
+The above method may not be supported on your device. 
+
+### Web browsers
+
+#### Firefox (Desktop)
 
 The list of fonts Firefox uses for font fallback does not include sitelen pona fonts by default. This can be changed in the config.
 
@@ -48,13 +100,13 @@ The list of fonts Firefox uses for font fallback does not include sitelen pona f
 4. Add the name of the sitelen pona font you installed at the end of each setting
     1. Example: `font.name-list.serif.x-western` = `Times New Roman, sitelen sewi kiwen mono juniko`
 
-## Render sitelen pona in Discord
+### Discord
 
 Because internally the Discord application relies on Electron, it does not fall back to the font you installed when sitelen pona glyphs are present, instead displaying these frustrating little squares. To fix this, one option is to install a fake *Helvetica Neue* font, which will allow sitelen pona to render wherever Helvetica Neue is used, which includes Discord!
 
 Another option is to modify your Discord. Currently, this modification is possible on all Desktop systems. **This option is dangerous, violates Discord TOS, and may result in your account being banned.**
 
-### Font
+#### Font
 
 Simply install the fake Helvetica Neue font, and it should result in Discord displaying UCSUR.
 
@@ -69,7 +121,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 
 This method does not work on macOS or mobile devices. 
 
-### Desktop
+#### Desktop
 
 **⚠️⚠️⚠️ THIS VIOLATES DISCORD'S TOS. O SONA A ⚠️⚠️⚠️**
 
@@ -101,53 +153,21 @@ https://raw.githubusercontent.com/neroist/sitelen-pona-ucsur-guide/main/css/site
 
 If the "Validator" section below shows that the theme is valid, you can now exit settings, and your Discord should be properly set up to render sitelen pona!
 
-### Browser
+#### Browser
 
 <!-- If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at. -->
 
-Some web browsers can be set up to display sitelen pona everywhere. See the section "Render sitelen pona in web browsers" above.
+Some web browsers can be set up to display sitelen pona everywhere. See the section "web browsers" above.
 
 Alternatively, if you just want sitelen pona in the Discord web app, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to help render sitelen pona. 
 
 Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pona-o-lon-lipu-siko-a) and you're done!
 
-### Android
+#### Android
 
-[This reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/) by jan Elijo (`u/QuantumAgain`) is a wonderful guide on how to get UCSUR on Android. Regarding viewing sitelen pona, here are the listed steps:
+Android can be set up to use a sitelen pona font system-wide. See the section "Operating systems" above.
 
-
-> :warning: **note**: this changes the system font to something else, if you want to only view sitelen pona on Discord please use Aliucord (the next section)
-
-<details>
-<summary>
-  <b>List format for instructions (zFont systemwide)</b>
-</summary>
-
-Installing the font:
-
-1. Download [nasin-nanpa-4.0.0-UCSUR.otf](https://github.com/ETBCOR/nasin-nanpa/releases/download/n4.0.1/nasin-nanpa-4.0.1-UCSUR.otf) or the latest UCSUR version from the [nasin-nanpa releases](https://github.com/ETBCOR/nasin-nanpa/releases) page.
-
-2. Convert nasin-nanpa-4.0.0-UCSUR.otf to [nasin-nanpa-4.0.0-UCSUR.ttf](https://drive.google.com/file/d/1herShyK8TGajd10tWQqV1JOkSPVwoWyZ/view?usp=sharing) (If you're not sure how, skip this step or click the link.)
-
-3. Download [zFont 3](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2&gl=US) from the Play Store. *(Other font changing apps such as [#mono_](https://xdaforums.com/t/app-mono_-flipfont-custom-ttf-installer-v2-1-for-samsung-oneui-1-2-3-no-root.4195613/) might work instead)*
-
-4. In the app, go to Downloads, press the + icon in the bottom right and add the font file (select "Add File"). (If you didn't convert it, the app will prompt you to install another app and you can do it there if you need).
-
-5. Click on the font file and press Apply.
-
-6. The app will ask you for your Android version, choose "Auto".
-
-7. Follow the steps in the app, they vary depending on your phone, for me it involved installing a fake Samsung font.
-
-8. Once you're done you should now be able view sitelen pona in every app.
-
-> You should be able to read this: 󱥞󱤘󱤮󱤉󱥁
-
-</details>
-
-> jan Nasaka (`@harger` lon ilo Siko) li pana e sona ni tawa mi. ona li pona mute a! :)
-
-The above method may not be supported on your device. One alternative is to use the Aliucord Discord client and set a custom font. *(This method causes small font discrepancies in the Aliucord client).* The setup instructions are below:
+Use the Aliucord Discord client and set a custom font. *(This method causes small font discrepancies in the Aliucord client).* The setup instructions are below:
 
 <details>
 <summary>
@@ -174,7 +194,7 @@ The above method may not be supported on your device. One alternative is to use 
 
 </details>
 
-### iOS
+#### iOS
 
 to view sitelen pona in Discord, jan Nasaka (`@harger` lon ilo Siko) has written a [bash script](https://github.com/Hargers/enmity-sp-script/blob/main/Enmity-nasin-nanpa-merge.sh) to download and merge the latest versions of the [Enmity Discord client](https://github.com/enmity-mod) and the font [nasin-nanpa](https://github.com/ETBCOR/nasin-nanpa) into a `.ipa` app file. A premerged `.ipa` file can be found [here](https://github.com/Hargers/enmity-sp-script/releases).
 
