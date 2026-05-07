@@ -285,7 +285,7 @@ ibus-daemon -drxR
 
 #### Fcitx5
 
-Alternatively, jan Balt (`@baltdev`) has created a Fcitx5 input method for toki pona based on the above ibus tables. Instructions on installation [can be found at their repo](https://github.com/balt-dev/ilo-sitelen).
+Alternatively, mun luna has created a Fcitx5 input method for sitelen pona. Instructions on installation [can be found at her repo](https://github.com/mun-luna/nasin-mun).
 
 ### Espanso / nasin sitelen Wakalito
 
